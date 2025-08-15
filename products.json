@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "رواية بداية",
+    "price": 120.00,
+    "mainImageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1200&auto=format&fit=crop",
+    "image2Url": "https://images.unsplash.com/photo-1455885666463-9ae4ebdba8b1?q=80&w=1200&auto=format&fit=crop",
+    "image3Url": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=1200&auto=format&fit=crop",
+    "description": "رواية عربية ملهمة",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 1
+  },
+  {
+    "id": 2,
+    "name": "دفتر أنيق",
+    "price": 45.50,
+    "mainImageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop",
+    "image2Url": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=1200&auto=format&fit=crop",
+    "image3Url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop",
+    "description": "دفتر ملاحظات بجودة عالية",
+    "colors": "وردي، أزرق، أسود",
+    "isAvailable": true,
+    "categoryId": 2
+  },
+  {
+    "id": 3,
+    "name": "سماعات لاسلكية",
+    "price": 350.00,
+    "mainImageUrl": "https://images.unsplash.com/photo-1518441902110-58be2d790b8b?q=80&w=1200&auto=format&fit=crop",
+    "image2Url": "https://images.unsplash.com/photo-1517329782449-810562a4ec2a?q=80&w=1200&auto=format&fit=crop",
+    "image3Url": "https://images.unsplash.com/photo-1517260911200-69e1466c0f4a?q=80&w=1200&auto=format&fit=crop",
+    "description": "صوت نقي وعزل ضوضاء",
+    "colors": "أسود، أبيض",
+    "isAvailable": true,
+    "categoryId": 3
+  },
+  {
+    "id": 4,
+    "name": "كتاب علمي",
+    "price": 150.00,
+    "mainImageUrl": "https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1200&auto=format&fit=crop",
+    "image2Url": "https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1200&auto=format&fit=crop",
+    "image3Url": "https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1200&auto=format&fit=crop",
+    "description": "كتاب عن العلوم الحديثة",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 1
+  },
+  {
+    "id": 5,
+    "name": "قلم حبر",
+    "price": 20.00,
+    "mainImageUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1200&auto=format&fit=crop",
+    "image2Url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1200&auto=format&fit=crop",
+    "image3Url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1200&auto=format&fit=crop",
+    "description": "قلم حبر عالي الجودة",
+    "colors": "أزرق، أسود",
+    "isAvailable": true,
+    "categoryId": 2
+  },
+  {
+    "id": 6,
+    "name": "حقيبة مدرسية",
+    "price": 200.00,
+    "mainImageUrl": "https://images.unsplash.com/photo-1565025877835-77b49344cdbd?q=80&w=1200&auto=format&fit=crop",
+    "image2Url": "https://images.unsplash.com/photo-1565025877835-77b49344cdbd?q=80&w=1200&auto=format&fit=crop",
+    "image3Url": "https://images.unsplash.com/photo-1565025877835-77b49344cdbd?q=80&w=1200&auto=format&fit=crop",
+    "description": "حقيبة مدرسية متينة",
+    "colors": "أحمر، أزرق",
+    "isAvailable": true,
+    "categoryId": 3
+  },
+  {
+    "id": 7,
+    "name": "رواية خيالية",
+    "price": 100.00,
+    "mainImageUrl": "https://images.unsplash.com/photo-1544947950-c28500e0834f?q=80&w=1200&auto=format&fit=crop",
+    "image2Url": "https://images.unsplash.com/photo-1544947950-c28500e0834f?q=80&w=1200&auto=format&fit=crop",
+    "image3Url": "https://images.unsplash.com/photo-1544947950-c28500e0834f?q=80&w=1200&auto=format&fit=crop",
+    "description": "رواية خيالية مشوقة",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 1
+  }
+]

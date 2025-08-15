@@ -1,0 +1,120 @@
+<script type="text/javascript">
+        var gk_isXlsx = false;
+        var gk_xlsxFileLookup = {};
+        var gk_fileData = {};
+        function filledCell(cell) {
+          return cell !== '' && cell != null;
+        }
+        function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
+                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
+
+                // Convert sheet to JSON to filter blank rows
+                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+                // Filter out blank rows (rows where all cells are empty, null, or undefined)
+                var filteredData = jsonData.filter(row => row.some(filledCell));
+
+                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+                var headerRowIndex = filteredData.findIndex((row, index) =>
+                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+                );
+                // Fallback
+                if (headerRowIndex === -1 || headerRowIndex > 25) {
+                  headerRowIndex = 0;
+                }
+
+                // Convert filtered JSON back to CSV
+                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+                return csv;
+            } catch (e) {
+                console.error(e);
+                return "";
+            }
+        }
+        return gk_fileData[filename] || "";
+        }
+        </script><!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>روى - تفاصيل المنتج</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">روى</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="تبديل التنقل">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">المنتجات</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.html">السلة</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">تواصل معنا</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img id="mainImage" class="main-image img-fluid" alt="صورة المنتج">
+                <div class="row mt-3" id="thumbnails"></div>
+            </div>
+            <div class="col-md-6">
+                <h2 id="productName"></h2>
+                <p><strong>السعر:</strong> <span id="productPrice"></span></p>
+                <p><strong>الوصف:</strong> <span id="productDescription"></span></p>
+                <p><strong>الألوان:</strong> <span id="productColors"></span></p>
+                <p><strong>التوفر:</strong> <span id="productAvailability"></span></p>
+                <button id="addToCartBtn" class="btn btn-cart">إضافة للسلة</button>
+                <a id="whatsAppLink" class="btn btn-success" href="#">تواصل عبر واتساب</a>
+                <a id="telegramLink" class="btn btn-primary" href="https://t.me/roaa_bot">تواصل عبر تليجرام</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>روى</h5>
+                    <p>متجرك المفضل للكتب، الأدوات الدراسية، والمنتجات المميزة.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>روابط سريعة</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="footer-link">الرئيسية</a></li>
+                        <li><a href="products.html" class="footer-link">المنتجات</a></li>
+                        <li><a href="cart.html" class="footer-link">السلة</a></li>
+                        <li><a href="contact.html" class="footer-link">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>تابعنا</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://instagram.com" class="footer-link">إنستجرام</a></li>
+                        <li><a href="https://facebook.com" class="footer-link">فيسبوك</a></li>
+                        <li><a href="https://t.me/roaa_bot" class="footer-link">تليجرام</a></li>
+                        <li><a href="mailto:info@roaa.com" class="footer-link">info@roaa.com</a></li>
+                        <li><a href="tel:+201027176052" class="footer-link">+201027176052</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="static-app.js"></script>
+</body>
+</html>
