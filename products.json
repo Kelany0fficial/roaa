@@ -237,7 +237,7 @@
     "description": "رف بلاستيك عالي الجودة متوفر 3 دور و4 دور",
     "colors": "—",
     "isAvailable": true,
-    "categoryId": 3
+    "categoryId": 2
   },
   {
     "id": 28,
@@ -249,7 +249,7 @@
     "description": "ورق حائط لاصق مقاوم للماء مقاس 77×70 سم",
     "colors": "أبيض",
     "isAvailable": true,
-    "categoryId": 3
+    "categoryId": 2
   },
   {
     "id": 29,
@@ -309,7 +309,7 @@
     "description": "إضاءة 180 درجة بمستويات متعددة، مع أو بدون حامل",
     "colors": "—",
     "isAvailable": true,
-    "categoryId": 3
+    "categoryId": 2
   },
   {
     "id": 34,
@@ -321,7 +321,7 @@
     "description": "مفرش مقاوم للماء للمكتب والسفرة والبيكنك مقاس 130×180",
     "colors": "—",
     "isAvailable": true,
-    "categoryId": 3
+    "categoryId": 2
   },
   {
     "id": 35,
