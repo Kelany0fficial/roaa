@@ -301,12 +301,12 @@
   },
   {
     "id": 33,
-    "name": "إضاءة USB دوارة",
+    "name": "إضاءة USB أباجوره",
     "price": 200.00,
     "mainImageUrl": "https://i.postimg.cc/NFxRX6x0/IMG-20250816-WA0099.jpg",
     "image2Url": "https://i.postimg.cc/c4sRSzst/IMG-20250816-WA0100.jpg",
     "image3Url": "https://i.postimg.cc/KvJnv5zq/IMG-20250816-WA0101.jpg",
-    "description": "إضاءة 180 درجة بمستويات متعددة، مع أو بدون حامل",
+    "description": " إضاءة 180 درجة بمستويات متعددة، مع أو بدون حامل USB دوارة",
     "colors": "—",
     "isAvailable": true,
     "categoryId": 2
