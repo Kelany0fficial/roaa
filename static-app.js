@@ -102,7 +102,7 @@
       const wa = this.q('#whatsAppLink');
       if (wa) {
         const msg = `أريد طلب ${product.name}`;
-        wa.href = `https://wa.me/201027176052?text=${encodeURIComponent(msg)}`;
+        wa.href = `https://wa.me/201050043254?text=${encodeURIComponent(msg)}`;
       }
       const tg = this.q('#telegramLink');
       if (tg) {
