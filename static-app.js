@@ -288,7 +288,7 @@
       const tgLink = ui.q('#completeTelegram');
       if (waLink && tgLink) {
         const msg = 'طلبي:\n' + cart.generateOrderMessage(cartProducts) + '\nإجمالي: ' + ui.q('#totalPrice').textContent;
-        waLink.href = `https://wa.me/201027176052?text=${encodeURIComponent(msg)}`;
+        waLink.href = `https://wa.me/201050043254?text=${encodeURIComponent(msg)}`;
         tgLink.href = `https://t.me/roaa_bot?text=${encodeURIComponent(msg)}`;
       }
     } catch (err) {
