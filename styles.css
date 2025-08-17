@@ -1,77 +1,45 @@
-/* تعريف متغيرات الألوان لتسهيل التبديل بين الـ Light و Dark Mode */
-:root {
-    --bg-color: #FFF5F7; /* لون الخلفية في الـ Light Mode */
-    --text-color: #333; /* لون النص في الـ Light Mode */
-    --navbar-bg: #FFC1CC; /* خلفية النافبار في الـ Light Mode */
-    --card-bg: white; /* خلفية الكاردات في الـ Light Mode */
-    --shadow-color: rgba(0, 0, 0, 0.1); /* لون الظل في الـ Light Mode */
-    --accent-color: #FF69B4; /* لون الـ Accent الأساسي */
-    --accent-hover: #FF8DA1; /* لون الـ Accent عند الـ Hover */
-}
-
-/* الدارك مود */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-color: #121212; /* لون أسود غامق للخلفية */
-        --text-color: #E0E0E0; /* نص فاتح للدارك مود */
-        --navbar-bg: #1F1F1F; /* نافبار داكن */
-        --card-bg: #1A1A1A; /* كاردات داكنة */
-        --shadow-color: rgba(255, 255, 255, 0.1); /* ظل خفيف للدارك مود */
-    }
-}
-
 body {
-    background-color: var(--bg-color);
+    background-color: #FFF5F7;
     font-family: 'Cairo', sans-serif;
-    color: var(--text-color);
+    color: #333;
 }
 
 .navbar {
-    background-color: var(--navbar-bg);
+    background-color: #FFC1CC;
     padding: 10px 0;
-    box-shadow: 0 2px 5px var(--shadow-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand {
     font-size: 1.6rem;
     font-weight: 700;
-    color: var(--accent-color) !important;
+    color: #FF69B4 !important;
 }
 
 .nav-link {
-    color: var(--text-color) !important;
+    color: #333 !important;
     font-size: 1rem;
     transition: color 0.3s;
 }
 
 .nav-link:hover, .nav-link.active {
-    color: var(--accent-color) !important;
-}
-
-/* زر الهامبرغر في الشاشات الصغيرة */
-.navbar-toggler {
-    border: none; /* إزالة الحدود لو موجودة */
-    padding: 8px;
-}
-
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* أيقونة بيضاء */
+    color: #FF69B4 !important;
 }
 
 .hero {
-    background: linear-gradient(rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.9)), url('https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1500&auto=format&fit=crop');
+    background: linear-gradient(rgba(255, 193, 204, 0.9), rgba(255, 193, 204, 0.9)), url('https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1500&auto=format&fit=crop');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     padding: 80px 0;
-    color: var(--text-color);
+    color: #333;
     transition: opacity 0.5s ease-in-out;
 }
 
 .hero-content h1 {
     font-size: 3rem;
     font-weight: 700;
-    color: var(--accent-color);
+    color: #FF69B4;
     margin-bottom: 15px;
 }
 
@@ -82,7 +50,7 @@ body {
 }
 
 .hero-content .btn-primary {
-    background-color: var(--accent-color);
+    background-color: #FF69B4;
     border: none;
     padding: 8px 25px;
     font-size: 1.1rem;
@@ -90,7 +58,7 @@ body {
 }
 
 .hero-content .btn-primary:hover {
-    background-color: var(--accent-hover);
+    background-color: #FF8DA1;
     transform: scale(1.05);
 }
 
@@ -98,14 +66,14 @@ body {
     border: none;
     border-radius: 15px;
     overflow: hidden;
-    background: var(--card-bg);
-    box-shadow: 0 4px 15px var(--shadow-color);
+    background: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .category-card:hover, .product-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 25px var(--shadow-color);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .category-card img, .product-card img {
@@ -124,14 +92,14 @@ body {
 }
 
 .btn-primary, .btn-cart, .btn-details, .btn-contact, .btn-search, .btn-complete {
-    background-color: var(--accent-color);
+    background-color: #FF69B4;
     border: none;
     transition: background-color 0.3s, transform 0.3s;
     color: white;
 }
 
 .btn-primary:hover, .btn-cart:hover, .btn-details:hover, .btn-contact:hover, .btn-search:hover, .btn-complete:hover {
-    background-color: var(--accent-hover);
+    background-color: #FF8DA1;
     transform: scale(1.05);
 }
 
@@ -161,7 +129,7 @@ body {
     height: 400px;
     object-fit: cover;
     border-radius: 15px;
-    box-shadow: 0 4px 15px var(--shadow-color);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .thumbnail {
@@ -173,7 +141,7 @@ body {
 }
 
 .thumbnail:hover {
-    border: 2px solid var(--accent-color);
+    border: 2px solid #FF69B4;
     transform: scale(1.05);
 }
 
@@ -181,13 +149,13 @@ body {
     position: fixed;
     top: 20px;
     right: 20px;
-    background-color: var(--accent-color);
+    background-color: #FF69B4;
     color: white;
     padding: 8px 16px;
     border-radius: 5px;
     z-index: 1000;
     animation: slideIn 0.5s;
-    box-shadow: 0 4px 8px var(--shadow-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @keyframes slideIn {
@@ -207,7 +175,7 @@ body {
 }
 
 .form-control:focus {
-    border-color: var(--accent-color);
+    border-color: #FF69B4;
     box-shadow: 0 0 0 0.2rem rgba(255, 105, 180, 0.25);
 }
 
@@ -215,7 +183,7 @@ body {
     font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 15px;
-    color: var(--accent-color);
+    color: #FF69B4;
 }
 
 .quantity-input {
@@ -236,20 +204,20 @@ body {
 }
 
 .featured-products {
-    background-color: var(--card-bg);
+    background-color: #fff;
     padding: 40px 0;
     border-radius: 15px;
-    box-shadow: 0 4px 15px var(--shadow-color);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .footer {
-    background-color: var(--navbar-bg);
+    background-color: #FFC1CC;
     padding: 15px 0;
-    color: var(--text-color);
+    color: #333;
 }
 
 .footer h5 {
-    color: var(--accent-color);
+    color: #FF69B4;
     font-weight: 700;
     font-size: 1.1rem;
     margin-bottom: 12px;
@@ -260,13 +228,13 @@ body {
 }
 
 .footer-link {
-    color: var(--text-color);
+    color: #333;
     text-decoration: none;
     transition: color 0.3s, transform 0.3s;
 }
 
 .footer-link:hover {
-    color: var(--accent-color);
+    color: #FF69B4;
     transform: translateX(5px);
 }
 
