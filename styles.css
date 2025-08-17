@@ -48,6 +48,16 @@ body {
     color: var(--accent-color) !important;
 }
 
+/* زر الهامبرغر في الشاشات الصغيرة */
+.navbar-toggler {
+    border: none; /* إزالة الحدود لو موجودة */
+    padding: 8px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* أيقونة بيضاء */
+}
+
 .hero {
     background: linear-gradient(rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.9)), url('https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1500&auto=format&fit=crop');
     background-size: cover;
