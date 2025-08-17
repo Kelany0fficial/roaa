@@ -346,5 +346,17 @@
     "colors": "—",
     "isAvailable": true,
     "categoryId": 2
+  },
+  {
+    "id": 37,
+    "name": "مج بورسلين شي ان",
+    "price": 85.00,
+    "mainImageUrl": "https://i.postimg.cc/4xBbB7S0/Whats-App-Image-2025-08-17-at-04-31-33-b65e231d.jpg",
+    "image2Url": "https://i.postimg.cc/cJz7NqZM/Whats-App-Image-2025-08-17-at-04-31-33-c8775176.jpg",
+    "image3Url": "https://i.postimg.cc/VNv9Tsyk/Whats-App-Image-2025-08-17-at-04-32-09-8bfff9f4.jpg",
+    "description": "مج بورسلين شي ان مميز جدا",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 3
   }
 ]
