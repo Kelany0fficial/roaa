@@ -77,7 +77,7 @@ body {
 }
 
 .category-card img, .product-card img {
-    height: 200px;
+    height: 300px;
     object-fit: cover;
     transition: transform 0.3s;
 }
