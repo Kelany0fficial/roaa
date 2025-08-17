@@ -14,7 +14,7 @@
   {
     "id": 9,
     "name": "مج آيس كوفي إزاز",
-    "price": 35.00,
+    "price": 40.00,
     "mainImageUrl": "https://i.postimg.cc/wjqsCRQX/IMG-20250816-WA0007.jpg",
     "image2Url": "https://i.postimg.cc/zB9kKscX/ice.jpg",
     "image3Url": "https://i.postimg.cc/RhCBSmsD/IMG-20250816-WA0035.jpg",
@@ -394,7 +394,55 @@
   "colors": "شفاف",
   "isAvailable": true,
   "categoryId": 3
-}
+},
+  {
+    "id": 41,
+    "name": "لانش بوكس عملي",
+    "price": 75.00,
+    "mainImageUrl": "https://i.postimg.cc/XXXXXXX/lunchbox1.jpg",
+    "image2Url": "https://i.postimg.cc/XXXXXXX/lunchbox2.jpg",
+    "image3Url": "https://i.postimg.cc/XXXXXXX/lunchbox3.jpg",
+    "description": "لانش بوكس عملي جدا للجامعة والشغل وفرهدة طول النهار 🫶🏻\nدور واحد يعني مش هينفخ الشنطة 🌸",
+    "colors": "متعدد",
+    "isAvailable": true,
+    "categoryId": 3
+  },
+  {
+    "id": 42,
+    "name": "🌼 Mini Pocket Bag 🌼",
+    "price": 80.00,
+    "mainImageUrl": "https://i.postimg.cc/XXXXXXX/minipocket1.jpg",
+    "image2Url": "https://i.postimg.cc/XXXXXXX/minipocket2.jpg",
+    "image3Url": "https://i.postimg.cc/XXXXXXX/minipocket3.jpg",
+    "description": "بوكيت عملي وخفيف 💕\nمناسب للخروج السريع أو إضافي جوه شنطتك الكبيرة ✨\nالطول 15 × العرض 11 سم\n\nصغنونه لكنها بتشيل: مفاتيح، فلوس، ملمع شفاه ومنديل بكل سهولة 🌸",
+    "colors": "ليمون",
+    "isAvailable": true,
+    "categoryId": 4
+  },
+  {
+    "id": 43,
+    "name": "💜 Beauty Bag Purple 💜",
+    "price": 150.00,
+    "mainImageUrl": "https://i.postimg.cc/XXXXXXX/beautybag1.jpg",
+    "image2Url": "https://i.postimg.cc/XXXXXXX/beautybag2.jpg",
+    "image3Url": "https://i.postimg.cc/XXXXXXX/beautybag3.jpg",
+    "description": "باوتش ميكب أنيقة وعملية ✨\nخامة مبطنة بتفاصيل ناعمة عشان تحافظ على مستحضراتك منظمة وجاهزة 👜\nمناسبة للسفر أو الاستخدام اليومي 💐",
+    "colors": "Purple",
+    "isAvailable": true,
+    "categoryId": 4
+  },
+  {
+    "id": 44,
+    "name": "مقلمة قطن مبطنة",
+    "price": 165.00,
+    "mainImageUrl": "https://i.postimg.cc/XXXXXXX/pencilcase1.jpg",
+    "image2Url": "https://i.postimg.cc/XXXXXXX/pencilcase2.jpg",
+    "image3Url": "https://i.postimg.cc/XXXXXXX/pencilcase3.jpg",
+    "description": "مقلمة قطن مبطنة ناعمة وأنيقة 😍\nمثالية للمدرسة، الجامعة أو المكتب ✨\nبتجمع بين العملية والشكل الكيوت 🌼",
+    "colors": "بلو فلاور / فرولة / ليمون",
+    "isAvailable": true,
+    "categoryId": 2
+  }
 
 
 
