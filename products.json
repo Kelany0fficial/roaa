@@ -121,7 +121,7 @@
   },
   {
     "id": 18,
-    "name": "مج جلده شاليموه",
+    "name": "مج جلد شاليموه",
     "price": 59.00,
     "mainImageUrl": "https://i.postimg.cc/HxpK52wJ/IMG-20250816-WA0042.jpg",
     "image2Url": "https://i.postimg.cc/fTF6FYNF/IMG-20250816-WA0041.jpg",
@@ -442,7 +442,25 @@
     "colors": "بلو فلاور / فرولة / ليمون",
     "isAvailable": true,
     "categoryId": 2
+  },
+  {
+  "id": 45,
+  "name": "🪻 Garden Picnic Blanket 🪻",
+  "price": 285.00,
+  "mainImageUrl": "https://i.postimg.cc/XXXXXXX/picnic1.jpg",
+  "image2Url": "https://i.postimg.cc/XXXXXXX/picnic2.jpg",
+  "image3Url": "https://i.postimg.cc/XXXXXXX/picnic3.jpg",
+  "description": "بطانية بيكنك أنيقة وعملية 🌿🧺✨\nخامة مريحة وسهلة الحمل 💕\nمناسبة للجنينة، البحر أو الكافيهات المفتوحة ✨\nخلي كل خروجة مليانة دفء وبهجة مع لمسة ستايل خاصة 🌸",
+  "colors": "أحمر / أزرق / بني / بينك",
+  "isAvailable": true,
+  "categoryId": 5,
+  "stock": {
+    "أحمر": "متاح",
+    "أزرق": "متاح",
+    "بني": "متاح",
+    "بينك": 2
   }
+}
 
 
 
