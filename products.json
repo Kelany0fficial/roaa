@@ -484,7 +484,20 @@
   "colors": "أسود / فضي",
   "isAvailable": true,
   "categoryId": 2
+},
+  {
+  "id": 48,
+  "name": "ما لا يسع أطفال المسلمين جهله",
+  "price": 80.00,
+  "mainImageUrl": "https://i.postimg.cc/4N2RqRxx/Whats-App-Image-2025-08-17-at-22-27-39-a8d7451d.jpg",
+  "image2Url": "https://i.postimg.cc/wxVp5mKJ/Whats-App-Image-2025-08-17-at-22-27-38-d43c47b0.jpg",
+  "image3Url": "https://i.postimg.cc/pL9MtcmY/Whats-App-Image-2025-08-17-at-22-27-39-08e7b2bd.jpg",
+  "description": "منهج يسير سهل متكامل في العقيدة والفقه والسيرة والآداب والتفسير والحديث والأخلاق والأذكار، يصلح للصبيان ولكافة الأعمار وحديثي الإسلام، ويُعطَى في البيوت والمحاضن ومعاهد التدريس، وللحفظ والشرح، وقد رتبتها على حسب الفنون، وجعلتها على طريقة السؤال والجواب؛ لأن ذلك أشحذ للذهن وأرسخ للحفظ، ويختار المربي منها ما يتناسب مع سنهم.\n✍️ تأليف: يزن الغانم",
+  "colors": "كتاب ورقي",
+  "isAvailable": true,
+  "categoryId": 1
 }
+
 
 
 
