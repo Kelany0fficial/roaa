@@ -110,7 +110,7 @@
   {
     "id": 17,
     "name": "شيت فواصل طويل",
-    "price": 40.00,
+    "price": 35.00,
     "mainImageUrl": "https://i.postimg.cc/CKypZkrD/IMG-20250816-WA0038.jpg",
     "image2Url": "https://i.postimg.cc/mkgvxwhx/IMG-20250816-WA0039.jpg",
     "image3Url": "https://i.postimg.cc/PrNg22BY/IMG-20250816-WA0040.jpg",
@@ -496,5 +496,23 @@
   "colors": "كتاب ورقي",
   "isAvailable": true,
   "categoryId": 1
-  }
+  },
+  {
+  "id": 49,
+  "name": "زيت زيتون نقي",
+  "price": 125.00,
+  "mainImageUrl": "https://i.postimg.cc/yxvbqDtW/Whats-App-Image-2025-08-18-at-22-57-18-5deea6a4.jpg",
+  "image2Url": "https://i.postimg.cc/yxvbqDtW/Whats-App-Image-2025-08-18-at-22-57-18-5deea6a4.jpg",
+  "image3Url": "https://i.postimg.cc/yxvbqDtW/Whats-App-Image-2025-08-18-at-22-57-18-5deea6a4.jpg",
+  "description": "زيت طبيعي 100% مستخلص بعناية من أجود حبات الزيتون البكر. غني بمضادات الأكسدة والفيتامينات، يعزز صحة القلب والجسم، مثالي للطبخ والسلطات والعناية بالبشرة والشعر.",
+  "colors": "",
+  "variants": [
+    { "weight": "250 جم", "price": 125 },
+    { "weight": "500 جم", "price": 250 },
+    { "weight": "1 كيلو", "price": 500 }
+  ],
+  "isAvailable": true,
+  "categoryId": 5
+}
+
 ]
