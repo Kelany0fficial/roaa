@@ -164,7 +164,7 @@
     "image3Url": "https://i.postimg.cc/nzDs44nJ/IMG-20250816-WA0015.jpg",
     "description": "مج بورسلين بتصميم وردات رقيقة يصلح للشرب والديكور",
     "colors": "—",
-    "isAvailable": true,
+    "isAvailable": false,
     "categoryId": 3
   },
   {
@@ -260,7 +260,7 @@
     "image3Url": "https://i.postimg.cc/Wb65mr4g/IMG-20250816-WA0082.jpg",
     "description": "مج بورسلين مستورد ترندي شي إن",
     "colors": "متعدد",
-    "isAvailable": true,
+    "isAvailable": false,
     "categoryId": 3
   },
   {
