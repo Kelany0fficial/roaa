@@ -926,6 +926,30 @@
   "colors": "متعدد",
   "isAvailable": true,
   "categoryId": 3
+},
+  {
+  "id": 63,
+  "name": "كتاب رسائل من القرآن",
+  "price": 80.00,
+  "mainImageUrl": "https://i.postimg.cc/BbRr8G3H/OIP.webp",
+  "image2Url": "https://i.postimg.cc/BbRr8G3H/OIP.webp",
+  "image3Url": "https://i.postimg.cc/BbRr8G3H/OIP.webp",
+  "description": "📖 كتاب *رسائل من القرآن* \nرحلة روحانية مع آيات مختارة من القرآن الكريم لتجد السكينة والطمأنينة ✨\n\n💫 السعر: 80 جنيه 🥰",
+  "colors": "n/a",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 64,
+  "name": "كتاب رسائل من النبي",
+  "price": 85.00,
+  "mainImageUrl": "https://i.postimg.cc/kGVrXg07/OIP-1.webp",
+  "image2Url": "https://i.postimg.cc/kGVrXg07/OIP-1.webp",
+  "image3Url": "https://i.postimg.cc/kGVrXg07/OIP-1.webp",
+  "description": "📖 كتاب *رسائل من النبي* \nتجميع لأجمل الأحاديث والرسائل النبوية التي تبعث الأمل والنور في القلب 💕\n\n💫 السعر: 85 جنيه 🥰",
+  "colors": "n/a",
+  "isAvailable": true,
+  "categoryId": 1
 }
 
 
