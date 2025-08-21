@@ -541,9 +541,9 @@
   "id": 54,
   "name": "استيكر مميز",
   "price": 20.00,
-  "mainImageUrl": "https://i.postimg.cc/your-sticker.jpg",
-  "image2Url": "",
-  "image3Url": "",
+  "mainImageUrl": "https://i.postimg.cc/R0Vd9HBn/Whats-App-Image-2025-08-20-at-19-49-02-6f063639.jpg",
+  "image2Url": "https://i.postimg.cc/63FfdbGd/Whats-App-Image-2025-08-20-at-19-49-02-e42fb9cb.jpg",
+  "image3Url": "https://i.postimg.cc/rFdFZ8YG/Whats-App-Image-2025-08-21-at-03-45-47-3f3374fd.jpg",
   "description": "✨ استيكر مميز بسعر خاص ✨\n\n- تصميم أنيق\n- جودة عالية للطباعة\n- مناسب للكتب، اللاب توب، والمزيد\n\nفقط بـ 20 ج.م ✨\nاطلبه الآن وخلي أغراضك تعبر عن شخصيتك 🌸",
   "colors": "",
   "variants": [],
@@ -556,9 +556,9 @@
   "price": 5.00,
   "mainImageUrl": "https://i.postimg.cc/Yq6zW32W/Whats-App-Image-2025-08-20-at-19-55-10-30134e72.jpg",
   "image2Url": "https://i.postimg.cc/TYMc1Sxx/Whats-App-Image-2025-08-20-at-19-55-10-374ccdc2.jpg",
-  "image3Url": "",
+  "image3Url": "https://i.postimg.cc/nr7YTKvN/Whats-App-Image-2025-08-20-at-19-55-10-8d522d22.jpg",
   "description": "✨ بوك مارك رقيق لمحبي القراءة ✨\nخلي مكانك في الكتاب دايمًا محفوظ 🥰\n\n✔️ عملي وخفيف\n✔️ تصميم جذاب\n\nالسعر: 5 ج.م فقط 📚",
-  "colors": "https://i.postimg.cc/nr7YTKvN/Whats-App-Image-2025-08-20-at-19-55-10-8d522d22.jpg",
+  "colors": "",
   "variants": [],
   "isAvailable": true,
   "categoryId": 2
@@ -606,9 +606,9 @@
   "id": 59,
   "name": "مخدة الرقبة للسفر",
   "price": 270.00,
-  "mainImageUrl": "https://i.postimg.cc/your-travel-pillow.jpg",
-  "image2Url": "",
-  "image3Url": "",
+  "mainImageUrl": "https://i.postimg.cc/9FhGC7PF/Whats-App-Image-2025-08-21-at-02-12-46-8a8f75f5.jpg",
+  "image2Url": "https://i.postimg.cc/3NNJT7rT/Whats-App-Image-2025-08-21-at-03-45-46-37855a43.jpg",
+  "image3Url": "https://i.postimg.cc/nVSh1sTc/Whats-App-Image-2025-08-21-at-03-45-46-37499733.jpg",
   "description": "✨ مخدة الرقبة للسفر ✈️\n\n✔️ مريحة جدًا وطريّة 😍\n✔️ مثالية أثناء النوم في السفر 🚂💺\n✔️ تساعد على تخفيف ألم الرقبة\n\nالسعر: 270 ج.م ❤️",
   "colors": "",
   "variants": [],
@@ -877,7 +877,32 @@
   "colors": "شفاف",
   "isAvailable": true,
   "categoryId": 3
+},
+  {
+  "id": 59,
+  "name": "زجاجة مياه باندا شفاف",
+  "price": 60.00,
+  "mainImageUrl": "https://i.postimg.cc/MKBdYBxy/Whats-App-Image-2025-08-21-at-03-07-11-20819051.jpg",
+  "image2Url": "https://i.postimg.cc/MKBdYBxy/Whats-App-Image-2025-08-21-at-03-07-11-20819051.jpg",
+  "image3Url": "https://i.postimg.cc/tRwBPk0q/Whats-App-Image-2025-08-21-at-03-07-11-a515f989.jpg",
+  "description": "زجاجة مياه باندا شفافة وعملية 🐼💧\nخفيفة ومناسبة للاستخدام اليومي في المدرسة أو النادي.\n\n💫 السعر: 60 جنيه 🥰💥",
+  "colors": "شفاف",
+  "isAvailable": true,
+  "categoryId": 3
+},
+{
+  "id": 60,
+  "name": "لانش بوكس ٢ دور مقسم",
+  "price": 89.00,
+  "mainImageUrl": "https://i.postimg.cc/g2qsCPxj/Whats-App-Image-2025-08-21-at-03-08-37-65620ce5.jpg",
+  "image2Url": "https://i.postimg.cc/g2qsCPxj/Whats-App-Image-2025-08-21-at-03-08-37-65620ce5.jpg",
+  "image3Url": "https://i.postimg.cc/t4HDvgC8/Whats-App-Image-2025-08-21-at-03-08-37-9ab5129a.jpg",
+  "description": "لانش بوكس ٢ دور مقسم محكم الغلق 🔒\nخامة صحية عالية الجودة ✅\nجميع الصور على الطبيعة 🌸\n\n💫 السعر: 89 جنيه 🥰💥🔥",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 3
 }
+
 
 
   
