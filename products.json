@@ -654,18 +654,6 @@
   "categoryId": 2
 },
   {
-    "id": 63,
-    "name": "كتاب رسائل من القرآن",
-    "price": 80.00,
-    "mainImageUrl": "https://i.postimg.cc/BbRr8G3H/OIP.webp",
-    "image2Url": "https://i.postimg.cc/BbRr8G3H/OIP.webp",
-    "image3Url": "https://i.postimg.cc/BbRr8G3H/OIP.webp",
-    "description": "كتاب رسائل من القرآن: رحلة روحانية مع آيات مختارة من القرآن الكريم.",
-    "colors": "n/a",
-    "isAvailable": true,
-    "categoryId": 1
-  },
-  {
     "id": 64,
     "name": "كتاب رسائل من النبي",
     "price": 85.00,
@@ -684,7 +672,7 @@
     "mainImageUrl": "https://i.postimg.cc/htR3Fvv9/Whats-App-Image-2025-08-21-at-02-25-03-96337970.jpg",
     "image2Url": "https://i.postimg.cc/xd0xCZK8/Whats-App-Image-2025-08-21-at-02-25-03-276a7b0b.jpg",
     "image3Url": "https://i.postimg.cc/7Z1tq4Jj/Whats-App-Image-2025-08-21-at-02-25-03-390605d5.jpg",
-    "description": "طقم ديسبنسر شاور عملي 3×1، مثالي لتوزيع الصابون والشامبو والبلسم.",
+    "description": "طقم تقسيم🌸🧺✈ عبوة عملية للسفر والخروجات، تقسمي فيها كريماتك أو أي منتج كبير بكل سهولة 💕💰 السعر: للواحدة",
     "colors": "متعدد",
     "isAvailable": true,
     "categoryId": 4
@@ -954,7 +942,7 @@
     "categoryId": 3
   },
   {
-  "id": 89,
+  "id": 88,
   "name": "كراسة متابعة القرآن الكريم (حجم صغير)",
   "price": 25.00,
   "mainImageUrl": "https://i.postimg.cc/0yTJMnWF/IMG-20250821-WA0103.jpg",
@@ -966,7 +954,7 @@
   "categoryId": 2
 },
 {
-  "id": 88,
+  "id": 89,
   "name": "كراسة متابعة القرآن الكريم (حجم كبير)",
   "price": 30.00,
   "mainImageUrl": "https://i.postimg.cc/0yTJMnWF/IMG-20250821-WA0103.jpg",
@@ -976,5 +964,17 @@
   "colors": "n/a",
   "isAvailable": true,
   "categoryId": 2
-}
+},
+  {
+    "id": 90,
+    "name": "كتاب رسائل من القرآن",
+    "price": 80.00,
+    "mainImageUrl": "https://i.postimg.cc/BbRr8G3H/OIP.webp",
+    "image2Url": "https://i.postimg.cc/BbRr8G3H/OIP.webp",
+    "image3Url": "https://i.postimg.cc/BbRr8G3H/OIP.webp",
+    "description": "كتاب رسائل من القرآن: رحلة روحانية مع آيات مختارة من القرآن الكريم.",
+    "colors": "n/a",
+    "isAvailable": true,
+    "categoryId": 1
+  },
 ]
