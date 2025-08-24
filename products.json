@@ -265,18 +265,6 @@
     "categoryId": 3
   },
   {
-    "id": 35,
-    "name": "طقم بولات بورسلين",
-    "price": 75.00,
-    "mainImageUrl": "https://i.postimg.cc/NF8k4qQB/IMG-20250816-WA0085.jpg",
-    "image2Url": "https://i.postimg.cc/NF8k4qQB/IMG-20250816-WA0085.jpg",
-    "image3Url": "https://i.postimg.cc/ZnzLpKtw/IMG-20250816-WA0084.jpg",
-    "description": "طقم بولات بورسلين حجم 10 سم، يأتي في شنطة أنيقة",
-    "colors": "—",
-    "isAvailable": false,
-    "categoryId": 3
-  },
-  {
     "id": 36,
     "name": "ما لا يسع المسلم جهله",
     "price": 120.00,
@@ -400,7 +388,7 @@
     "id": 46,
     "name": "لانش بوكس عملي",
     "price": 75.00,
-    "mainImageUrl": "https://i.postimg.cc/905mwtZq/Whats-App-Image-2025-08-17-at-20-18-58-a95d7594.jpg",
+    "mainImageUrl": "https://i.postimg.cc/FHjj6PQr/Whats-App-Image-2025-08-17-at-20-18-57-c485afb6.jpg",
     "image2Url": "https://i.postimg.cc/mrn2BGrj/Whats-App-Image-2025-08-17-at-20-18-57-9c7ba398.jpg",
     "image3Url": "https://i.postimg.cc/P525VDsB/Whats-App-Image-2025-08-17-at-20-18-57-3c69743c.jpg",
     "description": "لانش بوكس عملي جدا للجامعة والشغل وفرهدة طول النهار 🫶🏻\nدور واحد يعني مش هينفخ الشنطة 🌸",
@@ -976,5 +964,41 @@
     "colors": "--",
     "isAvailable": true,
     "categoryId": 4
+  },
+  {
+    "id": 93,
+    "name": "مج بورسلين  تريندي",
+    "price": 100.00,
+    "mainImageUrl": "https://i.postimg.cc/YqNf9pdN/IMG-20250824-WA0013.jpg",
+    "image2Url": "https://i.postimg.cc/YqNf9pdN/IMG-20250824-WA0013.jpg",
+    "image3Url": "https://i.postimg.cc/0210P602/IMG-20250824-WA0012.jpg",
+    "description": "مج بورسلين  تريندي 🌸يد بابلي حجم كبير 🧺 العدد محدود جدا و اختيار الشكل عشوائي",
+    "colors": "--",
+    "isAvailable": true,
+    "categoryId": 3
+  },
+  {
+    "id": 94,
+    "name": "مج الفراشه البورسلين المستورد 🌸",
+    "price": 130.00,
+    "mainImageUrl": "https://i.postimg.cc/DZtdWmV6/IMG-20250824-WA0010.jpg",
+    "image2Url": "https://i.postimg.cc/TwyJYgsh/IMG-20250824-WA0009.jpg",
+    "image3Url": "https://i.postimg.cc/FKCx4DD2/IMG-20250824-WA0011.jpg",
+    "description": "مج الفراشه البورسلين المستورد 🌸أحلي مج  ومن المجات البيست سيلر",
+    "colors": "--",
+    "isAvailable": true,
+    "categoryId": 3
+  },
+  {
+    "id": 95,
+    "name": "مج أشكال لوكس🌸",
+    "price": 75.00,
+    "mainImageUrl": "https://i.postimg.cc/1Rqrk06j/IMG-20250824-WA0008.jpg",
+    "image2Url": "https://i.postimg.cc/rsxG5cMk/IMG-20250824-WA0007.jpg",
+    "image3Url": "https://i.postimg.cc/rsxG5cMk/IMG-20250824-WA0007.jpg",
+    "description": "مج أشكال لوكس كيوت اوي 🩷🌸",
+    "colors": "--",
+    "isAvailable": true,
+    "categoryId": 3
   }
 ]
