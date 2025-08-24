@@ -1,29 +1,5 @@
 [
-  {
-  "id": 10,
-  "name": "عرض موفر كيوت لمحبي استتش",
-  "price": 245.00,
-  "mainImageUrl": "https://i.postimg.cc/8zMkDZGj/Whats-App-Image-2025-08-21-at-03-46-16-cafb2486.jpg",
-  "image2Url": "https://i.postimg.cc/8zMkDZGj/Whats-App-Image-2025-08-21-at-03-46-16-cafb2486.jpg",
-  "image3Url": "https://i.postimg.cc/8zMkDZGj/Whats-App-Image-2025-08-21-at-03-46-16-cafb2486.jpg",
-  "description": "✨ عرض موفر كيوت أوي لمحبين استتش ✨\n- ٢ فواصل باستل بأشكال وألوان مختلفة 🌸\n- منظم يومي استتش عملي جدًا 🌱\n- تودو استتش لترتيب المهام 💕\n- نوت صغيرة كيوت وتفاصيلها تحفة 💗\n- قلم كوري بيعمل أشكال 🎀\n- هايلايتر استتش + شكل يونيكورن 🤍\n- قلم جاف ديزني 🍬\n\n💫 العرض: 245 بدل من 275 جنيه 🥰💥",
-  "colors": "متعدد",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 11,
-  "name": "عرض لن يتكرر",
-  "price": 175.00,
-  "mainImageUrl": "https://i.postimg.cc/Zqmbq6Yj/Whats-App-Image-2025-08-21-at-03-46-17-a65ab147.jpg",
-  "image2Url": "https://i.postimg.cc/Zqmbq6Yj/Whats-App-Image-2025-08-21-at-03-46-17-a65ab147.jpg",
-  "image3Url": "https://i.postimg.cc/Zqmbq6Yj/Whats-App-Image-2025-08-21-at-03-46-17-a65ab147.jpg",
-  "description": "💗 عرض لن يتكرر 💗\n- نوت بوك صغيرة كيوت 💗🥹\n- فواصل باستل مسطرة (200 فاصل) 📑\n- استيكة كيوت على شكل جزرة أو بطوط 🥕\n- أقلام هايلايتر جزرة ألوان تحفة 🥕\n- استيكي نوت لتدوين الملاحظات بتصاميم مختلفة 💗\n\n💫 العرض: 175 جنيه فقط 🥰💥",
-  "colors": "متعدد",
-  "isAvailable": true,
-  "categoryId": 2
-},
-
+  
   {
     "id": 13,
     "name": "نوت هارد كافر ٤ فواصل",
@@ -62,10 +38,10 @@
   },
   {
     "id": 16,
-    "name": "أقلام هايلايتر جزره",
+    "name": "قلم هايلايتر جزره",
     "price": 15.00,
-    "mainImageUrl": "https://i.postimg.cc/SNrnfNbJ/IMG-20250816-WA0020.jpg",
-    "image2Url": "https://i.postimg.cc/SNrnfNbJ/IMG-20250816-WA0020.jpg",
+    "mainImageUrl": "https://i.postimg.cc/zGxR8Dx9/IMG-20250816-WA0013.jpg",
+    "image2Url": "https://i.postimg.cc/zGxR8Dx9/IMG-20250816-WA0013.jpg",
     "image3Url": "https://i.postimg.cc/zGxR8Dx9/IMG-20250816-WA0013.jpg",
     "description": "أقلام تمييز بشكل جزر",
     "colors": "اصفر-اخضر-بينك-اورنج",
@@ -280,9 +256,9 @@
     "id": 34,
     "name": "مج شي إن",
     "price": 220.00,
-    "mainImageUrl": "https://i.postimg.cc/Kvy9gQmm/IMG-20250816-WA0080.jpg",
-    "image2Url": "https://i.postimg.cc/T3dCtwyS/IMG-20250816-WA0081.jpg",
-    "image3Url": "https://i.postimg.cc/Wb65mr4g/IMG-20250816-WA0082.jpg",
+    "mainImageUrl": "https://i.postimg.cc/28hgb7ns/Whats-App-Image-2025-08-24-at-04-01-46-d262c983.jpg",
+    "image2Url": "https://i.postimg.cc/3xhVg0Bd/Whats-App-Image-2025-08-24-at-04-01-53-4712fad9.jpg",
+    "image3Url": "https://i.postimg.cc/JzQgK76K/Whats-App-Image-2025-08-24-at-04-01-57-3770afd2.jpg",
     "description": "مج بورسلين مستورد ترندي شي إن",
     "colors": "متعدد",
     "isAvailable": false,
@@ -611,7 +587,7 @@
   "description": "زجاجة Hello Master 🌸\n\n✔️ الخامة: إكليريك صحي عالي الجودة\n✔️ بدون رائحة\n✔️ شكل أنيق وانسيابي\n✔️ مزودة بيد سيليكون لحمل سهل\n\nالسعر: 85 ج.م",
   "colors": "",
   "variants": [],
-  "isAvailable": true,
+  "isAvailable": false,
   "categoryId": 2
 },
 {
@@ -650,7 +626,7 @@
   "description": "علبة مناديل ❤️😍\n\n✔️ خامة ممتازة 👌\n✔️ سهلة الفك والتركيب 💯\n✔️ شكل شيك جدًا لغرف الأطفال أو أي مكان بالبيت 😍\n\nالسعر: 135 ج.م",
   "colors": "",
   "variants": [],
-  "isAvailable": true,
+  "isAvailable": false,
   "categoryId": 2
 },
   {
@@ -783,7 +759,7 @@
     "description": "مغناطيس أشكال للتلاجة، الحجم: وسط.",
     "colors": "متعدد",
     "isAvailable": true,
-    "categoryId": 5
+    "categoryId": 3
   },
   {
     "id": 75,
@@ -921,7 +897,7 @@
     "id": 86,
     "name": "زجاجة مياه باندا شفاف",
     "price": 60.00,
-    "mainImageUrl": "https://i.postimg.cc/MKBdYBxy/Whats-App-Image-2025-08-21-at-03-07-11-20819051.jpg",
+    "mainImageUrl": "https://i.postimg.cc/tRmMmmzQ/Whats-App-Image-2025-08-24-at-03-46-08-d37d7734.jpg",
     "image2Url": "https://i.postimg.cc/MKBdYBxy/Whats-App-Image-2025-08-21-at-03-07-11-20819051.jpg",
     "image3Url": "https://i.postimg.cc/tRwBPk0q/Whats-App-Image-2025-08-21-at-03-07-11-a515f989.jpg",
     "description": "زجاجة مياه باندا شفافة وعملية، خفيفة ومناسبة للاستخدام اليومي.",
@@ -933,9 +909,9 @@
     "id": 87,
     "name": "لانش بوكس ٢ دور مقسم",
     "price": 95.00,
-    "mainImageUrl": "https://i.postimg.cc/g2qsCPxj/Whats-App-Image-2025-08-21-at-03-08-37-65620ce5.jpg",
-    "image2Url": "https://i.postimg.cc/g2qsCPxj/Whats-App-Image-2025-08-21-at-03-08-37-65620ce5.jpg",
-    "image3Url": "https://i.postimg.cc/t4HDvgC8/Whats-App-Image-2025-08-21-at-03-08-37-9ab5129a.jpg",
+    "mainImageUrl": "https://i.postimg.cc/NGWWjz28/Whats-App-Image-2025-08-24-at-03-57-21-922aed1b.jpg",
+    "image2Url": "https://i.postimg.cc/Y0VDGhSq/Whats-App-Image-2025-08-24-at-03-48-36-bce2cc8e.jpg",
+    "image3Url": "https://i.postimg.cc/hvh3t9c5/Whats-App-Image-2025-08-24-at-03-48-49-b05fc966.jpg",
     "description": "لانش بوكس ٢ دور مقسم 🌸محكم الغلق خامة صحيه عالي الجودة جميع الصور على الطبيعه ",
     "colors": "متعدد",
     "isAvailable": true,
@@ -949,7 +925,7 @@
   "image2Url": "https://i.postimg.cc/yN03FR2d/IMG-20250821-WA0104.jpg",
   "image3Url": "https://i.postimg.cc/nhjDhgkq/IMG-20250821-WA0108.jpg",
   "description": "📖 *كراسة متابعة القرآن الكريم* \nفي نهاية الكراسة شهادة تقدير مميزة 👏💫 \nتحفة للأطفال وتشجعهم على الحفظ والمتابعة ✨\n⏳ مدة الاستخدام: 5 شهور ونصف يوميًا 🤍\n\n💫 السعر: 25 جنيه (الحجم الصغير)",
-  "colors": "n/a",
+  "colors": "--",
   "isAvailable": true,
   "categoryId": 2
 },
@@ -961,7 +937,7 @@
   "image2Url": "https://i.postimg.cc/yN03FR2d/IMG-20250821-WA0104.jpg",
   "image3Url": "https://i.postimg.cc/nhjDhgkq/IMG-20250821-WA0108.jpg",
   "description": "📖 *كراسة متابعة القرآن الكريم* \nفي نهاية الكراسة شهادة تقدير مميزة 👏💫 \nتحفة للأطفال وتشجعهم على الحفظ والمتابعة ✨\n⏳ مدة الاستخدام: 5 شهور ونصف يوميًا 🤍\n\n💫 السعر: 30 جنيه (الحجم الكبير)",
-  "colors": "n/a",
+  "colors": "--",
   "isAvailable": true,
   "categoryId": 2
 },
@@ -973,8 +949,32 @@
     "image2Url": "https://i.postimg.cc/BbRr8G3H/OIP.webp",
     "image3Url": "https://i.postimg.cc/BbRr8G3H/OIP.webp",
     "description": "كتاب رسائل من القرآن: رحلة روحانية مع آيات مختارة من القرآن الكريم.",
-    "colors": "n/a",
+    "colors": "--",
     "isAvailable": true,
     "categoryId": 1
+  },
+  {
+    "id": 91,
+    "name": "زجاجه رقميه",
+    "price": 80.00,
+    "mainImageUrl": "https://i.postimg.cc/F15gXcRc/Whats-App-Image-2025-08-24-at-03-57-51-428edeeb.jpg",
+    "image2Url": "https://i.postimg.cc/F15gXcRc/Whats-App-Image-2025-08-24-at-03-57-51-428edeeb.jpg",
+    "image3Url": "https://i.postimg.cc/F15gXcRc/Whats-App-Image-2025-08-24-at-03-57-51-428edeeb.jpg",
+    "description": "زجاجه رقميه خفيفه و عمليه جدا",
+    "colors": "--",
+    "isAvailable": true,
+    "categoryId": 3
+  },
+  {
+    "id": 92,
+    "name": "أداه تدليك فروه الرأس",
+    "price": 40.00,
+    "mainImageUrl": "https://i.postimg.cc/L4qcRp56/Whats-App-Image-2025-08-24-at-04-00-54-de55ee84.jpg",
+    "image2Url": "https://i.postimg.cc/L4qcRp56/Whats-App-Image-2025-08-24-at-04-00-54-de55ee84.jpg",
+    "image3Url": "https://i.postimg.cc/L4qcRp56/Whats-App-Image-2025-08-24-at-04-00-54-de55ee84.jpg",
+    "description": "أداه تدليك فروه الرأس المساعده علي الاسترخاء و تنشيط بصيلات الشعر و توزيع الزيوت و السيرم بشكل صحيح لاستفاده فروه الرأس من الزيوت بطريقه جيده جدا ",
+    "colors": "--",
+    "isAvailable": true,
+    "categoryId": 4
   }
 ]
