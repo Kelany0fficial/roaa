@@ -211,7 +211,7 @@
     try {
       const [categories, products] = await Promise.all([api.getCategories(), api.getProducts()]);
       ui.renderCategories(categories);
-      const featuredProducts = products.slice(0, 3); // عرض أول 3 منتجات كمميزة
+      const featuredProducts = products.slice(0, 0); // عرض أول 3 منتجات كمميزة
       ui.renderProducts(featuredProducts, 'featuredProductsContainer');
     } catch (err) {
       console.error(err);
