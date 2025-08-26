@@ -25,18 +25,6 @@
     "categoryId": 3
   },
   {
-    "id": 15,
-    "name": "أقلام تسطير ٦ أشكال",
-    "price": 15.00,
-    "mainImageUrl": "https://i.postimg.cc/qMn9Pzvv/IMG-20250816-WA0066.jpg",
-    "image2Url": "https://i.postimg.cc/qMn9Pzvv/IMG-20250816-WA0066.jpg",
-    "image3Url": "https://i.postimg.cc/3Rdqnwq7/IMG-20250816-WA0067.jpg",
-    "description": " أقلام تسطير بأشكال متعددة",
-    "colors": "ازرق-احمر-اخضر-بنفسجي-بينك-اسود-اصفر",
-    "isAvailable": true,
-    "categoryId": 2
-  },
-  {
     "id": 16,
     "name": "قلم هايلايتر جزره",
     "price": 15.00,
@@ -297,18 +285,6 @@
     "image3Url": "https://i.postimg.cc/KvJnv5zq/IMG-20250816-WA0101.jpg",
     "description": " إضاءة 180 درجة بمستويات متعددة، مع أو بدون حامل USB دوارة",
     "colors": "لبني-بينك-بيبي بلو",
-    "isAvailable": true,
-    "categoryId": 2
-  },
-  {
-    "id": 39,
-    "name": "مفرش وتربروف كاروهات",
-    "price": 65.00,
-    "mainImageUrl": "https://i.postimg.cc/HkF8VvC2/IMG-20250816-WA0110.jpg",
-    "image2Url": "https://i.postimg.cc/pLmnVb3r/IMG-20250816-WA0109.jpg",
-    "image3Url": "https://i.postimg.cc/fTT9F0Kx/IMG-20250816-WA0108.jpg",
-    "description": "مفرش مقاوم للماء للمكتب والسفرة والبيكنك مقاس 130×180",
-    "colors": "منت جرين-بينك-رمادي",
     "isAvailable": true,
     "categoryId": 2
   },
@@ -843,7 +819,7 @@
   {
     "id": 86,
     "name": "زجاجة مياه باندا شفاف",
-    "price": 60.00,
+    "price": 65.00,
     "mainImageUrl": "https://i.postimg.cc/tRmMmmzQ/Whats-App-Image-2025-08-24-at-03-46-08-d37d7734.jpg",
     "image2Url": "https://i.postimg.cc/MKBdYBxy/Whats-App-Image-2025-08-21-at-03-07-11-20819051.jpg",
     "image3Url": "https://i.postimg.cc/tRwBPk0q/Whats-App-Image-2025-08-21-at-03-07-11-a515f989.jpg",
@@ -1863,7 +1839,7 @@
 {
   "id": 175,
   "name": "طقم أقلام تزيين",
-  "price": 85.00,
+  "price": 15.00,
   "mainImageUrl": "https://i.postimg.cc/Dy9MKJ7Q/IMG-20250827-000322-717.jpg",
   "image2Url": "https://i.postimg.cc/WbFHK6cb/IMG-20250827-000322-514.jpg",
   "image3Url": "https://i.postimg.cc/zBzQPs89/IMG-20250827-000322-322.jpg",
