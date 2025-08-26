@@ -43,73 +43,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>روى - الرئيسية</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">روى</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="تبديل التنقل">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">الرئيسية</a></li>
-                    <li class="nav-item"><a class="nav-link" href="products.html">المنتجات</a></li>
-                    <li class="nav-item"><a class="nav-link" href="cart.html">السلة</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">تواصل معنا</a></li>
-                </ul>
+            <a class="navbar-brand" href="index.html">
+                <img src="" id="logo" alt="روى" class="logo-img me-2" width="50">
+                روى
+            </a>
+            <div class="navbar-nav ms-auto d-flex align-items-center flex-row">
+                <a class="nav-link" href="index.html"><i class="fas fa-home me-1"></i> الرئيسية</a>
+                <a class="nav-link" href="products.html"><i class="fas fa-store me-1"></i> المنتجات</a>
+                <a class="nav-link" href="favorites.html"><i class="fas fa-heart me-1"></i> المفضلة <span id="favoritesCount" class="badge bg-secondary ms-1">0</span></a>
+                <a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart me-1"></i> السلة <span id="cartCount" class="badge bg-secondary ms-1">0</span></a>
+                <a class="nav-link" href="contact.html"><i class="fas fa-envelope me-1"></i> تواصل معنا</a>
             </div>
         </div>
     </nav>
 
-    <section class="hero text-center">
-        <div class="hero-content">
-            <h1>تسوق بأناقة مع روى</h1>
-            <p>اكتشف تشكيلاتنا المميزة من الكتب، الأدوات الدراسية، و أكثر بأسعار تنافسية ، ولا تنسوا إخوانكم من الدعاء🇵🇸</p>
-            <a href="products.html" class="btn btn-primary">تسوق الآن</a>
+    <section class="hero animate__animated" id="heroBanner">
+        <div class="container text-center hero-content">
+            <h1 class="animate__animated animate__fadeInDown">مرحبًا بكم في روى</h1>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">اكتشف تشكيلاتنا المميزة من الكتب، الأدوات الدراسية، و أكثر بأسعار تنافسية ، ولا تنسوا إخوانكم من الدعاء🇵🇸</p>
+            <a href="products.html" class="btn btn-primary animate__animated animate__zoomIn animate__delay-2s">تسوق الآن</a>
         </div>
     </section>
 
-    <section class="featured-products container my-5">
-        <h2 class="text-center mb-4">الفئات المميزة</h2>
-        <div class="row" id="featuredProductsContainer"></div>
-    </section>
-
     <section class="container my-5">
-        <h2 class="text-center mb-4"></h2>
+        <h2 class="text-center mb-5 animate__animated animate__fadeIn">الفئات المميزة</h2>
         <div class="row" id="categoriesContainer"></div>
     </section>
 
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 mb-3">
-                    <h5>روى</h5>
-                    <p>متجرك المفضل للكتب، الأدوات الدراسية، والمنتجات المميزة.</p>
+                <div class="col-md-4 mb-4">
+                    <h5>عن روى</h5>
+                    <p>متجر روى يقدم تشكيلة مميزة من الكتب، الأدوات الدراسية، ومنتجات العناية والمطبخ بجودة عالية.</p>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-4">
                     <h5>روابط سريعة</h5>
                     <ul class="list-unstyled">
-                        <li><a href="index.html" class="footer-link">الرئيسية</a></li>
-                        <li><a href="products.html" class="footer-link">المنتجات</a></li>
-                        <li><a href="cart.html" class="footer-link">السلة</a></li>
-                        <li><a href="contact.html" class="footer-link">تواصل معنا</a></li>
+                        <li><a href="index.html" class="footer-link"><i class="fas fa-home me-1"></i> الرئيسية</a></li>
+                        <li><a href="products.html" class="footer-link"><i class="fas fa-store me-1"></i> المنتجات</a></li>
+                        <li><a href="favorites.html" class="footer-link"><i class="fas fa-heart me-1"></i> المفضلة</a></li>
+                        <li><a href="cart.html" class="footer-link"><i class="fas fa-shopping-cart me-1"></i> السلة</a></li>
+                        <li><a href="contact.html" class="footer-link"><i class="fas fa-envelope me-1"></i> تواصل معنا</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-4">
                     <h5>تابعنا</h5>
                     <ul class="list-unstyled">
-                        <li><a href="https://www.instagram.com/rawa80580?igsh=MWNsN3FjOGUwNGptbg==" class="footer-link">إنستجرام</a></li>
-                        <li><a href="https://www.facebook.com/share/16LgJ2AhTP/" class="footer-link">فيسبوك</a></li>
-                        <li><a href="https://t.me/Tranwjj?fbclid=PAQ0xDSwMMp9pleHRuA2FlbQIxMQABp1udY8nGzTDQLZZOErrybpzN0lPiTlmRZRRCDwX12d1kJbwrkaQ8Z6TYnKqA_aem_j7DZ_BTf54htFvxygFQbfg" class="footer-link">تليجرام</a></li>
-<!--                         <li><a href="mailto:info@roaa.com" class="footer-link">info@roaa.com</a></li> -->
-                        <li><a href="tel:+201050043254" class="footer-link">+201050043254</a></li>
+                        <li><a href="" id="instagramLink" class="footer-link"><i class="fab fa-instagram me-1"></i> إنستجرام</a></li>
+                        <li><a href="" id="facebookLink" class="footer-link"><i class="fab fa-facebook-f me-1"></i> فيسبوك</a></li>
+                        <li><a href="" id="telegramLink" class="footer-link"><i class="fab fa-telegram-plane me-1"></i> تليجرام</a></li>
+                        <li><a href="tel:+201050043254" class="footer-link"><i class="fas fa-phone me-1"></i> +201050043254</a></li>
                     </ul>
                 </div>
             </div>
+            <!-- <div class="text-center mt-3">
+                <p>&copy; 2025 dev  <a href="https://wa.me/201027176052" class="footer-link"><i class="fas fa-phone me-1"></i> contact</a></p>
+            
+            </div> -->
         </div>
     </footer>
 

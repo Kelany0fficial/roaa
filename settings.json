@@ -1,0 +1,23 @@
+{
+  "siteName": "روى",
+  "primaryColor": "#FF6B9B",
+  "secondaryColor": "#FFD1DC",
+  "accentColor": "#FFD700",
+  "backgroundColor": "#FFFFFF",
+  "textColor": "#2D2D2D",
+  "logoUrl": "https://i.postimg.cc/PqQsJQ6z/Whats-App-Image-2025-08-26-at-03-40-30-1150994d-removebg-preview.png",
+  "bannerImages": [
+    "https://i.postimg.cc/cLWrFdVT/8626023.jpg",
+    "https://i.postimg.cc/Mp6F0QKD/4165157.jpg",
+    "https://i.postimg.cc/NfMX1GvX/5784303.jpg"
+  ],
+  "bannerInterval": 2500,
+  "bannerAnimations": ["animate__fadeIn", "animate__slideInLeft", "animate__zoomIn"],
+  "whatsappNumber": "201050043254",
+  "telegramBot": "https://t.me/Tranwjj?fbclid=PAQ0xDSwMMp9pleHRuA2FlbQIxMQABp1udY8nGzTDQLZZOErrybpzN0lPiTlmRZRRCDwX12d1kJbwrkaQ8Z6TYnKqA_aem_j7DZ_BTf54htFvxygFQbfg",
+  "instagramUrl": "https://www.instagram.com/rawa80580?igsh=bWw1d3M0YTZmMmR1",
+  "facebookUrl": "https://www.facebook.com/share/19zfjT4CwY/",
+  "telegramGroupUrl": "https://t.me/Tranwjj",
+  "currency": "EGP",
+  "cacheVersion": "2.0"
+}
