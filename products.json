@@ -1667,5 +1667,222 @@
   "colors": "متعدد",
   "isAvailable": true,
   "categoryId": 6
+}{
+  "id": 159,
+  "name": "ميني دباسة باندا للأطفال",
+  "price": 60.00,
+  "mainImageUrl": "https://i.postimg.cc/3Rf8xCwb/IMG-20250827-000153-198.jpg",
+  "image2Url": "https://i.postimg.cc/WbkNsZcX/IMG-20250827-000153-887.jpg",
+  "image3Url": "https://i.postimg.cc/vm3M0L5H/IMG-20250827-000153-976.jpg",
+  "description": "ميني دباسة بشكل باندا وألوان باستل تحفة 🩷🩶💜💙 تدبس لحد 20 ورقة، عملية ومناسبة للأطفال والكبار 🐼",
+  "colors": "4 ألوان باستل",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 160,
+  "name": "أقلام جل سوسته",
+  "price": 115.00,
+  "mainImageUrl": "https://i.postimg.cc/85cG9Jbd/IMG-20250827-000158-852.jpg",
+  "image2Url": "https://i.postimg.cc/hjYnBDCk/IMG-20250827-000159-000.jpg",
+  "image3Url": "https://i.postimg.cc/prnHVw4p/IMG-20250827-000159-011.jpg",
+  "description": "أقلام جل سوسته بمجموعتين (درجات بينك وبيبي بلو) 💙🩷 خط سلس، مريحة للكتابة اليومية، مقاس السن 5 مم. سعر الطقم 115ج، عرض خاص 2 بـ200 بدل 230.",
+  "colors": "بينك - بيبي بلو",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 161,
+  "name": "ترابيزة مذاكرة قابلة للطي",
+  "price": 225.00,
+  "mainImageUrl": "https://i.postimg.cc/R0FV5DSn/IMG-20250827-000207-676.jpg",
+  "image2Url": "https://i.postimg.cc/VvyYtsjj/IMG-20250827-000207-884.jpg",
+  "image3Url": "https://i.postimg.cc/fRWMmr0g/IMG-20250827-000208-612.jpg",
+  "description": "ترابيزة مذاكرة قابلة للطي بقوائم معدن 🤎 بخامة أفضل وألوان عصرية (بني، خشبي، بيج) عملية للمذاكرة في أي مكان.",
+  "colors": "بني - خشبي - بيج",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 162,
+  "name": "أقلام تحديد قابلة للمسح",
+  "price": 140.00,
+  "mainImageUrl": "https://i.postimg.cc/5yqMFB9V/IMG-20250827-000213-273.jpg",
+  "image2Url": "https://i.postimg.cc/QdMrHKR2/IMG-20250827-000213-616.jpg",
+  "image3Url": "https://i.postimg.cc/3RmsPXvv/IMG-20250827-000213-763.jpg",
+  "description": "أقلام تحديد فسفورية قابلة للمسح 🌷🩷 العبوة 6 ألوان واضحة وجميلة، خامة ممتازة ومبهجة.",
+  "colors": "6 ألوان فسفورية",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 163,
+  "name": "مقلمة شنطة متينة",
+  "price": 195.00,
+  "mainImageUrl": "https://i.postimg.cc/d39z0JnQ/IMG-20250827-000217-843.jpg",
+  "image2Url": "https://i.postimg.cc/GhcW5sh4/IMG-20250827-000217-850.jpg",
+  "image3Url": "https://i.postimg.cc/sXd89MND/IMG_20250827_000218_214.jpg",
+  "description": "مقلمة شنطة بخامة ممتازة ومتينة 🤎 تشيل أكتر من 50 قلم بدون مبالغة، عملية جدًا وأنيقة.",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 164,
+  "name": "أقلام أكريليك",
+  "price": 65.00,
+  "mainImageUrl": "https://i.postimg.cc/0j9BFLvT/IMG_20250827_000221_850.jpg",
+  "image2Url": "https://i.postimg.cc/zDkMKXS8/IMG_20250827_000222_023.jpg",
+  "image3Url": "https://i.postimg.cc/3xzbYy7C/IMG_20250827_000222_179.jpg",
+  "description": "أقلام أكريليك بخط سلس وناعم جدًا 🤎 الطقم 5 أقلام نفس اللون بدرجات مختلفة. متوفر بـ4 ألوان (أزرق، موف، أخضر، بينك).",
+  "colors": "أزرق - موف - أخضر - بينك",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 165,
+  "name": "أقلام شي إن باستل",
+  "price": 75.00,
+  "mainImageUrl": "https://i.postimg.cc/Kzxf8BWL/IMG_20250827_000226_357.jpg",
+  "image2Url": "https://i.postimg.cc/jjrQMyt9/IMG_20250827_000227_159.jpg",
+  "image3Url": "https://i.postimg.cc/3wCjVWww/IMG_20250827_000227_168.jpg",
+  "description": "أقلام شي إن بألوان باستل رائعة ومعها درجات غامقة كمان 🤎 خطهم تحفة وسعرهم أوفر من شي إن.",
+  "colors": "ألوان باستل + غامقة",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 166,
+  "name": "ساعة ديجيتال LED",
+  "price": 275.00,
+  "mainImageUrl": "https://i.postimg.cc/vmQx1hQQ/IMG_20250827_000231_645.jpg",
+  "image2Url": "https://i.postimg.cc/HLHXwHt1/IMG_20250827_000231_040.jpg",
+  "image3Url": "https://i.postimg.cc/DzBJ1GZ1/IMG_20250827_000231_455.jpg",
+  "description": "ساعة LED ديجيتال متعددة الوظائف: عرض الوقت (12/24)، التاريخ، الحرارة، منبه، إضاءة ليلية، 3 مستويات سطوع قابلة للتعديل. بتشتغل بكابل USB.",
+  "colors": "أبيض",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 167,
+  "name": "هايلايتر باستل",
+  "price": 87.00,
+  "mainImageUrl": "https://i.postimg.cc/sXLMNR5X/IMG_20250827_000236_857.jpg",
+  "image2Url": "https://i.postimg.cc/gj6x9BKK/IMG_20250827_000236_962.jpg",
+  "image3Url": "https://i.postimg.cc/pdGQR4DN/IMG_20250827_000237_556.jpg",
+  "description": "هايلايتر باستل خفيف على الورق وألوانه مريحة للعين والقلب 🎨💕 مناسب للمذاكرة اليومية.",
+  "colors": "ألوان باستل",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 168,
+  "name": "مفرش وتر بروف",
+  "price": 65.00,
+  "mainImageUrl": "https://i.postimg.cc/zXCnVVnF/IMG_20250827_000241_096.jpg",
+  "image2Url": "https://i.postimg.cc/90TyPfsV/IMG_20250827_000241_094.jpg",
+  "image3Url": "https://i.postimg.cc/nrvQjPQh/IMG_20250827_000241_613.jpg",
+  "description": "مفرش خفيف بخامة وتر بروف مقاس 130×180 سم. متوفر بـ5 ألوان (أبيض، رصاصي، أخضر، بيج، لون مميز).",
+  "colors": "أبيض - رصاصي - أخضر - بيج - لون مميز",
+  "isAvailable": true,
+  "categoryId": 2
+},
+  {
+  "id": 169,
+  "name": "منظم أكريلك 3 أقسام",
+  "price": 75.00,
+  "mainImageUrl": "https://i.postimg.cc/yNtJfHmN/IMG-20250827-000250-879.jpg",
+  "image2Url": "https://i.postimg.cc/mrtzNDFq/IMG-20250827-000250-443.jpg",
+  "image3Url": "https://i.postimg.cc/zGdHgW3K/IMG-20250827-000250-120.jpg",
+  "description": "منظم مكتبي شيك من الأكريلك، 3 أقسام بأطوال مختلفة + مكان للتليفون. متوفر بـ 4 ألوان (أبيض - منتجرين - لبني - وردي فاتح).",
+  "colors": "أبيض، منتجرين، لبني، وردي فاتح",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 170,
+  "name": "لمبة 3 مستويات إضاءة",
+  "price": 200.00,
+  "mainImageUrl": "https://i.postimg.cc/J4xGfJNv/IMG-20250827-000255-271.jpg",
+  "image2Url": "https://i.postimg.cc/jdtD3v7y/IMG-20250827-000254-880.jpg",
+  "image3Url": "https://i.postimg.cc/CxKzS1J1/IMG-20250827-000254-594.jpg",
+  "description": "لمبة مكتبية عملية بــ3 مستويات إضاءة تعمل باللمس (تاتش). مثالية للمذاكرة والمكتب.",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 171,
+  "name": "لوحة ملاحظات 60×45 سم",
+  "price": 250.00,
+  "mainImageUrl": "https://i.postimg.cc/gJ30N6cM/IMG-20250827-000302-884.jpg",
+  "image2Url": "https://i.postimg.cc/rsJwLXrx/IMG-20250827-000302-922.jpg",
+  "image3Url": "https://i.postimg.cc/3wsRXZh4/IMG-20250827-000302-451.jpg",
+  "description": "لوحة ملاحظات مقاس 60×45 سم بخامة عالية وجهين + فريم معدن مع مكان للتعليق. مثالية للمكتب والدراسة.",
+  "colors": "أسود",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 172,
+  "name": "منظم ملفات معدني 3 دور",
+  "price": 275.00,
+  "mainImageUrl": "https://i.postimg.cc/bvtYw2nz/IMG-20250827-000309-894.jpg",
+  "image2Url": "https://i.postimg.cc/YqdCn7kw/IMG-20250827-000309-499.jpg",
+  "image3Url": "https://i.postimg.cc/y6XdR9bx/IMG-20250827-000309-231.jpg",
+  "description": "منظم ملفات وورق معدني 3 دور بخامة متينة ولون أسود أنيق. مناسب لترتيب المكتب.",
+  "colors": "أسود",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 173,
+  "name": "دفاتر بريمو من الأديب",
+  "price": 55.00,
+  "mainImageUrl": "https://i.postimg.cc/brvKdK5Q/IMG-20250827-000314-161.jpg",
+  "image2Url": "https://i.postimg.cc/Kzf6GZ0G/IMG-20250827-000314-151.jpg",
+  "image3Url": "https://i.postimg.cc/fLssWqZK/IMG-20250827-000313-551.jpg",
+  "description": "كوليشكن دفاتر بريمو من الأديب بتصميمات صيفية مبهجة. متوفر بمقاسات وعدد ورق مختلفة: 100 ورقة (A4) - 80 ورقة (55ج) - 60 ورقة (45ج).",
+  "colors": "تصميمات متنوعة",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 174,
+  "name": "أقلام سحرية قابلة للمسح",
+  "price": 20.00,
+  "mainImageUrl": "https://i.postimg.cc/T2kzB3yQ/IMG-20250827-000317-945.jpg",
+  "image2Url": "https://i.postimg.cc/hv3Nm2FN/IMG-20250827-000317-934.jpg",
+  "image3Url": "https://i.postimg.cc/Zn0MJ69H/IMG-20250827-000318-730.jpg",
+  "description": "أقلام سحرية بحبر قابل للمسح وخط سلس في الكتابة، مع أستيكة مدمجة تدوم طويلًا. تصميمات متعددة.",
+  "colors": "ألوان وتصميمات مختلفة",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 175,
+  "name": "طقم أقلام تزيين",
+  "price": 85.00,
+  "mainImageUrl": "https://i.postimg.cc/Dy9MKJ7Q/IMG-20250827-000322-717.jpg",
+  "image2Url": "https://i.postimg.cc/WbFHK6cb/IMG-20250827-000322-514.jpg",
+  "image3Url": "https://i.postimg.cc/zBzQPs89/IMG-20250827-000322-322.jpg",
+  "description": "طقم أقلام لمحبي التزيين وتحديد الدفاتر. 6 أقلام بتصميمات وألوان مختلفة.",
+  "colors": "ألوان مختلفة",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 176,
+  "name": "شبكة معدنية للتزيين 40×40 سم",
+  "price": 320.00,
+  "mainImageUrl": "https://i.postimg.cc/DwQBkxjF/IMG-20250827-000331-989.jpg",
+  "image2Url": "https://i.postimg.cc/6qGfHc2k/IMG-20250827-000332-671.jpg",
+  "image3Url": "https://i.postimg.cc/tRLK9m5V/IMG-20250827-000332-697.jpg",
+  "description": "شبكة معدنية لتزيين المكتب وتعليق الملاحظات. مقاس 40×40 سم متوفرة باللون الأبيض والأسود.",
+  "colors": "أبيض، أسود",
+  "isAvailable": true,
+  "categoryId": 2
 }
+
+
 ]
