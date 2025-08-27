@@ -425,7 +425,7 @@
   "id": 52,
   "name": "مقلمة مكتبة معدن شبكة مربعة ومدورة ✨",
   "price": 40.00,
-  "mainImageUrl": "https://i.postimg.cc/gjghW2xJ/Whats-App-Image-2025-08-17-at-21-47-04-f01901be.jpg",
+  "mainImageUrl": "https://i.postimg.cc/DZkPXbwv/Whats-App-Image-2025-08-27-at-14-19-24-4c332f76.jpg",
   "image2Url": "https://i.postimg.cc/gjghW2xJ/Whats-App-Image-2025-08-17-at-21-47-04-f01901be.jpg",
   "image3Url": "https://i.postimg.cc/FzrS8Ls8/Whats-App-Image-2025-08-17-at-21-47-04-d04f1c20.jpg",
   "description": "مقلمة مكتبة أنيقة بخامة معدن شبكة ✨\nتصميم عملي (مربعة + مدورة) عشان يناسب كل الأذواق 💕\nمثالية للمكتب أو المدرسة عشان تخلي أدواتك منظمة وكيوت 😍",
@@ -1859,7 +1859,56 @@
   "colors": "أبيض، أسود",
   "isAvailable": true,
   "categoryId": 2
+},
+  {
+  "id": 177,
+  "name": "قلم جاف سوستة استتش",
+  "price": 15.00,
+  "mainImageUrl": "https://i.postimg.cc/VNbFvF1Z/IMG-20250827-WA0007.jpg",
+  "image2Url": "https://i.postimg.cc/VNbFvF1Z/IMG-20250827-WA0007.jpg",
+  "image3Url": "https://i.postimg.cc/VNbFvF1Z/IMG-20250827-WA0007.jpg",
+  "description": "قلم جاف عملي بتصميم سوستة استتش كيوت، كتابة واضحة وسلسة، مناسب للمدرسة والمكتب والاستخدام اليومي.",
+  "colors": "أزرق",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 178,
+  "name": "استيكي نوتس كيوت",
+  "price": 30.00,
+  "mainImageUrl": "https://i.postimg.cc/x1ZR9Zrb/IMG-20250827-WA0008.jpg",
+  "image2Url": "https://i.postimg.cc/x1ZR9Zrb/IMG-20250827-WA0008.jpg",
+  "image3Url": "https://i.postimg.cc/x1ZR9Zrb/IMG-20250827-WA0008.jpg",
+  "description": "استيكي نوتس بأشكال كيوت مميزة لتدوين الملاحظات وتنظيم أفكارك بشكل ممتع وعملي.",
+  "colors": "متعدد الألوان",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 179,
+  "name": "استيكي نوتس باندا",
+  "price": 30.00,
+  "mainImageUrl": "https://i.postimg.cc/Dw06kTNT/IMG-20250827-WA0009.jpg",
+  "image2Url": "https://i.postimg.cc/Dw06kTNT/IMG-20250827-WA0009.jpg",
+  "image3Url": "https://i.postimg.cc/Dw06kTNT/IMG-20250827-WA0009.jpg",
+  "description": "استيكي نوتس لطيف بتصميم باندا، مثالي لتذكير نفسك بالملاحظات الصغيرة بطريقة مرحة.",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 180,
+  "name": "قلم جاف جل بأشكال كيوت",
+  "price": 13.00,
+  "mainImageUrl": "https://i.postimg.cc/fTBCrLBC/IMG-20250827-WA0010.jpg",
+  "image2Url": "https://i.postimg.cc/fTBCrLBC/IMG-20250827-WA0010.jpg",
+  "image3Url": "https://i.postimg.cc/sXY99DMp/IMG-20250827-WA0011.jpg",
+  "description": "قلم جل جاف بأشكال كيوت ورسومات مبهجة، خط ناعم وسلس مناسب للكتابة اليومية والتدوين.",
+  "colors": "متعدد الألوان",
+  "isAvailable": true,
+  "categoryId": 2
 }
+
 
 
 ]
