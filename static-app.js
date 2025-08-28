@@ -30,10 +30,14 @@
     async getProducts() {
       const products = await this.loadJson('./products.json');
       if (products) {
-        // Validate product data
+        // Validate product data and use isAvailable
         const validProducts = products.filter(p => 
           p.id && p.name && typeof p.price === 'number' && p.mainImageUrl
-        );
+        ).map(p => ({
+          ...p,
+          available: p.isAvailable ?? true,
+          colors: typeof p.colors === 'string' ? p.colors.split('-').map(c => c.trim()) : (p.colors || [])
+        }));
         if (validProducts.length === 0) {
           console.warn('No valid products found in products.json');
           ui.notify('لا توجد منتجات صالحة في الملف، تحقق من بيانات products.json');
@@ -85,19 +89,28 @@
             currency: 'EGP',
             bannerImages: ['https://via.placeholder.com/1200x600'],
             bannerAnimations: ['animate__fadeIn'],
-            bannerInterval: 5000
+            bannerInterval: 4000
           };
         }
         document.documentElement.style.setProperty('--primary-color', settings.primaryColor);
         document.documentElement.style.setProperty('--secondary-color', settings.secondaryColor);
         document.documentElement.style.setProperty('--accent-color', settings.accentColor);
-        this.qa('#logo').forEach(logo => logo.src = settings.logoUrl);
+        this.qa('#logo').forEach(logo => {
+          logo.src = settings.logoUrl;
+          logo.onerror = () => logo.src = 'https://via.placeholder.com/50';
+        });
         this.qa('#instagramLink').forEach(link => link.href = settings.instagramUrl);
         this.qa('#facebookLink').forEach(link => link.href = settings.facebookUrl);
         this.qa('#telegramLink').forEach(link => link.href = `https://t.me/${settings.telegramBot}`);
         this.qa('#telegramGroupLink').forEach(link => link.href = settings.telegramGroupUrl);
+        this.qa('#whatsappLink').forEach(link => link.href = `https://wa.me/${settings.whatsappNumber}`);
+        // Preload banner images
+        settings.bannerImages.forEach(url => {
+          const img = new Image();
+          img.src = url;
+          img.onerror = () => img.src = 'https://via.placeholder.com/1200x600';
+        });
         this.updateCartCount();
-        this.updateFavoritesCount();
       } catch (err) {
         console.error('Failed to load settings:', err);
         this.notify('خطأ في تحميل الإعدادات، سيتم استخدام الإعدادات الافتراضية');
@@ -106,10 +119,6 @@
     updateCartCount() {
       const cartCount = cart.getAll().reduce((sum, item) => sum + (item.quantity || 1), 0);
       this.qa('#cartCount').forEach(el => el.textContent = cartCount);
-    },
-    updateFavoritesCount() {
-      const favoritesCount = favorites.getAll().length;
-      this.qa('#favoritesCount').forEach(el => el.textContent = favoritesCount);
     },
     renderCategories(categories) {
       const container = this.q('#categoriesContainer');
@@ -122,22 +131,37 @@
         return;
       }
       container.innerHTML = categories.map(c => `
-        <div class="col-md-4 mb-4 animate__animated animate__fadeIn">
+        <div class="col-md-4 col-6 mb-4 animate__animated animate__fadeIn">
           <div class="category-card" onclick="location.href='products.html?categoryId=${c.id}'">
             <img src="${c.imageUrl}" class="card-img-top" alt="${c.name}" loading="lazy" onerror="this.src='https://via.placeholder.com/250';">
             <div class="card-body">
               <h5>${c.name}</h5>
-              <p class="text-muted">اكتشف مجموعة ${c.name} المميزة</p>
-              <a href="products.html?categoryId=${c.id}" class="btn btn-primary"><i class="fas fa-eye me-1"></i> استعرض المنتجات</a>
             </div>
           </div>
         </div>
       `).join('');
     },
-    renderProducts(products, containerId = 'productsContainer') {
-      const container = this.q(`#${containerId}`);
+    renderBanner() {
+      const hero = this.q('.hero');
+      if (!hero) return;
+      let currentIndex = 0;
+      const changeBanner = () => {
+        hero.style.opacity = 0;
+        setTimeout(() => {
+          hero.style.backgroundImage = `url(${settings.bannerImages[currentIndex]})`;
+          hero.classList.remove(...settings.bannerAnimations);
+          hero.classList.add('animate__animated', settings.bannerAnimations[currentIndex % settings.bannerAnimations.length]);
+          hero.style.opacity = 1;
+          currentIndex = (currentIndex + 1) % settings.bannerImages.length;
+        }, 800); // Increased transition time for smoother effect
+      };
+      changeBanner();
+      setInterval(changeBanner, settings.bannerInterval || 4000);
+    },
+    renderProducts(products) {
+      const container = this.q('#productsContainer');
       if (!container) {
-        console.warn(`Products container not found: ${containerId}`);
+        console.warn('Products container not found');
         return;
       }
       if (!products || products.length === 0) {
@@ -145,394 +169,168 @@
         return;
       }
       container.innerHTML = products.map(p => `
-        <div class="col-md-4 mb-4 animate__animated animate__fadeIn">
+        <div class="col-md-4 col-6 mb-4 animate__animated animate__fadeInUp">
           <div class="product-card">
-            <span class="availability ${p.isAvailable ? 'available' : 'unavailable'}">${p.isAvailable ? 'متوفر' : 'غير متوفر'}</span>
-            <img src="${p.mainImageUrl}" class="card-img-top" alt="${p.name}" loading="lazy" onclick="location.href='product.html?id=${p.id}'" onerror="this.src='https://via.placeholder.com/250';">
+            <img src="${p.mainImageUrl}" class="card-img-top" alt="${p.name}" loading="lazy" onerror="this.src='https://via.placeholder.com/250';">
             <div class="card-body">
               <h5>${p.name}</h5>
-              <p class="text-primary">${this.formatPrice(p.price)}</p>
-              <button class="btn btn-cart" data-id="${p.id}" data-name="${p.name}" ${!p.isAvailable ? 'disabled' : ''}><i class="fas fa-cart-plus me-1"></i> إضافة للسلة</button>
-              <button class="btn ${favorites.getAll().some(f => String(f.id) === String(p.id)) ? 'btn-danger' : 'btn-outline-danger'} add-to-favorites" data-id="${p.id}" data-name="${p.name}"><i class="fas fa-heart me-1"></i> ${favorites.getAll().some(f => String(f.id) === String(p.id)) ? 'إزالة من المفضلة' : 'إضافة للمفضلة'}</button>
+              <p>${this.formatPrice(p.price)}</p>
+              <span class="availability ${p.available ? 'available' : 'unavailable'}">${p.available ? 'متوفر' : 'غير متوفر'}</span>
+              <button class="btn btn-cart mt-2" data-id="${p.id}" data-name="${p.name}" ${!p.available ? 'disabled' : ''}><i class="fas fa-cart-plus me-1"></i> إضافة للسلة</button>
+              <a href="product.html?id=${p.id}" class="btn btn-outline-primary mt-2"><i class="fas fa-eye me-1"></i> التفاصيل</a>
             </div>
           </div>
         </div>
       `).join('');
     },
     renderProductDetails(product) {
-      const mainImage = this.q('#mainImage');
-      if (!mainImage || !product) {
-        console.warn('Product or main image element not found');
-        this.notify('المنتج غير موجود');
-        return;
-      }
-      mainImage.src = product.mainImageUrl || 'https://via.placeholder.com/400';
-      this.q('#productName').textContent = product.name || 'غير معروف';
-      this.q('#productPrice').textContent = this.formatPrice(product.price || 0);
+      this.q('#productName').textContent = product.name;
+      this.q('#productPrice').textContent = this.formatPrice(product.price);
       this.q('#productDescription').textContent = product.description || 'لا يوجد وصف';
-      this.q('#productColors').textContent = product.colors || '—';
-      const availability = this.q('#productAvailability');
-      if (availability) {
-        availability.textContent = product.isAvailable ? 'متوفر' : 'غير متوفر';
-        availability.classList.add(product.isAvailable ? 'bg-success' : 'bg-danger', 'text-white');
-      }
-
-      const thumbs = this.q('#thumbnails');
-      if (thumbs) {
-        thumbs.innerHTML = '';
-        [product.mainImageUrl, product.image2Url, product.image3Url].filter(Boolean).forEach(src => {
-          const col = document.createElement('div');
-          col.className = 'col-4';
-          col.innerHTML = `<img src="${src}" class="img-fluid thumbnail animate__animated animate__fadeIn" alt="صورة مصغرة" loading="lazy" onerror="this.src='https://via.placeholder.com/100';">`;
-          col.querySelector('img').addEventListener('click', () => mainImage.src = src);
-          thumbs.appendChild(col);
-        });
-      }
-
-      const cartBtn = this.q('#addToCartBtn');
-      if (cartBtn) {
-        cartBtn.dataset.id = product.id;
-        cartBtn.dataset.name = product.name;
-        cartBtn.disabled = !product.isAvailable;
-        cartBtn.addEventListener('click', () => {
-          if (!product.isAvailable) return;
-          cartBtn.disabled = true;
-          cartBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-1"></i> جاري الإضافة...';
-          cart.add({ id: product.id, name: product.name });
-          setTimeout(() => {
-            cartBtn.disabled = !product.isAvailable;
-            cartBtn.innerHTML = '<i class="fas fa-cart-plus me-1"></i> إضافة للسلة';
-            this.updateCartCount();
-          }, 800);
-        });
-      }
-
-      const favoritesBtn = this.q('#addToFavoritesBtn');
-      if (favoritesBtn) {
-        favoritesBtn.dataset.id = product.id;
-        favoritesBtn.dataset.name = product.name;
-        favoritesBtn.textContent = favorites.getAll().some(f => String(f.id) === String(product.id)) ? 'إزالة من المفضلة' : 'إضافة للمفضلة';
-        favoritesBtn.classList.toggle('btn-danger', favorites.getAll().some(f => String(f.id) === String(product.id)));
-        favoritesBtn.classList.toggle('btn-outline-danger', !favorites.getAll().some(f => String(f.id) === String(product.id)));
-        favoritesBtn.addEventListener('click', () => {
-          favoritesBtn.disabled = true;
-          favoritesBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-1"></i> جاري الإضافة...';
-          if (favorites.getAll().some(f => String(f.id) === String(product.id))) {
-            favorites.remove(product.id);
-            favoritesBtn.textContent = 'إضافة للمفضلة';
-            favoritesBtn.classList.remove('btn-danger');
-            favoritesBtn.classList.add('btn-outline-danger');
-          } else {
-            favorites.add({ id: product.id, name: product.name });
-            favoritesBtn.textContent = 'إزالة من المفضلة';
-            favoritesBtn.classList.remove('btn-outline-danger');
-            favoritesBtn.classList.add('btn-danger');
-          }
-          setTimeout(() => {
-            favoritesBtn.disabled = false;
-            favoritesBtn.innerHTML = `<i class="fas fa-heart me-1"></i> ${favoritesBtn.textContent}`;
-            this.updateFavoritesCount();
-          }, 800);
-        });
-      }
-
-      const wa = this.q('#whatsAppLink');
-      if (wa) {
-        const msg = `أريد طلب ${product.name}`;
-        wa.href = `https://wa.me/${settings.whatsappNumber || '201050043254'}?text=${encodeURIComponent(msg)}`;
-      }
-      const tg = this.q('#telegramLink');
-      if (tg) {
-        const msg = `أريد طلب ${product.name}`;
-        tg.href = `https://t.me/${settings.telegramBot || 'roaa_bot'}?text=${encodeURIComponent(msg)}`;
-      }
+      this.q('#productColors').textContent = Array.isArray(product.colors) && product.colors.length > 0 ? product.colors.join(', ') : 'غير متوفر';
+      this.q('#productAvailability').textContent = product.available ? 'متوفر' : 'غير متوفر';
+      const mainImage = this.q('#mainImage');
+      mainImage.src = product.mainImageUrl || 'https://via.placeholder.com/300';
+      mainImage.onerror = () => mainImage.src = 'https://via.placeholder.com/300';
+      const thumbnails = this.q('#thumbnails');
+      const images = [product.mainImageUrl, product.image2Url, product.image3Url].filter(img => img && img !== product.mainImageUrl);
+      thumbnails.innerHTML = [product.mainImageUrl, ...images].map((img, index) => `
+        <img src="${img}" class="thumbnail m-2 ${index === 0 ? 'active' : ''}" alt="صورة مصغرة ${index + 1}" loading="lazy" onerror="this.src='https://via.placeholder.com/80';">
+      `).join('');
+      thumbnails.addEventListener('click', (e) => {
+        const thumbnail = e.target.closest('.thumbnail');
+        if (thumbnail && thumbnail.src !== mainImage.src) {
+          this.qa('.thumbnail').forEach(t => t.classList.remove('active'));
+          thumbnail.classList.add('active');
+          mainImage.src = thumbnail.src;
+          mainImage.onerror = () => mainImage.src = 'https://via.placeholder.com/300';
+        }
+      });
+      const addToCartBtn = this.q('#addToCartBtn');
+      addToCartBtn.dataset.id = product.id;
+      addToCartBtn.dataset.name = product.name;
+      addToCartBtn.disabled = !product.available;
     },
-    renderCart(products) {
+    renderCart(cartProducts) {
       const container = this.q('#cartContainer');
-      const totalEl = this.q('#totalPrice');
-      const buttonsContainer = this.q('#completeButtons');
       if (!container) {
         console.warn('Cart container not found');
         return;
       }
-      if (!products || products.length === 0) {
-        container.innerHTML = '<p class="text-center">لا توجد منتجات في السلة</p>';
-        totalEl.textContent = this.formatPrice(0);
-        if (buttonsContainer) buttonsContainer.innerHTML = '';
+      if (!cartProducts || cartProducts.length === 0) {
+        container.innerHTML = '<p class="text-center">السلة فارغة</p>';
+        this.q('#cartTotal').textContent = this.formatPrice(0);
         return;
       }
-      let total = 0;
-      container.innerHTML = products.map(p => {
-        total += p.price * (p.quantity || 1);
-        return `
-          <div class="col-md-4 mb-4 animate__animated animate__fadeIn">
-            <div class="product-card">
-              <img src="${p.mainImageUrl}" class="card-img-top" alt="${p.name}" loading="lazy" onerror="this.src='https://via.placeholder.com/250';">
-              <div class="card-body">
-                <h5>${p.name}</h5>
-                <p class="text-primary">${this.formatPrice(p.price)}</p>
-                <div class="d-flex align-items-center justify-content-center">
-                  <label class="me-2">الكمية:</label>
-                  <input type="number" class="quantity-input form-control" data-id="${p.id}" value="${p.quantity || 1}" min="1">
-                </div>
-                <button class="btn btn-danger btn-remove mt-2" data-id="${p.id}"><i class="fas fa-trash me-1"></i> حذف</button>
-              </div>
-            </div>
+      container.innerHTML = cartProducts.map(p => `
+        <div class="row mb-3 align-items-center">
+          <div class="col-md-2 col-4">
+            <img src="${p.mainImageUrl}" class="img-fluid rounded" alt="${p.name}" loading="lazy" onerror="this.src='https://via.placeholder.com/100';">
           </div>
-        `;
-      }).join('');
-      if (totalEl) {
-        totalEl.textContent = `إجمالي السعر: ${this.formatPrice(total)}`;
-      }
-      if (buttonsContainer) {
-        buttonsContainer.innerHTML = `
-          <a href="https://wa.me/${settings.whatsappNumber || '201050043254'}?text=${encodeURIComponent('طلبي:\n' + cart.generateOrderMessage(products) + '\nإجمالي: ' + (totalEl ? totalEl.textContent : this.formatPrice(total)))}" class="btn btn-complete btn-success"><i class="fab fa-whatsapp me-1"></i> إكمال عبر واتساب</a>
-          <a href="https://t.me/${settings.telegramBot || 'roaa_bot'}?text=${encodeURIComponent('طلبي:\n' + cart.generateOrderMessage(products) + '\nإجمالي: ' + (totalEl ? totalEl.textContent : this.formatPrice(total)))}" class="btn btn-complete btn-info"><i class="fab fa-telegram-plane me-1"></i> إكمال عبر تليجرام</a>
-        `;
-      }
-    },
-    renderFavorites(products) {
-      const container = this.q('#favoritesContainer');
-      if (!container) {
-        console.warn('Favorites container not found');
-        return;
-      }
-      if (!products || products.length === 0) {
-        container.innerHTML = '<p class="text-center">لا توجد منتجات في المفضلة</p>';
-        return;
-      }
-      container.innerHTML = products.map(p => `
-        <div class="col-md-4 mb-4 animate__animated animate__fadeIn">
-          <div class="product-card">
-            <span class="availability ${p.isAvailable ? 'available' : 'unavailable'}">${p.isAvailable ? 'متوفر' : 'غير متوفر'}</span>
-            <img src="${p.mainImageUrl}" class="card-img-top" alt="${p.name}" loading="lazy" onclick="location.href='product.html?id=${p.id}'" onerror="this.src='https://via.placeholder.com/250';">
-            <div class="card-body">
-              <h5>${p.name}</h5>
-              <p class="text-primary">${this.formatPrice(p.price)}</p>
-              <button class="btn btn-danger btn-remove-favorite mt-2" data-id="${p.id}"><i class="fas fa-trash me-1"></i> حذف من المفضلة</button>
-            </div>
+          <div class="col-md-4 col-8">
+            <h5>${p.name}</h5>
+          </div>
+          <div class="col-md-2 col-6">
+            <input type="number" class="form-control quantity-input" data-id="${p.id}" value="${p.quantity || 1}" min="1">
+          </div>
+          <div class="col-md-2 col-6">
+            ${this.formatPrice((p.price || 0) * (p.quantity || 1))}
+          </div>
+          <div class="col-md-2 col-12 text-center">
+            <button class="btn btn-outline-danger btn-remove" data-id="${p.id}"><i class="fas fa-trash"></i> إزالة</button>
           </div>
         </div>
       `).join('');
+      const total = cartProducts.reduce((sum, p) => sum + (p.price || 0) * (p.quantity || 1), 0);
+      this.q('#cartTotal').textContent = this.formatPrice(total);
     },
-    animateBanner() {
-      const hero = this.q('#heroBanner');
-      if (!hero) {
-        console.warn('Hero banner not found');
-        return;
-      }
-      let index = 0;
-      const changeBanner = () => {
-        const animClass = settings.bannerAnimations ? settings.bannerAnimations[index % settings.bannerAnimations.length] : 'animate__fadeIn';
-        hero.style.backgroundImage = `url('${settings.bannerImages ? settings.bannerImages[index % settings.bannerImages.length] : 'https://via.placeholder.com/1200x600'}')`;
-        hero.className = `hero animate__animated ${animClass}`;
-        index++;
-      };
-      changeBanner();
-      setInterval(changeBanner, settings.bannerInterval || 5000);
+    searchProducts(products, query) {
+      return products.filter(p => p.name.toLowerCase().includes(query.toLowerCase()));
     }
   };
 
   const cart = {
-    key: 'cartItems',
-    getAll() {
-      try {
-        return JSON.parse(localStorage.getItem(this.key)) || [];
-      } catch (err) {
-        console.error('Error reading cart from localStorage:', err);
-        return [];
-      }
-    },
+    getAll() { return JSON.parse(localStorage.getItem('cart') || '[]'); },
     add(item) {
-      try {
-        let items = this.getAll();
-        const existing = items.find(x => String(x.id) === String(item.id));
-        if (existing) {
-          existing.quantity = (existing.quantity || 1) + 1;
-        } else {
-          items.push({ id: item.id, name: item.name, quantity: 1 });
-        }
-        localStorage.setItem(this.key, JSON.stringify(items));
-        ui.notify(`${item.name} تمت إضافته إلى السلة!`);
-        ui.updateCartCount();
-      } catch (err) {
-        console.error('Error adding to cart:', err);
-        ui.notify('خطأ في إضافة المنتج إلى السلة');
+      const all = this.getAll();
+      const existing = all.find(i => String(i.id) === String(item.id));
+      if (existing) {
+        existing.quantity = (existing.quantity || 1) + 1;
+      } else {
+        all.push({ ...item, quantity: 1 });
       }
+      localStorage.setItem('cart', JSON.stringify(all));
+      ui.notify('تمت الإضافة إلى السلة');
+      ui.updateCartCount();
+    },
+    remove(id) {
+      const all = this.getAll().filter(i => String(i.id) !== String(id));
+      localStorage.setItem('cart', JSON.stringify(all));
+      ui.notify('تمت الإزالة من السلة');
     },
     updateQuantity(id, quantity) {
-      try {
-        const items = this.getAll();
-        const item = items.find(x => String(x.id) === String(id));
-        if (item && quantity > 0) {
-          item.quantity = parseInt(quantity, 10);
-          localStorage.setItem(this.key, JSON.stringify(items));
-          ui.notify('تم تحديث الكمية!');
-          ui.updateCartCount();
-        }
-      } catch (err) {
-        console.error('Error updating cart quantity:', err);
-        ui.notify('خطأ في تحديث الكمية');
-      }
+      const all = this.getAll();
+      const item = all.find(i => String(i.id) === String(id));
+      if (item) item.quantity = quantity;
+      localStorage.setItem('cart', JSON.stringify(all));
     },
-    remove(id) {
-      try {
-        let items = this.getAll();
-        const item = items.find(x => String(x.id) === String(id));
-        if (item) {
-          items = items.filter(x => String(x.id) !== String(id));
-          localStorage.setItem(this.key, JSON.stringify(items));
-          ui.notify(`تم حذف ${item.name} من السلة!`);
-          ui.updateCartCount();
-        }
-      } catch (err) {
-        console.error('Error removing from cart:', err);
-        ui.notify('خطأ في حذف المنتج من السلة');
-      }
+    clear() {
+      localStorage.removeItem('cart');
+      ui.notify('تم مسح السلة');
     },
-    mapToProducts(allProducts) {
-      try {
-        const items = this.getAll();
-        return items.map(item => {
-          const p = allProducts.find(pr => String(pr.id) === String(item.id));
-          return p ? { ...p, quantity: item.quantity } : null;
-        }).filter(p => p);
-      } catch (err) {
-        console.error('Error mapping cart to products:', err);
-        return [];
-      }
-    },
-    generateOrderMessage(products) {
-      try {
-        return products.map(p => `عدد (${p.quantity}) ${p.name} - السعر: ${ui.formatPrice(p.price * p.quantity)}`).join('\n');
-      } catch (err) {
-        console.error('Error generating order message:', err);
-        return '';
-      }
+    mapToProducts(products) {
+      return this.getAll().map(c => {
+        const p = products.find(pr => String(pr.id) === String(c.id));
+        return { ...p, quantity: c.quantity };
+      }).filter(p => p);
     }
   };
 
-  const favorites = {
-    key: 'favoritesItems',
-    getAll() {
-      try {
-        return JSON.parse(localStorage.getItem(this.key)) || [];
-      } catch (err) {
-        console.error('Error reading favorites from localStorage:', err);
-        return [];
-      }
-    },
-    add(item) {
-      try {
-        let items = this.getAll();
-        const existing = items.find(x => String(x.id) === String(item.id));
-        if (existing) {
-          ui.notify(`${item.name} موجود بالفعل في المفضلة!`);
-          return;
-        }
-        items.push({ id: item.id, name: item.name });
-        localStorage.setItem(this.key, JSON.stringify(items));
-        ui.notify(`${item.name} تمت إضافته إلى المفضلة!`);
-        ui.updateFavoritesCount();
-      } catch (err) {
-        console.error('Error adding to favorites:', err);
-        ui.notify('خطأ في إضافة المنتج إلى المفضلة');
-      }
-    },
-    remove(id) {
-      try {
-        let items = this.getAll();
-        const item = items.find(x => String(x.id) === String(id));
-        if (item) {
-          items = items.filter(x => String(x.id) !== String(id));
-          localStorage.setItem(this.key, JSON.stringify(items));
-          ui.notify(`تم حذف ${item.name} من المفضلة!`);
-          ui.updateFavoritesCount();
-        }
-      } catch (err) {
-        console.error('Error removing from favorites:', err);
-        ui.notify('خطأ في حذف المنتج من المفضلة');
-      }
-    },
-    mapToProducts(allProducts) {
-      try {
-        const items = this.getAll();
-        return items.map(item => {
-          const p = allProducts.find(pr => String(pr.id) === String(item.id));
-          return p ? { ...p } : null;
-        }).filter(p => p);
-      } catch (err) {
-        console.error('Error mapping favorites to products:', err);
-        return [];
-      }
-    }
-  };
-
-  function getQueryParam(name) {
-    try {
-      const params = new URLSearchParams(window.location.search);
-      return params.get(name);
-    } catch (err) {
-      console.error('Error reading query param:', err);
-      return null;
-    }
+  function getQueryParam(param) {
+    return new URLSearchParams(location.search).get(param);
   }
 
-  // Debounce function to limit rapid input events
-  function debounce(func, wait) {
+  function debounce(fn, ms) {
     let timeout;
-    return function executedFunction(...args) {
-      const later = () => {
-        clearTimeout(timeout);
-        func(...args);
-      };
+    return (...args) => {
       clearTimeout(timeout);
-      timeout = setTimeout(later, wait);
+      timeout = setTimeout(() => fn(...args), ms);
     };
   }
 
   async function initHome() {
     try {
       const categories = await api.getCategories();
-      if (categories) {
-        ui.renderCategories(categories);
-      }
-      ui.animateBanner();
+      ui.renderCategories(categories);
+      ui.renderBanner();
     } catch (err) {
       console.error('Error initializing home:', err);
-      ui.notify('خطأ في تحميل البيانات، حاول مرة أخرى');
+      ui.notify('خطأ في تحميل الصفحة الرئيسية، حاول مرة أخرى');
     }
   }
 
   async function initProducts() {
     try {
-      const [products, categoryId] = [await api.getProducts(), getQueryParam('categoryId')];
-      if (!products || products.length === 0) {
-        ui.notify('فشل في تحميل المنتجات، تأكد من وجود ملف products.json');
-        return;
-      }
-      let filtered = products;
+      const categoryId = getQueryParam('categoryId');
+      let products = await api.getProducts();
       if (categoryId) {
-        filtered = filtered.filter(p => String(p.categoryId) === String(categoryId));
+        products = products.filter(p => String(p.categoryId) === String(categoryId));
       }
+      ui.renderProducts(products);
 
       const searchInput = ui.q('#searchInput');
-      const applySearch = debounce(async () => {
-        const q = (searchInput?.value || '').toLowerCase().trim();
-        const list = q ? filtered.filter(p => p.name.toLowerCase().includes(q)) : filtered;
-        ui.renderProducts(list);
-      }, 300);
       if (searchInput) {
-        searchInput.addEventListener('input', applySearch);
+        searchInput.addEventListener('input', debounce((e) => {
+          const query = e.target.value;
+          const filtered = ui.searchProducts(products, query);
+          ui.renderProducts(filtered);
+        }, 300));
       }
-      await applySearch();
 
-      // Wire up cart and favorites buttons for products page
       const container = ui.q('#productsContainer');
       if (container) {
         container.addEventListener('click', async (e) => {
           const cartBtn = e.target.closest('.btn-cart');
-          const favBtn = e.target.closest('.add-to-favorites');
           if (cartBtn) {
             e.stopPropagation();
             const id = cartBtn.dataset.id;
@@ -543,34 +341,6 @@
             setTimeout(() => {
               cartBtn.disabled = false;
               cartBtn.innerHTML = '<i class="fas fa-cart-plus me-1"></i> إضافة للسلة';
-              ui.updateCartCount();
-            }, 800);
-          } else if (favBtn) {
-            e.stopPropagation();
-            const id = favBtn.dataset.id;
-            const name = favBtn.dataset.name;
-            favBtn.disabled = true;
-            favBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-1"></i> جاري الإضافة...';
-            const product = await api.getProductById(id);
-            if (!product) {
-              ui.notify('المنتج غير موجود');
-              return;
-            }
-            if (favorites.getAll().some(f => String(f.id) === String(id))) {
-              favorites.remove(id);
-              favBtn.textContent = 'إضافة للمفضلة';
-              favBtn.classList.remove('btn-danger');
-              favBtn.classList.add('btn-outline-danger');
-            } else {
-              favorites.add({ id, name });
-              favBtn.textContent = 'إزالة من المفضلة';
-              favBtn.classList.remove('btn-outline-danger');
-              favBtn.classList.add('btn-danger');
-            }
-            setTimeout(() => {
-              favBtn.disabled = false;
-              favBtn.innerHTML = `<i class="fas fa-heart me-1"></i> ${favBtn.textContent}`;
-              ui.updateFavoritesCount();
             }, 800);
           }
         });
@@ -596,6 +366,29 @@
         return;
       }
       ui.renderProductDetails(product);
+
+      const addToCartBtn = ui.q('#addToCartBtn');
+      if (addToCartBtn) {
+        addToCartBtn.addEventListener('click', async () => {
+          if (!product.available) {
+            ui.notify('المنتج غير متوفر');
+            return;
+          }
+          addToCartBtn.disabled = true;
+          addToCartBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-1"></i> جاري الإضافة...';
+          const cartItem = {
+            id: product.id,
+            name: product.name,
+            price: product.price,
+            mainImageUrl: product.mainImageUrl
+          };
+          cart.add(cartItem);
+          setTimeout(() => {
+            addToCartBtn.disabled = false;
+            addToCartBtn.innerHTML = '<i class="fas fa-cart-plus me-1"></i> إضافة للسلة';
+          }, 800);
+        });
+      }
     } catch (err) {
       console.error('Error initializing product details:', err);
       ui.notify('خطأ في تحميل تفاصيل المنتج، حاول مرة أخرى');
@@ -634,36 +427,48 @@
           }
         });
       }
-    } catch (err) {
-      console.error('Error initializing cart:', err);
-      ui.notify('خطأ في تحميل السلة، حاول مرة أخرى');
-    }
-  }
 
-  async function initFavorites() {
-    try {
-      const all = await api.getProducts();
-      if (!all || all.length === 0) {
-        ui.notify('فشل في تحميل المنتجات، تأكد من وجود ملف products.json');
-        return;
+      const clearCartBtn = ui.q('#clearCartBtn');
+      if (clearCartBtn) {
+        clearCartBtn.addEventListener('click', () => {
+          cart.clear();
+          initCart();
+        });
       }
-      const favoritesProducts = favorites.mapToProducts(all);
-      ui.renderFavorites(favoritesProducts);
 
-      const container = ui.q('#favoritesContainer');
-      if (container) {
-        container.addEventListener('click', (e) => {
-          const btn = e.target.closest('.btn-remove-favorite');
-          if (btn) {
-            const id = btn.dataset.id;
-            favorites.remove(id);
-            initFavorites();
+      const checkoutForm = ui.q('#checkoutForm');
+      if (checkoutForm) {
+        checkoutForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const name = ui.q('#nameInput').value.trim();
+          const mobile = ui.q('#mobileInput').value.trim();
+          const address = ui.q('#addressInput').value.trim();
+          const notes = ui.q('#notesInput').value.trim();
+          if (!name || !mobile || !address) {
+            ui.notify('يرجى ملء جميع الحقول الإلزامية');
+            return;
           }
+          const total = cartProducts.reduce((sum, p) => sum + (p.price || 0) * (p.quantity || 1), 0);
+          let message = `*طلب جديد من روى!*\n\n*المنتجات:*\n`;
+          cartProducts.forEach((p, index) => {
+            message += `${index + 1}) عدد (${p.quantity || 1}) ${p.name} - ${ui.formatPrice((p.price || 0) * (p.quantity || 1))}\n`;
+          });
+          message += `\n*الإجمالي:* ${ui.formatPrice(total)}\n\n`;
+          message += `*بيانات العميل:*\n`;
+          message += `*الاسم:* ${name}\n`;
+          message += `*الموبايل:* ${mobile}\n`;
+          message += `*العنوان:* ${address}\n`;
+          message += `*ملاحظات:* ${notes || 'لا يوجد'}`;
+          const whatsappUrl = `https://wa.me/${settings.whatsappNumber}?text=${encodeURIComponent(message)}`;
+          window.open(whatsappUrl, '_blank');
+          cart.clear();
+          initCart();
+          ui.notify('تم إرسال الطلب عبر واتساب!');
         });
       }
     } catch (err) {
-      console.error('Error initializing favorites:', err);
-      ui.notify('خطأ في تحميل المفضلة، حاول مرة أخرى');
+      console.error('Error initializing cart:', err);
+      ui.notify('خطأ في تحميل السلة، حاول مرة أخرى');
     }
   }
 
@@ -694,8 +499,6 @@
         await initProductDetails();
       } else if (path.endsWith('/cart.html')) {
         await initCart();
-      } else if (path.endsWith('/favorites.html')) {
-        await initFavorites();
       }
     } catch (err) {
       console.error('Bootstrap error:', err);
