@@ -1887,7 +1887,7 @@
 {
   "id": 179,
   "name": "استيكي نوتس باندا",
-  "price": 30.00,
+  "price": 27.00,
   "mainImageUrl": "https://i.postimg.cc/Dw06kTNT/IMG-20250827-WA0009.jpg",
   "image2Url": "https://i.postimg.cc/Dw06kTNT/IMG-20250827-WA0009.jpg",
   "image3Url": "https://i.postimg.cc/Dw06kTNT/IMG-20250827-WA0009.jpg",
@@ -1931,9 +1931,307 @@
   "colors": "متعدد الألوان",
   "isAvailable": true,
   "categoryId": 2
+},
+{
+  "id": 183,
+  "name": "منظم المكتب العصري",
+  "price": 110.00,
+  "mainImageUrl": "https://i.postimg.cc/fbn61MT5/Whats-App-Image-2025-08-28-at-16-06-27-e6347e53.jpg",
+  "image2Url": "https://i.postimg.cc/fbn61MT5/Whats-App-Image-2025-08-28-at-16-06-27-e6347e53.jpg",
+  "image3Url": "https://i.postimg.cc/fbn61MT5/Whats-App-Image-2025-08-28-at-16-06-27-e6347e53.jpg",
+  "description": "منظم مكتب عصري أنيق 🤍، مناسب للأقلام والأدوات الدراسية، بخامة عالية الجودة وشكل شيك يدي لمسة فخامة لمكتبك 🌸✨",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 184,
+  "name": "منظم الميكب",
+  "price": 110.00,
+  "mainImageUrl": "https://i.postimg.cc/g26CMxdn/Whats-App-Image-2025-08-28-at-16-08-04-44b1bcb9.jpg",
+  "image2Url": "https://i.postimg.cc/g26CMxdn/Whats-App-Image-2025-08-28-at-16-08-04-44b1bcb9.jpg",
+  "image3Url": "https://i.postimg.cc/g26CMxdn/Whats-App-Image-2025-08-28-at-16-08-04-44b1bcb9.jpg",
+  "description": "منظم عملي لمستحضرات التجميل 💄✨، يساعدك على ترتيب الميكب والعناية بالبشرة والعطور بشكل أنيق وسهل الاستخدام، يضيف لمسة جمال على التسريحة 🌸🌈",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 4
+},
+{
+  "id": 185,
+  "name": "منظم دورين",
+  "price": 100.00,
+  "mainImageUrl": "https://i.postimg.cc/25QPDg1Y/Whats-App-Image-2025-08-28-at-16-10-50-6664ff7f.jpg",
+  "image2Url": "https://i.postimg.cc/25QPDg1Y/Whats-App-Image-2025-08-28-at-16-10-50-6664ff7f.jpg",
+  "image3Url": "https://i.postimg.cc/25QPDg1Y/Whats-App-Image-2025-08-28-at-16-10-50-6664ff7f.jpg",
+  "description": "منظم مكتبي دورين ✨💖، يوفر مساحة أكبر ويحافظ على ترتيب أدواتك الدراسية أو مستلزماتك الصغيرة، شكله عصري وأنيق 🤍",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 186,
+  "name": "فرشاة شعر طبية تنظيف ذاتي",
+  "price": 45.00,
+  "mainImageUrl": "https://i.postimg.cc/bJLWGb0F/Whats-App-Image-2025-08-28-at-21-20-19-eff0f16e.jpg",
+  "image2Url": "https://i.postimg.cc/KvNYfsG1/Whats-App-Image-2025-08-30-at-00-49-00-bc7c4c9d.jpg",
+  "image3Url": "https://i.postimg.cc/KvNYfsG1/Whats-App-Image-2025-08-30-at-00-49-00-bc7c4c9d.jpg",
+  "description": "فرشاة عملية لفك تشابك الشعر ومنع التقصف والهيشان 🌸، مضادة للكهرباء الساكنة وتعمل على تدليك فروة الرأس، قابلة للتنظيف بسهولة ومناسبة للأطفال والسيدات 🤍",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 4
+},
+{
+  "id": 187,
+  "name": "شنطة سفر ووتر بروف قابلة للطي",
+  "price": 250.00,
+  "mainImageUrl": "https://i.postimg.cc/vTNKhsNr/Whats-App-Image-2025-08-28-at-21-23-32-722741a1.jpg",
+  "image2Url": "https://i.postimg.cc/vTNKhsNr/Whats-App-Image-2025-08-28-at-21-23-32-722741a1.jpg",
+  "image3Url": "https://i.postimg.cc/vTNKhsNr/Whats-App-Image-2025-08-28-at-21-23-32-722741a1.jpg",
+  "description": "شنطة سفر عملية مقاومة للماء مصنوعة من قماش نايلون وأوكسفورد خفيف الوزن 💼✨، متعددة الاستخدام: سفر، خروج، مستلزمات أطفال، مزودة بسوستة للتوسعة لتسع أغراض أكثر. متاحة بألوان مختلفة 🌸",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 3
+},
+{
+  "id": 188,
+  "name": "فرشاة مرنة للتنظيف",
+  "price": 25.00,
+  "mainImageUrl": "https://i.postimg.cc/9FDKMDDJ/Whats-App-Image-2025-08-28-at-21-25-13-a76293bd.jpg",
+  "image2Url": "https://i.postimg.cc/9FDKMDDJ/Whats-App-Image-2025-08-28-at-21-25-13-a76293bd.jpg",
+  "image3Url": "https://i.postimg.cc/zvBMTB0D/Whats-App-Image-2025-08-28-at-21-25-13-2d3dc45a.jpg",
+  "description": "فرشاة مرنة متعددة الاستخدام، مناسبة لتنظيف الملابس، السجاد، الأرضيات وغيرها من الأغراض 🧽✨",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 6
+},
+{
+  "id": 189,
+  "name": "Sticky Notes باستل",
+  "price": 27.00,
+  "mainImageUrl": "https://i.postimg.cc/ncN5Qn7Z/Whats-App-Image-2025-08-29-at-02-07-30-733e7421.jpg",
+  "image2Url": "https://i.postimg.cc/ncN5Qn7Z/Whats-App-Image-2025-08-29-at-02-07-30-733e7421.jpg",
+  "image3Url": "https://i.postimg.cc/ncN5Qn7Z/Whats-App-Image-2025-08-29-at-02-07-30-733e7421.jpg",
+  "description": "Sticky Notes بألوان باستل وألوان غامقة تناسب جميع الأذواق 📝🤎، مثالية للمذاكرة وتدوين الملاحظات بشكل مرتب وبسعر أوفر من أي مكان 🌸",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 190,
+  "name": "قلم حبر يونيكورن",
+  "price": 10.00,
+  "mainImageUrl": "https://i.postimg.cc/rwWH17C4/Whats-App-Image-2025-08-29-at-02-09-49-b5ccc71e.jpg",
+  "image2Url": "https://i.postimg.cc/rwWH17C4/Whats-App-Image-2025-08-29-at-02-09-49-b5ccc71e.jpg",
+  "image3Url": "https://i.postimg.cc/rwWH17C4/Whats-App-Image-2025-08-29-at-02-09-49-b5ccc71e.jpg",
+  "description": "أقلام حبر بتصميم يونيكورن 🦄💜، ألوانها هادئة وكيوت تخلي المذاكرة ممتعة، كتابة سلسة وخامة مميزة 🌸",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 191,
+  "name": "مصحف التدوين",
+  "price": 200.00,
+  "mainImageUrl": "https://i.postimg.cc/3wFb6pqJ/Whats-App-Image-2025-08-29-at-09-53-59-87b4557e.jpg",
+  "image2Url": "https://i.postimg.cc/tTRmHJ0d/Whats-App-Image-2025-08-29-at-09-53-59-c4b0aa86.jpg",
+  "image3Url": "https://i.postimg.cc/654bKFPP/Whats-App-Image-2025-08-29-at-09-54-14-20761350.jpg",
+  "description": "المصحف الشريف وبهامشه فراغات للتدوين ✍🏻، متوفر بمقاس 17*24 سم ليساعدك على كتابة خواطرك وفهمك للآيات 📖🤍",
+  "colors": "متعدد الألوان",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 192,
+  "name": " 3 كتب تدبر القرآن",
+  "price": 430.00,
+  "mainImageUrl": "https://i.postimg.cc/Jzw6zPVz/Whats-App-Image-2025-08-29-at-09-54-15-8b7fa774.jpg",
+  "image2Url": "https://i.postimg.cc/Nj1N9mB7/Whats-App-Image-2025-08-29-at-09-54-15-27ac1471.jpg",
+  "image3Url": "https://i.postimg.cc/43MvdxjR/Whats-App-Image-2025-08-30-at-00-59-24-03127038.jpg",
+  "description": "3 كتب مميزة تعينك على تدبر القرآن وفهم الأمثال والتلذذ بالدعاء ❤️. بخصم 20% على كل كتاب لوحده وخصم 25% على الـ 3 كتب مع بعض 📚👌",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 193,
+  "name": "شرح تحفة الأطفال والغلمان - مصطفى الجندي",
+  "price": 70.00,
+  "mainImageUrl": "https://i.postimg.cc/dVgDZZQ6/Whats-App-Image-2025-08-30-at-01-02-08-482bc89a.jpg",
+  "image2Url": "https://i.postimg.cc/d0w5830M/Whats-App-Image-2025-08-29-at-09-54-53-64397112.jpg",
+  "image3Url": "https://i.postimg.cc/W48XSVDd/Whats-App-Image-2025-08-29-at-09-54-56-a1f567f1.jpg",
+  "description": "شرح مبسط لمنظومة تحفة الأطفال والغلمان في تجويد القرآن الكريم، مخصص للمبتدئين في تعلم القراءة برواية حفص ✨",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 194,
+  "name": "بداية الطريق",
+  "price": 125.00,
+  "mainImageUrl": "https://i.postimg.cc/MHM5Wj9B/Whats-App-Image-2025-08-29-at-09-55-15-22f4870d.jpg",
+  "image2Url": "https://i.postimg.cc/MHM5Wj9B/Whats-App-Image-2025-08-29-at-09-55-15-22f4870d.jpg",
+  "image3Url": "https://i.postimg.cc/MHM5Wj9B/Whats-App-Image-2025-08-29-at-09-55-15-22f4870d.jpg",
+  "description": "من أفضل المناهج المختصرة في العقيدة والعبادات والآداب، مناسب للشباب 💙",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 195,
+  "name": "التحفة الوردية بشرح الأربعين النووية",
+  "price": 115.00,
+  "mainImageUrl": "https://i.postimg.cc/906pzFkn/Whats-App-Image-2025-08-29-at-09-56-28-bc1b141b.jpg",
+  "image2Url": "https://i.postimg.cc/QNFZB4PQ/Whats-App-Image-2025-08-29-at-09-56-28-fe85ded6.jpg",
+  "image3Url": "https://i.postimg.cc/bY4c10cK/Whats-App-Image-2025-08-29-at-09-56-32-97df8c41.jpg",
+  "description": "كتاب التحفة الوردية بشرح الأربعين النووية ويليه شرح زيادات ابن رجب، بفوائد تربوية قيمة، مناسب للحضانات ودور التحفيظ 📚❤️",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 196,
+  "name": "أصول الإيمان في ضوء الكتاب والسنة",
+  "price": 135.00,
+  "mainImageUrl": "https://i.postimg.cc/vZLJRpgs/Whats-App-Image-2025-08-29-at-09-57-23-c36acf7d.jpg",
+  "image2Url": "https://i.postimg.cc/FKTwz3VC/Whats-App-Image-2025-08-29-at-10-00-32-b783c233.jpg",
+  "image3Url": "https://i.postimg.cc/G2NNJRNk/Whats-App-Image-2025-08-29-at-10-00-34-45ac5804.jpg",
+  "description": "كتاب موجز يشرح أصول العقيدة الإسلامية وأهم أسسها مقرونًا بالأدلة والشواهد من الكتاب والسنة، طبعة مشكولة بالكامل ورق شمواه 2 لون ❤️",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 197,
+  "name": "الفقه الميسر في ضوء الكتاب والسنة",
+  "price": 150.00,
+  "mainImageUrl": "https://i.postimg.cc/vZLJRpgs/Whats-App-Image-2025-08-29-at-09-57-23-c36acf7d.jpg",
+  "image2Url": "https://i.postimg.cc/FKTwz3VC/Whats-App-Image-2025-08-29-at-10-00-32-b783c233.jpg",
+  "image3Url": "https://i.postimg.cc/G2NNJRNk/Whats-App-Image-2025-08-29-at-10-00-34-45ac5804.jpg",
+  "description": "كتاب مبسط في الفقه الإسلامي، قريب المأخذ وسهل الفهم دون إخلال بالمادة العلمية. طبعة مشكولة بالكامل ورق شمواه 2 لون ❤️",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 199,
+  "name": "القرآن تدبر وعمل",
+  "price": 365.00,
+  "mainImageUrl": "https://i.postimg.cc/fRKrqmpW/Whats-App-Image-2025-08-29-at-10-06-13-9b1878d4.jpg",
+  "image2Url": "https://i.postimg.cc/bvVFp8qK/Whats-App-Image-2025-08-29-at-10-06-24-3c4c4455.jpg",
+  "image3Url": "https://i.postimg.cc/26PcLwbG/Whats-App-Image-2025-08-29-at-10-06-27-489cfd4a.jpg",
+  "description": "كتاب قيم يعين على تدبر القرآن الكريم ❤️، مزود بخدمات QR للقارئ الصوتي ودليل التدبر ومختصر تفسير ابن كثير. متوفر بمقاسين: كبير 420 ج (20*28 سم) ووسط 375 ج (17*24 سم) ✨",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 200,
+  "name": "مجموعة كتب هاري بوتر 7 أجزاء",
+  "price": 665.00,
+  "mainImageUrl": "https://i.postimg.cc/m23Xh7b3/Whats-App-Image-2025-08-29-at-10-06-33-f34f8f3e.jpg",
+  "image2Url": "https://i.postimg.cc/5NWKxsMN/Whats-App-Image-2025-08-29-at-10-06-33-9d36a459.jpg",
+  "image3Url": "https://i.postimg.cc/sx7nYh5r/Whats-App-Image-2025-08-29-at-10-06-33-2be02b74.jpg",
+  "description": "مجموعة روايات هاري بوتر كاملة (7 أجزاء) غلاف ورقي عادي باللغة الإنجليزية 🤍",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 201,
+  "name": "صحيح البخاري",
+  "price": 275.00,
+  "mainImageUrl": "https://i.postimg.cc/Z5VwxZvC/Whats-App-Image-2025-08-29-at-10-07-44-cef64903.jpg",
+  "image2Url": "https://i.postimg.cc/Z5VwxZvC/Whats-App-Image-2025-08-29-at-10-07-44-cef64903.jpg",
+  "image3Url": "https://i.postimg.cc/Z5VwxZvC/Whats-App-Image-2025-08-29-at-10-07-44-cef64903.jpg",
+  "description": "صحيح البخاري - الجامع الصحيح للإمام البخاري، من أهم كتب الحديث الشريف 📖",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 202,
+  "name": "أقلام روتو 5 قطع",
+  "price": 20.00,
+  "mainImageUrl": "https://i.postimg.cc/7ZxBzb6F/Whats-App-Image-2025-08-29-at-21-15-02-5b723ad8.jpg",
+  "image2Url": "https://i.postimg.cc/7ZxBzb6F/Whats-App-Image-2025-08-29-at-21-15-02-5b723ad8.jpg",
+  "image3Url": "https://i.postimg.cc/7ZxBzb6F/Whats-App-Image-2025-08-29-at-21-15-02-5b723ad8.jpg",
+  "description": "5 أقلام روتو مميزة ✨، ألوانها واضحة وخامتها ممتازة تخلي كتابتك أسهل وأوضح في المذاكرة والشغل 💕",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 203,
+  "name": "أقلام جاف سحرية قابلة للمسح",
+  "price": 20.00,
+  "mainImageUrl": "https://i.postimg.cc/PqJ26c1K/WhatsApp_Image_2025-08-29_at_22.44.57_3e53d3bf.jpg",
+  "image2Url": "https://i.postimg.cc/PqJ26c1K/WhatsApp_Image_2025-08-29_at_22.44.57_3e53d3bf.jpg",
+  "image3Url": "https://i.postimg.cc/PqJ26c1K/WhatsApp_Image_2025-08-29_at_22.44.57_3e53d3bf.jpg",
+  "description": "أقلام جاف عملية تكتب زي القلم العادي ✨ لكن بتميز إنها قابلة للمسح بسهولة من غير شطب أو كركبة 😍، مناسبة للمذاكرة والشغل 📝",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 204,
+  "name": "منظم أكريلك وسط",
+  "price": 115.00,
+  "mainImageUrl": "https://i.postimg.cc/0N4Zhffv/WhatsApp_Image_2025-08-30_at_00.00.44_3677841b.jpg",
+  "image2Url": "https://i.postimg.cc/0N4Zhffv/WhatsApp_Image_2025-08-30_at_00.00.44_3677841b.jpg",
+  "image3Url": "https://i.postimg.cc/rmtgTrnr/WhatsApp_Image_2025-08-30_at_00.00.45_4d5e0a2f.jpg",
+  "description": "منظم عملي للأقلام والأدوات الدراسية أو حتى للإكسسوارات ✨، مصنوع من الأكريلك بالكامل ضد الكسر، بحجم وسط 33*18 سم 🤍",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 125,
+  "name": "كتاب الداء والدواء - ابن القيم",
+  "price": 115.00,
+  "mainImageUrl": "https://i.postimg.cc/xjwhX0LQ/Whats-App-Image-2025-08-29-at-10-04-23-a3a1bd13.jpg",
+  "image2Url": "https://i.postimg.cc/xjwhX0LQ/Whats-App-Image-2025-08-29-at-10-04-23-a3a1bd13.jpg",
+  "image3Url": "https://i.postimg.cc/xjwhX0LQ/Whats-App-Image-2025-08-29-at-10-04-23-a3a1bd13.jpg",
+  "description": "كتاب قيّم للإمام ابن القيم، يتناول فيه أسباب المعاصي وآثارها وطرق العلاج والتوبة بأسلوب روحاني مؤثر ✨📖",
+  "colors": "غلاف ورقي",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 126,
+  "name": "كتاب الطب النبوي - ابن القيم",
+  "price": 115.00,
+  "mainImageUrl": "https://i.postimg.cc/7ZDRNmBQ/Whats-App-Image-2025-08-29-at-10-04-24-1c977628.jpg",
+  "image2Url": "https://i.postimg.cc/7ZDRNmBQ/Whats-App-Image-2025-08-29-at-10-04-24-1c977628.jpg",
+  "image3Url": "https://i.postimg.cc/7ZDRNmBQ/Whats-App-Image-2025-08-29-at-10-04-24-1c977628.jpg",
+  "description": "من أروع كتب الإمام ابن القيم، يجمع بين الهدي النبوي في العلاج والطب، وكيفية التداوي بما ورد عن الرسول ﷺ 🌿📖",
+  "colors": "غلاف ورقي",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 127,
+  "name": "كتاب الفوائد - ابن القيم",
+  "price": 115.00,
+  "mainImageUrl": "https://i.postimg.cc/Pfp0fLpK/Whats-App-Image-2025-08-29-at-10-04-23-56a0a328.jpg",
+  "image2Url": "https://i.postimg.cc/Pfp0fLpK/Whats-App-Image-2025-08-29-at-10-04-23-56a0a328.jpg",
+  "image3Url": "https://i.postimg.cc/Pfp0fLpK/Whats-App-Image-2025-08-29-at-10-04-23-56a0a328.jpg",
+  "description": "مجموعة عظيمة من الحكم والمواعظ والخواطر الإيمانية والروحانية لابن القيم، بأسلوب بليغ ومؤثر جدًا ✨🤍",
+  "colors": "غلاف ورقي",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 128,
+  "name": "كتاب الوابل الصيب - ابن القيم",
+  "price": 110.00,
+  "mainImageUrl": "https://i.postimg.cc/q7vZPgHs/Whats-App-Image-2025-08-29-at-10-04-24-e8453c1e.jpg",
+  "image2Url": "https://i.postimg.cc/q7vZPgHs/Whats-App-Image-2025-08-29-at-10-04-24-e8453c1e.jpg",
+  "image3Url": "https://i.postimg.cc/q7vZPgHs/Whats-App-Image-2025-08-29-at-10-04-24-e8453c1e.jpg",
+  "description": "كتاب روحاني يتحدث عن فضل الذكر وأثره في حياة المسلم وطمأنينة القلب، بأسلوب ابن القيم الماتع ✨🌸",
+  "colors": "غلاف ورقي",
+  "isAvailable": true,
+  "categoryId": 1
 }
-
-
 
 
 ]
