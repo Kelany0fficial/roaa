@@ -249,7 +249,7 @@
     "image3Url": "https://i.postimg.cc/JzQgK76K/Whats-App-Image-2025-08-24-at-04-01-57-3770afd2.jpg",
     "description": "مج بورسلين مستورد ترندي شي إن",
     "colors": "متعدد",
-    "isAvailable": false,
+    "isAvailable": true,
     "categoryId": 3
   },
   {
@@ -669,7 +669,7 @@
     "image3Url": "https://i.postimg.cc/wMQZYJSP/Whats-App-Image-2025-08-21-at-20-59-53-82614c44.jpg",
     "description": "بولة غزالة من البورسلين الأنيق.",
     "colors": "__",
-    "isAvailable": true,
+    "isAvailable": false,
     "categoryId": 3
   },
   {
@@ -723,7 +723,7 @@
   {
     "id": 78,
     "name": "مجفف خضار من الوطنية",
-    "price": 135.00,
+    "price": 150.00,
     "mainImageUrl": "https://i.postimg.cc/Kjv33n0n/Whats-App-Image-2025-08-21-at-02-50-04-ce551099.jpg",
     "image2Url": "https://i.postimg.cc/Kjv33n0n/Whats-App-Image-2025-08-21-at-02-50-04-ce551099.jpg",
     "image3Url": "https://i.postimg.cc/Kjv33n0n/Whats-App-Image-2025-08-21-at-02-50-04-ce551099.jpg",
@@ -735,7 +735,7 @@
   {
     "id": 79,
     "name": "حلة تحمير بطوط تيفال",
-    "price": 399.00,
+    "price": 450.00,
     "mainImageUrl": "https://i.postimg.cc/NGpHqz0b/Whats-App-Image-2025-08-21-at-02-51-39-923b6642.jpg",
     "image2Url": "https://i.postimg.cc/zvtbCVQ4/Whats-App-Image-2025-08-21-at-02-51-39-c49da6af.jpg",
     "image3Url": "https://i.postimg.cc/tCcn7nWx/Whats-App-Image-2025-08-21-at-02-51-40-1985cbe4.jpg",
@@ -2185,7 +2185,7 @@
   "categoryId": 2
 },
 {
-  "id": 125,
+  "id": 205,
   "name": "كتاب الداء والدواء - ابن القيم",
   "price": 115.00,
   "mainImageUrl": "https://i.postimg.cc/xjwhX0LQ/Whats-App-Image-2025-08-29-at-10-04-23-a3a1bd13.jpg",
@@ -2197,7 +2197,7 @@
   "categoryId": 1
 },
 {
-  "id": 126,
+  "id": 206,
   "name": "كتاب الطب النبوي - ابن القيم",
   "price": 115.00,
   "mainImageUrl": "https://i.postimg.cc/7ZDRNmBQ/Whats-App-Image-2025-08-29-at-10-04-24-1c977628.jpg",
@@ -2209,7 +2209,7 @@
   "categoryId": 1
 },
 {
-  "id": 127,
+  "id": 207,
   "name": "كتاب الفوائد - ابن القيم",
   "price": 115.00,
   "mainImageUrl": "https://i.postimg.cc/Pfp0fLpK/Whats-App-Image-2025-08-29-at-10-04-23-56a0a328.jpg",
@@ -2221,7 +2221,7 @@
   "categoryId": 1
 },
 {
-  "id": 128,
+  "id": 208,
   "name": "كتاب الوابل الصيب - ابن القيم",
   "price": 110.00,
   "mainImageUrl": "https://i.postimg.cc/q7vZPgHs/Whats-App-Image-2025-08-29-at-10-04-24-e8453c1e.jpg",
