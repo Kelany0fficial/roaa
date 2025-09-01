@@ -1,282 +1,401 @@
 [
-  
   {
-    "id": 13,
-    "name": "نوت هارد كافر ٤ فواصل",
-    "price": 120.00,
-    "mainImageUrl": "https://i.postimg.cc/MH1QSyLD/IMG-20250816-WA0002.jpg",
-    "image2Url": "https://i.postimg.cc/h4mxTBGd/IMG-20250816-WA0003.jpg",
-    "image3Url": "https://i.postimg.cc/jdrfhFWk/IMG-20250816-WA0004.jpg",
-    "description": "نوت 120 ورقة، ورق نقي وخامة جميلة",
-    "colors": "—",
-    "isAvailable": true,
-    "categoryId": 2
-  },
+  "id": 158,
+  "name": "فوطة بديل سلك المواعين",
+  "price": 10.00,
+  "mainImageUrl": "https://i.postimg.cc/c4q1trDC/IMG-20250825-WA0132.jpg",
+  "image2Url": "https://i.postimg.cc/C1BYzgkb/IMG-20250825-WA0133.jpg",
+  "image3Url": "https://i.postimg.cc/59QNtwSD/IMG-20250825-WA0131.jpg",
+  "description": "فوطة مطبخ عبقرية بديل سلك المواعين، تنظف بدون خدش أو صدأ، متعددة الاستخدام، المقاس 30*30.",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 6
+},
+{
+  "id": 159,
+  "name": "ميني دباسة باندا للأطفال",
+  "price": 60.00,
+  "mainImageUrl": "https://i.postimg.cc/3Rf8xCwb/IMG-20250827-000153-198.jpg",
+  "image2Url": "https://i.postimg.cc/WbkNsZcX/IMG-20250827-000153-887.jpg",
+  "image3Url": "https://i.postimg.cc/vm3M0L5H/IMG-20250827-000153-976.jpg",
+  "description": "ميني دباسة بشكل باندا وألوان باستل تحفة 🩷🩶💜💙 تدبس لحد 20 ورقة، عملية ومناسبة للأطفال والكبار 🐼",
+  "colors": "4 ألوان باستل",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 160,
+  "name": "أقلام جل سوسته",
+  "price": 115.00,
+  "mainImageUrl": "https://i.postimg.cc/85cG9Jbd/IMG-20250827-000158-852.jpg",
+  "image2Url": "https://i.postimg.cc/hjYnBDCk/IMG-20250827-000159-000.jpg",
+  "image3Url": "https://i.postimg.cc/prnHVw4p/IMG-20250827-000159-011.jpg",
+  "description": "أقلام جل سوسته بمجموعتين (درجات بينك وبيبي بلو) 💙🩷 خط سلس، مريحة للكتابة اليومية، مقاس السن 5 مم. سعر الطقم 115ج، عرض خاص 2 بـ200 بدل 230.",
+  "colors": "بينك - بيبي بلو",
+  "isAvailable": false,
+  "categoryId": 2
+},
+{
+  "id": 161,
+  "name": "ترابيزة مذاكرة قابلة للطي",
+  "price": 225.00,
+  "mainImageUrl": "https://i.postimg.cc/R0FV5DSn/IMG-20250827-000207-676.jpg",
+  "image2Url": "https://i.postimg.cc/VvyYtsjj/IMG-20250827-000207-884.jpg",
+  "image3Url": "https://i.postimg.cc/fRWMmr0g/IMG-20250827-000208-612.jpg",
+  "description": "ترابيزة مذاكرة قابلة للطي بقوائم معدن 🤎 بخامة أفضل وألوان عصرية (بني، خشبي، بيج) عملية للمذاكرة في أي مكان.",
+  "colors": "بني - خشبي - بيج",
+  "isAvailable": false,
+  "categoryId": 2
+},
+{
+  "id": 162,
+  "name": "أقلام تحديد قابلة للمسح",
+  "price": 140.00,
+  "mainImageUrl": "https://i.postimg.cc/5yqMFB9V/IMG-20250827-000213-273.jpg",
+  "image2Url": "https://i.postimg.cc/QdMrHKR2/IMG-20250827-000213-616.jpg",
+  "image3Url": "https://i.postimg.cc/3RmsPXvv/IMG-20250827-000213-763.jpg",
+  "description": "أقلام تحديد فسفورية قابلة للمسح 🌷🩷 العبوة 6 ألوان واضحة وجميلة، خامة ممتازة ومبهجة.",
+  "colors": "6 ألوان فسفورية",
+  "isAvailable": false,
+  "categoryId": 2
+},
+{
+  "id": 163,
+  "name": "مقلمة شنطة متينة",
+  "price": 195.00,
+  "mainImageUrl": "https://i.postimg.cc/d39z0JnQ/IMG-20250827-000217-843.jpg",
+  "image2Url": "https://i.postimg.cc/GhcW5sh4/IMG-20250827-000217-850.jpg",
+  "image3Url": "https://i.postimg.cc/sXd89MND/IMG_20250827_000218_214.jpg",
+  "description": "مقلمة شنطة بخامة ممتازة ومتينة 🤎 تشيل أكتر من 50 قلم بدون مبالغة، عملية جدًا وأنيقة.",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 164,
+  "name": "أقلام أكريليك",
+  "price": 65.00,
+  "mainImageUrl": "https://i.postimg.cc/0j9BFLvT/IMG_20250827_000221_850.jpg",
+  "image2Url": "https://i.postimg.cc/zDkMKXS8/IMG_20250827_000222_023.jpg",
+  "image3Url": "https://i.postimg.cc/3xzbYy7C/IMG_20250827_000222_179.jpg",
+  "description": "أقلام أكريليك بخط سلس وناعم جدًا 🤎 الطقم 5 أقلام نفس اللون بدرجات مختلفة. متوفر بـ4 ألوان (أزرق، موف، أخضر، بينك).",
+  "colors": "أزرق - موف - أخضر - بينك",
+  "isAvailable": false,
+  "categoryId": 2
+},
+{
+  "id": 165,
+  "name": "أقلام شي إن باستل",
+  "price": 75.00,
+  "mainImageUrl": "https://i.postimg.cc/Kzxf8BWL/IMG_20250827_000226_357.jpg",
+  "image2Url": "https://i.postimg.cc/jjrQMyt9/IMG_20250827_000227_159.jpg",
+  "image3Url": "https://i.postimg.cc/3wCjVWww/IMG_20250827_000227_168.jpg",
+  "description": "أقلام شي إن بألوان باستل رائعة ومعها درجات غامقة كمان 🤎 خطهم تحفة وسعرهم أوفر من شي إن.",
+  "colors": "ألوان باستل + غامقة",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 166,
+  "name": "ساعة ديجيتال LED",
+  "price": 275.00,
+  "mainImageUrl": "https://i.postimg.cc/vmQx1hQQ/IMG_20250827_000231_645.jpg",
+  "image2Url": "https://i.postimg.cc/HLHXwHt1/IMG_20250827_000231_040.jpg",
+  "image3Url": "https://i.postimg.cc/DzBJ1GZ1/IMG_20250827_000231_455.jpg",
+  "description": "ساعة LED ديجيتال متعددة الوظائف: عرض الوقت (12/24)، التاريخ، الحرارة، منبه، إضاءة ليلية، 3 مستويات سطوع قابلة للتعديل. بتشتغل بكابل USB.",
+  "colors": "أبيض",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 167,
+  "name": "هايلايتر باستل",
+  "price": 87.00,
+  "mainImageUrl": "https://i.postimg.cc/sXLMNR5X/IMG_20250827_000236_857.jpg",
+  "image2Url": "https://i.postimg.cc/gj6x9BKK/IMG_20250827_000236_962.jpg",
+  "image3Url": "https://i.postimg.cc/pdGQR4DN/IMG_20250827_000237_556.jpg",
+  "description": "هايلايتر باستل خفيف على الورق وألوانه مريحة للعين والقلب 🎨💕 مناسب للمذاكرة اليومية.",
+  "colors": "ألوان باستل",
+  "isAvailable": false,
+  "categoryId": 2
+},
+{
+  "id": 168,
+  "name": "مفرش وتر بروف",
+  "price": 65.00,
+  "mainImageUrl": "https://i.postimg.cc/zXCnVVnF/IMG_20250827_000241_096.jpg",
+  "image2Url": "https://i.postimg.cc/90TyPfsV/IMG_20250827_000241_094.jpg",
+  "image3Url": "https://i.postimg.cc/nrvQjPQh/IMG_20250827_000241_613.jpg",
+  "description": "مفرش خفيف بخامة وتر بروف مقاس 130×180 سم. متوفر بـ5 ألوان (أبيض، رصاصي، أخضر، بيج، لون مميز).",
+  "colors": "أبيض - رصاصي - أخضر - بيج - لون مميز",
+  "isAvailable": true,
+  "categoryId": 2
+},
   {
-    "id": 14,
-    "name": "مج آيس كوفي إزاز",
-    "price": 35.00,
-    "mainImageUrl": "https://i.postimg.cc/wjqsCRQX/IMG-20250816-WA0007.jpg",
-    "image2Url": "https://i.postimg.cc/zB9kKscX/ice.jpg",
-    "image3Url": "https://i.postimg.cc/RhCBSmsD/IMG-20250816-WA0035.jpg",
-    "description": "مج إزاز مخصص للقهوة الباردة",
-    "colors": "—",
-    "isAvailable": true,
-    "categoryId": 3
-  },
+  "id": 169,
+  "name": "منظم أكريلك 3 أقسام",
+  "price": 75.00,
+  "mainImageUrl": "https://i.postimg.cc/yNtJfHmN/IMG-20250827-000250-879.jpg",
+  "image2Url": "https://i.postimg.cc/mrtzNDFq/IMG-20250827-000250-443.jpg",
+  "image3Url": "https://i.postimg.cc/zGdHgW3K/IMG-20250827-000250-120.jpg",
+  "description": "منظم مكتبي شيك من الأكريلك، 3 أقسام بأطوال مختلفة + مكان للتليفون. متوفر بـ 4 ألوان (أبيض - منتجرين - لبني - وردي فاتح).",
+  "colors": "أبيض، منتجرين، لبني، وردي فاتح",
+  "isAvailable": false,
+  "categoryId": 2
+},
+{
+  "id": 170,
+  "name": "لمبة 3 مستويات إضاءة",
+  "price": 225.00,
+  "mainImageUrl": "https://i.postimg.cc/J4xGfJNv/IMG-20250827-000255-271.jpg",
+  "image2Url": "https://i.postimg.cc/jdtD3v7y/IMG-20250827-000254-880.jpg",
+  "image3Url": "https://i.postimg.cc/CxKzS1J1/IMG-20250827-000254-594.jpg",
+  "description": "لمبة مكتبية عملية بــ3 مستويات إضاءة تعمل باللمس (تاتش). مثالية للمذاكرة والمكتب.",
+  "colors": "متعدد",
+  "isAvailable": false,
+  "categoryId": 2
+},
+{
+  "id": 171,
+  "name": "لوحة ملاحظات 60×45 سم",
+  "price": 250.00,
+  "mainImageUrl": "https://i.postimg.cc/gJ30N6cM/IMG-20250827-000302-884.jpg",
+  "image2Url": "https://i.postimg.cc/rsJwLXrx/IMG-20250827-000302-922.jpg",
+  "image3Url": "https://i.postimg.cc/3wsRXZh4/IMG-20250827-000302-451.jpg",
+  "description": "لوحة ملاحظات مقاس 60×45 سم بخامة عالية وجهين + فريم معدن مع مكان للتعليق. مثالية للمكتب والدراسة.",
+  "colors": "أسود",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 172,
+  "name": "منظم ملفات معدني 3 دور",
+  "price": 275.00,
+  "mainImageUrl": "https://i.postimg.cc/bvtYw2nz/IMG-20250827-000309-894.jpg",
+  "image2Url": "https://i.postimg.cc/YqdCn7kw/IMG-20250827-000309-499.jpg",
+  "image3Url": "https://i.postimg.cc/y6XdR9bx/IMG-20250827-000309-231.jpg",
+  "description": "منظم ملفات وورق معدني 3 دور بخامة متينة ولون أسود أنيق. مناسب لترتيب المكتب.",
+  "colors": "أسود",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 173,
+  "name": "دفاتر بريمو من الأديب",
+  "price": 55.00,
+  "mainImageUrl": "https://i.postimg.cc/brvKdK5Q/IMG-20250827-000314-161.jpg",
+  "image2Url": "https://i.postimg.cc/Kzf6GZ0G/IMG-20250827-000314-151.jpg",
+  "image3Url": "https://i.postimg.cc/fLssWqZK/IMG-20250827-000313-551.jpg",
+  "description": "كوليشكن دفاتر بريمو من الأديب بتصميمات صيفية مبهجة. متوفر بمقاسات وعدد ورق مختلفة: 100 ورقة (A4) - 80 ورقة (55ج) - 60 ورقة (45ج).",
+  "colors": "تصميمات متنوعة",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 174,
+  "name": "أقلام سحرية قابلة للمسح",
+  "price": 20.00,
+  "mainImageUrl": "https://i.postimg.cc/T2kzB3yQ/IMG-20250827-000317-945.jpg",
+  "image2Url": "https://i.postimg.cc/hv3Nm2FN/IMG-20250827-000317-934.jpg",
+  "image3Url": "https://i.postimg.cc/Zn0MJ69H/IMG-20250827-000318-730.jpg",
+  "description": "أقلام سحرية بحبر قابل للمسح وخط سلس في الكتابة، مع أستيكة مدمجة تدوم طويلًا. تصميمات متعددة.",
+  "colors": "ألوان وتصميمات مختلفة",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 175,
+  "name": "طقم أقلام تزيين",
+  "price": 15.00,
+  "mainImageUrl": "https://i.postimg.cc/Dy9MKJ7Q/IMG-20250827-000322-717.jpg",
+  "image2Url": "https://i.postimg.cc/WbFHK6cb/IMG-20250827-000322-514.jpg",
+  "image3Url": "https://i.postimg.cc/zBzQPs89/IMG-20250827-000322-322.jpg",
+  "description": "طقم أقلام لمحبي التزيين وتحديد الدفاتر. 6 أقلام بتصميمات وألوان مختلفة.",
+  "colors": "ألوان مختلفة",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 176,
+  "name": "شبكة معدنية للتزيين 40×40 سم",
+  "price": 320.00,
+  "mainImageUrl": "https://i.postimg.cc/DwQBkxjF/IMG-20250827-000331-989.jpg",
+  "image2Url": "https://i.postimg.cc/6qGfHc2k/IMG-20250827-000332-671.jpg",
+  "image3Url": "https://i.postimg.cc/tRLK9m5V/IMG-20250827-000332-697.jpg",
+  "description": "شبكة معدنية لتزيين المكتب وتعليق الملاحظات. مقاس 40×40 سم متوفرة باللون الأبيض والأسود.",
+  "colors": "أبيض، أسود",
+  "isAvailable": true,
+  "categoryId": 2
+},
   {
-    "id": 16,
-    "name": "قلم هايلايتر جزره",
-    "price": 15.00,
-    "mainImageUrl": "https://i.postimg.cc/zGxR8Dx9/IMG-20250816-WA0013.jpg",
-    "image2Url": "https://i.postimg.cc/zGxR8Dx9/IMG-20250816-WA0013.jpg",
-    "image3Url": "https://i.postimg.cc/zGxR8Dx9/IMG-20250816-WA0013.jpg",
-    "description": "أقلام تمييز بشكل جزر",
-    "colors": "اصفر-اخضر-بينك-اورنج",
-    "isAvailable": true,
-    "categoryId": 2
-  },
-  {
-    "id": 17,
-    "name": "نوت بوك حقيبة كيوت",
-    "price": 45.00,
-    "mainImageUrl": "https://i.postimg.cc/y8pW2QdK/IMG-20250816-WA0021.jpg",
-    "image2Url": "https://i.postimg.cc/PqBJ5CYF/IMG-20250816-WA0023.jpg",
-    "image3Url": "https://i.postimg.cc/KjbYtC9P/IMG-20250816-WA0024.jpg",
-    "description": "نوت بوك 60 ورقة مقاس 11×10.5 سم",
-    "colors": "—",
-    "isAvailable": true,
-    "categoryId": 2
-  },
-  {
-    "id": 18,
-    "name": "استيكي نوت",
-    "price": 25.00,
-    "mainImageUrl": "https://i.postimg.cc/PrtxJsvh/IMG-20250816-WA0027.jpg",
-    "image2Url": "https://i.postimg.cc/SRGxdV5w/IMG-20250816-WA0026.jpg",
-    "image3Url": "https://i.postimg.cc/26h6bCxj/IMG-20250816-WA0025.jpg",
-    "description": "استيكي نوت ناعم ولطيف",
-    "colors": "—",
-    "isAvailable": true,
-    "categoryId": 2
-  },
-  {
-    "id": 19,
-    "name": "نوت جليتر لامعة",
-    "price": 45.00,
-    "mainImageUrl": "https://i.postimg.cc/wx5M9Tv0/IMG-20250816-WA0028.jpg",
-    "image2Url": "https://i.postimg.cc/bwrw0xRB/IMG-20250816-WA0029.jpg",
-    "image3Url": "https://i.postimg.cc/9FJfq8y9/IMG-20250816-WA0030.jpg",
-    "description": "نوت كبيرة حجم 80 ورقة جليتر لامعة",
-    "colors": "—",
-    "isAvailable": true,
-    "categoryId": 2
-  },
-  {
-    "id": 20,
-    "name": "تودو ليست 60 ورقة",
-    "price": 65.00,
-    "mainImageUrl": "https://i.postimg.cc/pTfWVq2p/IMG-20250816-WA0031.jpg",
-    "image2Url": "https://i.postimg.cc/fT2wb3hj/IMG-20250816-WA0032.jpg",
-    "image3Url": "https://i.postimg.cc/CxRwnFhy/IMG-20250816-WA0033.jpg",
-    "description": "تودو ليست 60 ورقة متوفرة بأشكال بطوط واستيتش",
-    "colors": "—",
-    "isAvailable": true,
-    "categoryId": 2
-  },
-  {
-    "id": 21,
-    "name": "استيكي نوت وسط وكبير",
-    "price": 30.00,
-    "mainImageUrl": "https://i.postimg.cc/Vk0cLDgm/IMG-20250816-WA0037.jpg",
-    "image2Url": "https://i.postimg.cc/Vk0cLDgm/IMG-20250816-WA0037.jpg",
-    "image3Url": "https://i.postimg.cc/Vk0cLDgm/IMG-20250816-WA0037.jpg",
-    "description": "استيكي نوت وسط (30 ج) وكبير (35 ج)",
-    "colors": "—",
-    "isAvailable": true,
-    "categoryId": 2
-  },
-  {
-    "id": 22,
-    "name": "شيت فواصل طويل",
-    "price": 35.00,
-    "mainImageUrl": "https://i.postimg.cc/CKypZkrD/IMG-20250816-WA0038.jpg",
-    "image2Url": "https://i.postimg.cc/mkgvxwhx/IMG-20250816-WA0039.jpg",
-    "image3Url": "https://i.postimg.cc/PrNg22BY/IMG-20250816-WA0040.jpg",
-    "description": "فواصل طويلة لزقة بألوان وأشكال مختلفة، 3 أشكال = 100ج",
-    "colors": "—",
-    "isAvailable": true,
-    "categoryId": 2
-  },
-  {
-    "id": 23,
-    "name": "مج جلد شاليموه",
-    "price": 50.00,
-    "mainImageUrl": "https://i.postimg.cc/fTF6FYNF/IMG-20250816-WA0041.jpg",
-    "image2Url": "https://i.postimg.cc/HxpK52wJ/IMG-20250816-WA0042.jpg",
-    "image3Url": "https://i.postimg.cc/FzzBCHnN/IMG-20250816-WA0043.jpg",
-    "description": "مج بجاكت جلدي قابل للطباعة متوفر بجميع الألوان",
-    "colors": "متعدد",
-    "isAvailable": true,
-    "categoryId": 3
-  },
-  {
-    "id": 24,
-    "name": "نوته جلد A6",
-    "price": 35.00,
-    "mainImageUrl": "https://i.postimg.cc/9M8x9jXS/IMG-20250816-WA0048.jpg",
-    "image2Url": "https://i.postimg.cc/Y9qnjS7Y/IMG-20250816-WA0047.jpg",
-    "image3Url": "https://i.postimg.cc/DzhYkgYC/IMG-20250816-WA0046.jpg",
-    "description": "نوته جلد مقاس A6 وسط",
-    "colors": "—",
-    "isAvailable": true,
-    "categoryId": 2
-  },
-  {
-    "id": 25,
-    "name": "قلم جاف سوستة ديزني",
-    "price": 15.00,
-    "mainImageUrl": "https://i.postimg.cc/ZnWwFDCq/IMG-20250816-WA0050.jpg",
-    "image2Url": "https://i.postimg.cc/90sJxt7Y/IMG-20250816-WA0049.jpg",
-    "image3Url": "https://i.postimg.cc/J4BTsgf6/IMG-20250816-WA0051.jpg",
-    "description": "قلم جاف ديزني بسوستة",
-    "colors": "—",
-    "isAvailable": true,
-    "categoryId": 2
-  },
-  {
-    "id": 26,
-    "name": "مج بورسلين وردات",
-    "price": 350.00,
-    "mainImageUrl": "https://i.postimg.cc/90HDJDfq/IMG-20250816-WA0016.jpg",
-    "image2Url": "https://i.postimg.cc/HLKc8ZDz/IMG-20250816-WA0014.jpg",
-    "image3Url": "https://i.postimg.cc/nzDs44nJ/IMG-20250816-WA0015.jpg",
-    "description": "مج بورسلين بتصميم وردات رقيقة يصلح للشرب والديكور",
-    "colors": "—",
-    "isAvailable": false,
-    "categoryId": 3
-  },
-  {
-    "id": 27,
-    "name": "مفكرة العبادات",
-    "price": 55.00,
-    "mainImageUrl": "https://i.postimg.cc/7PSGbnB1/IMG-20250816-WA0018.jpg",
-    "image2Url": "https://i.postimg.cc/BQs8FPyr/IMG-20250816-WA0019.jpg",
-    "image3Url": "https://i.postimg.cc/L88nCKmv/IMG-20250816-WA0017.jpg",
-    "description": "مفكرة 50 ورقة لمتابعة الصلاة والسنن والأذكار",
-    "colors": "3 تصميمات",
-    "isAvailable": false,
-    "categoryId": 2
-  },
-  {
-    "id": 28,
-    "name": "منظم يومي استيتش/باندا",
-    "price": 60.00,
-    "mainImageUrl": "https://i.postimg.cc/s23K02vq/IMG-20250816-WA0055.jpg",
-    "image2Url": "https://i.postimg.cc/XNPH73zB/IMG-20250816-WA0052.jpg",
-    "image3Url": "https://i.postimg.cc/wj8wL2H6/IMG-20250816-WA0053.jpg",
-    "description": "منظم يومي 50 ورقة بسلكة جانبية بأشكال استيتش وباندا",
-    "colors": "—",
-    "isAvailable": true,
-    "categoryId": 2
-  },
-  {
-    "id": 29,
-    "name": "ألواح ودسر",
-    "price": 110.00,
-    "mainImageUrl": "https://i.postimg.cc/pTTCR1QB/IMG-20250816-WA0058.jpg",
-    "image2Url": "https://i.postimg.cc/w3KQ5qCW/IMG-20250816-WA0060.jpg",
-    "image3Url": "https://i.postimg.cc/VsSyF7yM/IMG-20250816-WA0061.jpg",
-    "description": "رواية للكاتب أحمد خيري العمري",
-    "colors": "—",
-    "isAvailable": true,
-    "categoryId": 1
-  },
-  {
-    "id": 30,
-    "name": "نوت وسط",
-    "price": 40.00,
-    "mainImageUrl": "https://i.postimg.cc/ry7BZScH/IMG-20250816-WA0062.jpg",
-    "image2Url": "https://i.postimg.cc/R0CyJdQW/IMG-20250816-WA0064.jpg",
-    "image3Url": "https://i.postimg.cc/52SDtTvc/IMG-20250816-WA0063.jpg",
-    "description": "نوت بوك وسط بآخر تصميمين",
-    "colors": "—",
-    "isAvailable": true,
-    "categoryId": 2
-  },
-  {
-    "id": 31,
-    "name": "خاتم تسبيح إلكتروني",
-    "price": 13.00,
-    "mainImageUrl": "https://i.postimg.cc/0Nt3YScc/IMG-20250816-WA0068.jpg",
-    "image2Url": "https://i.postimg.cc/0Nt3YScc/IMG-20250816-WA0068.jpg",
-    "image3Url": "https://i.postimg.cc/0Nt3YScc/IMG-20250816-WA0068.jpg",
-    "description": "خاتم تسبيح بزرار وعدد و زر Reset",
-    "colors": "—",
-    "isAvailable": true,
-    "categoryId": 3
-  },
-  {
-    "id": 32,
-    "name": "رف متعدد الاستخدام",
-    "price": 125.00,
-    "mainImageUrl": "https://i.postimg.cc/G2V5NC0D/IMG-20250816-WA0070.jpg",
-    "image2Url": "https://i.postimg.cc/zXmQF8FZ/IMG-20250816-WA0071.jpg",
-    "image3Url": "https://i.postimg.cc/zDHMhVWF/IMG-20250816-WA0072.jpg",
-    "description": "رف بلاستيك عالي الجودة متوفر 3 دور و4 دور",
-    "colors": "بينك-ابيض",
-    "isAvailable": true,
-    "categoryId": 2
-  },
-  {
-    "id": 33,
-    "name": "ورق حائط لاصق",
-    "price": 55.00,
-    "mainImageUrl": "https://i.postimg.cc/Z5HDm3t4/IMG-20250816-WA0075.jpg",
-    "image2Url": "https://i.postimg.cc/tggv4TpP/IMG-20250816-WA0074.jpg",
-    "image3Url": "https://i.postimg.cc/bJ7mg9bH/IMG-20250816-WA0077.jpg",
-    "description": "ورق حائط لاصق مقاوم للماء مقاس 77×70 سم",
-    "colors": "أبيض",
-    "isAvailable": true,
-    "categoryId": 2
-  },
-  {
-    "id": 34,
-    "name": "مج شي إن",
-    "price": 220.00,
-    "mainImageUrl": "https://i.postimg.cc/28hgb7ns/Whats-App-Image-2025-08-24-at-04-01-46-d262c983.jpg",
-    "image2Url": "https://i.postimg.cc/3xhVg0Bd/Whats-App-Image-2025-08-24-at-04-01-53-4712fad9.jpg",
-    "image3Url": "https://i.postimg.cc/JzQgK76K/Whats-App-Image-2025-08-24-at-04-01-57-3770afd2.jpg",
-    "description": "مج بورسلين مستورد ترندي شي إن",
-    "colors": "متعدد",
-    "isAvailable": true,
-    "categoryId": 3
-  },
-  {
-    "id": 36,
-    "name": "ما لا يسع المسلم جهله",
-    "price": 120.00,
-    "mainImageUrl": "https://i.postimg.cc/RCwd9fKy/IMG-20250816-WA0086.jpg",
-    "image2Url": "https://i.postimg.cc/zX5jfBkB/IMG-20250816-WA0087.jpg",
-    "image3Url": "https://i.postimg.cc/DzWQNb7C/IMG-20250816-WA0089.jpg",
-    "description": "كتاب مبسط يشمل العقيدة والفقه والتزكية",
-    "colors": "—",
-    "isAvailable": true,
-    "categoryId": 1
-  },
-  {
-    "id": 37,
-    "name": "مغناطيس الأذكار",
-    "price": 40.00,
-    "mainImageUrl": "https://i.postimg.cc/XvTK67Jn/IMG-20250816-WA0092.jpg",
-    "image2Url": "https://i.postimg.cc/XvTK67Jn/IMG-20250816-WA0092.jpg",
-    "image3Url": "https://i.postimg.cc/fRPmYTYY/IMG-20250816-WA0093.jpg",
-    "description": "مغناطيس ثلاجة بأذكار وأدعية متنوعة (11 قطعة)",
-    "colors": "—",
-    "isAvailable": false,
-    "categoryId": 6
-  },
-  {
+  "id": 177,
+  "name": "قلم جاف سوستة استتش",
+  "price": 15.00,
+  "mainImageUrl": "https://i.postimg.cc/VNbFvF1Z/IMG-20250827-WA0007.jpg",
+  "image2Url": "https://i.postimg.cc/VNbFvF1Z/IMG-20250827-WA0007.jpg",
+  "image3Url": "https://i.postimg.cc/VNbFvF1Z/IMG-20250827-WA0007.jpg",
+  "description": "قلم جاف عملي بتصميم سوستة استتش كيوت، كتابة واضحة وسلسة، مناسب للمدرسة والمكتب والاستخدام اليومي.",
+  "colors": "أزرق",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 178,
+  "name": "استيكي نوت كيوت ومعاها دبوس",
+  "price": 35.00,
+  "mainImageUrl": "https://i.postimg.cc/x1ZR9Zrb/IMG-20250827-WA0008.jpg",
+  "image2Url": "https://i.postimg.cc/x1ZR9Zrb/IMG-20250827-WA0008.jpg",
+  "image3Url": "https://i.postimg.cc/x1ZR9Zrb/IMG-20250827-WA0008.jpg",
+  "description": "استيكي نوتس بأشكال كيوت مميزة لتدوين الملاحظات وتنظيم أفكارك بشكل ممتع وعملي.",
+  "colors": "متعدد الألوان",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 179,
+  "name": "استيكي نوتس باندا",
+  "price": 27.00,
+  "mainImageUrl": "https://i.postimg.cc/Dw06kTNT/IMG-20250827-WA0009.jpg",
+  "image2Url": "https://i.postimg.cc/Dw06kTNT/IMG-20250827-WA0009.jpg",
+  "image3Url": "https://i.postimg.cc/Dw06kTNT/IMG-20250827-WA0009.jpg",
+  "description": "استيكي نوتس لطيف بتصميم باندا، مثالي لتذكير نفسك بالملاحظات الصغيرة بطريقة مرحة.",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 180,
+  "name": "قلم جاف جل بأشكال كيوت",
+  "price": 13.00,
+  "mainImageUrl": "https://i.postimg.cc/fTBCrLBC/IMG-20250827-WA0010.jpg",
+  "image2Url": "https://i.postimg.cc/fTBCrLBC/IMG-20250827-WA0010.jpg",
+  "image3Url": "https://i.postimg.cc/sXY99DMp/IMG-20250827-WA0011.jpg",
+  "description": "قلم جل جاف بأشكال كيوت ورسومات مبهجة، خط ناعم وسلس مناسب للكتابة اليومية والتدوين.",
+  "colors": "متعدد الألوان",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 181,
+  "name": "فوم الصلصال",
+  "price": 28.00,
+  "mainImageUrl": "https://i.postimg.cc/PfvfLNF7/Whats-App-Image-2025-08-28-at-00-51-54-9a132de0.jpg",
+  "image2Url": "https://i.postimg.cc/tJ698mxb/Whats-App-Image-2025-08-28-at-00-51-54-364bbc71.jpg",
+  "image3Url": "https://i.postimg.cc/bNXy187w/Whats-App-Image-2025-08-28-at-00-51-54-d0359c03.jpg",
+  "description": "فوم صلصال مميز مناسب للأطفال والكبار 🎨✨، مثالي لتزيين المرايات، عمل أشكال جميلة أو حتى لتفريغ الطاقة والتجديد. سهل الاستخدام وخفيف وبيخلي وقتكم ممتع مليان إبداع وحماس 🤍⭐",
+  "colors": "متعدد الألوان",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 182,
+  "name": "مقلمة تنظيم الأقلام",
+  "price": 12.00,
+  "mainImageUrl": "https://i.postimg.cc/50Tx7Mjp/Whats-App-Image-2025-08-28-at-01-09-21-821677fe.jpg",
+  "image2Url": "https://i.postimg.cc/50Tx7Mjp/Whats-App-Image-2025-08-28-at-01-09-21-821677fe.jpg",
+  "image3Url": "https://i.postimg.cc/50Tx7Mjp/Whats-App-Image-2025-08-28-at-01-09-21-821677fe.jpg",
+  "description": "مقلمة عملية تجمع كل الأقلام والألوان في مكان واحد من غير بعثرة 🎒✨. مناسبة للمدرسة، الكلية أو المكتب، متوفرة بألوان جذابة تخلي المذاكرة والتنظيم أمتع 😍👌",
+  "colors": "متعدد الألوان",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 183,
+  "name": "منظم المكتب العصري",
+  "price": 110.00,
+  "mainImageUrl": "https://i.postimg.cc/fbn61MT5/Whats-App-Image-2025-08-28-at-16-06-27-e6347e53.jpg",
+  "image2Url": "https://i.postimg.cc/fbn61MT5/Whats-App-Image-2025-08-28-at-16-06-27-e6347e53.jpg",
+  "image3Url": "https://i.postimg.cc/fbn61MT5/Whats-App-Image-2025-08-28-at-16-06-27-e6347e53.jpg",
+  "description": "منظم مكتب عصري أنيق 🤍، مناسب للأقلام والأدوات الدراسية، بخامة عالية الجودة وشكل شيك يدي لمسة فخامة لمكتبك 🌸✨",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 184,
+  "name": "منظم الميكب",
+  "price": 110.00,
+  "mainImageUrl": "https://i.postimg.cc/g26CMxdn/Whats-App-Image-2025-08-28-at-16-08-04-44b1bcb9.jpg",
+  "image2Url": "https://i.postimg.cc/g26CMxdn/Whats-App-Image-2025-08-28-at-16-08-04-44b1bcb9.jpg",
+  "image3Url": "https://i.postimg.cc/g26CMxdn/Whats-App-Image-2025-08-28-at-16-08-04-44b1bcb9.jpg",
+  "description": "منظم عملي لمستحضرات التجميل 💄✨، يساعدك على ترتيب الميكب والعناية بالبشرة والعطور بشكل أنيق وسهل الاستخدام، يضيف لمسة جمال على التسريحة 🌸🌈",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 4
+},
+{
+  "id": 185,
+  "name": "منظم دورين",
+  "price": 100.00,
+  "mainImageUrl": "https://i.postimg.cc/25QPDg1Y/Whats-App-Image-2025-08-28-at-16-10-50-6664ff7f.jpg",
+  "image2Url": "https://i.postimg.cc/25QPDg1Y/Whats-App-Image-2025-08-28-at-16-10-50-6664ff7f.jpg",
+  "image3Url": "https://i.postimg.cc/25QPDg1Y/Whats-App-Image-2025-08-28-at-16-10-50-6664ff7f.jpg",
+  "description": "منظم مكتبي دورين ✨💖، يوفر مساحة أكبر ويحافظ على ترتيب أدواتك الدراسية أو مستلزماتك الصغيرة، شكله عصري وأنيق 🤍",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 186,
+  "name": "فرشاة شعر طبية تنظيف ذاتي",
+  "price": 45.00,
+  "mainImageUrl": "https://i.postimg.cc/bJLWGb0F/Whats-App-Image-2025-08-28-at-21-20-19-eff0f16e.jpg",
+  "image2Url": "https://i.postimg.cc/KvNYfsG1/Whats-App-Image-2025-08-30-at-00-49-00-bc7c4c9d.jpg",
+  "image3Url": "https://i.postimg.cc/KvNYfsG1/Whats-App-Image-2025-08-30-at-00-49-00-bc7c4c9d.jpg",
+  "description": "فرشاة عملية لفك تشابك الشعر ومنع التقصف والهيشان 🌸، مضادة للكهرباء الساكنة وتعمل على تدليك فروة الرأس، قابلة للتنظيف بسهولة ومناسبة للأطفال والسيدات 🤍",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 4
+},
+{
+  "id": 187,
+  "name": "شنطة سفر ووتر بروف قابلة للطي",
+  "price": 250.00,
+  "mainImageUrl": "https://i.postimg.cc/vTNKhsNr/Whats-App-Image-2025-08-28-at-21-23-32-722741a1.jpg",
+  "image2Url": "https://i.postimg.cc/vTNKhsNr/Whats-App-Image-2025-08-28-at-21-23-32-722741a1.jpg",
+  "image3Url": "https://i.postimg.cc/vTNKhsNr/Whats-App-Image-2025-08-28-at-21-23-32-722741a1.jpg",
+  "description": "شنطة سفر عملية مقاومة للماء مصنوعة من قماش نايلون وأوكسفورد خفيف الوزن 💼✨، متعددة الاستخدام: سفر، خروج، مستلزمات أطفال، مزودة بسوستة للتوسعة لتسع أغراض أكثر. متاحة بألوان مختلفة 🌸",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 3
+},
+{
+  "id": 188,
+  "name": "فرشاة مرنة للتنظيف",
+  "price": 25.00,
+  "mainImageUrl": "https://i.postimg.cc/9FDKMDDJ/Whats-App-Image-2025-08-28-at-21-25-13-a76293bd.jpg",
+  "image2Url": "https://i.postimg.cc/9FDKMDDJ/Whats-App-Image-2025-08-28-at-21-25-13-a76293bd.jpg",
+  "image3Url": "https://i.postimg.cc/zvBMTB0D/Whats-App-Image-2025-08-28-at-21-25-13-2d3dc45a.jpg",
+  "description": "فرشاة مرنة متعددة الاستخدام، مناسبة لتنظيف الملابس، السجاد، الأرضيات وغيرها من الأغراض 🧽✨",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 6
+},
+{
+  "id": 189,
+  "name": "Sticky Notes باستل",
+  "price": 27.00,
+  "mainImageUrl": "https://i.postimg.cc/ncN5Qn7Z/Whats-App-Image-2025-08-29-at-02-07-30-733e7421.jpg",
+  "image2Url": "https://i.postimg.cc/ncN5Qn7Z/Whats-App-Image-2025-08-29-at-02-07-30-733e7421.jpg",
+  "image3Url": "https://i.postimg.cc/ncN5Qn7Z/Whats-App-Image-2025-08-29-at-02-07-30-733e7421.jpg",
+  "description": "Sticky Notes بألوان باستل وألوان غامقة تناسب جميع الأذواق 📝🤎، مثالية للمذاكرة وتدوين الملاحظات بشكل مرتب وبسعر أوفر من أي مكان 🌸",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 190,
+  "name": "قلم حبر يونيكورن",
+  "price": 10.00,
+  "mainImageUrl": "https://i.postimg.cc/rwWH17C4/Whats-App-Image-2025-08-29-at-02-09-49-b5ccc71e.jpg",
+  "image2Url": "https://i.postimg.cc/rwWH17C4/Whats-App-Image-2025-08-29-at-02-09-49-b5ccc71e.jpg",
+  "image3Url": "https://i.postimg.cc/rwWH17C4/Whats-App-Image-2025-08-29-at-02-09-49-b5ccc71e.jpg",
+  "description": "أقلام حبر بتصميم يونيكورن 🦄💜، ألوانها هادئة وكيوت تخلي المذاكرة ممتعة، كتابة سلسة وخامة مميزة 🌸",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
     "id": 38,
     "name": "إضاءة USB أباجوره",
     "price": 200.00,
@@ -350,9 +469,9 @@
 },
   {
     "id": 46,
-    "name": "لانش بوكس عملي",
+    "name": " لانش بوكس دور مقسم",
     "price": 75.00,
-    "mainImageUrl": "https://i.postimg.cc/FHjj6PQr/Whats-App-Image-2025-08-17-at-20-18-57-c485afb6.jpg",
+    "mainImageUrl": "https://i.postimg.cc/P525VDsB/Whats-App-Image-2025-08-17-at-20-18-57-3c69743c.jpg",
     "image2Url": "https://i.postimg.cc/mrn2BGrj/Whats-App-Image-2025-08-17-at-20-18-57-9c7ba398.jpg",
     "image3Url": "https://i.postimg.cc/P525VDsB/Whats-App-Image-2025-08-17-at-20-18-57-3c69743c.jpg",
     "description": "لانش بوكس عملي جدا للجامعة والشغل وفرهدة طول النهار 🫶🏻\nدور واحد يعني مش هينفخ الشنطة 🌸",
@@ -364,7 +483,7 @@
     "id": 47,
     "name": "🌼 Mini Pocket Bag 🌼",
     "price": 65.00,
-    "mainImageUrl": "https://i.postimg.cc/Zn8T8Bxs/Whats-App-Image-2025-08-17-at-20-27-59-ccefe658.jpg",
+    "mainImageUrl": "https://i.postimg.cc/rsn87sYb/Whats-App-Image-2025-09-01-at-00-28-04-465756a9.jpg",
     "image2Url": "https://i.postimg.cc/Zn8T8Bxs/Whats-App-Image-2025-08-17-at-20-27-59-ccefe658.jpg",
     "image3Url": "https://i.postimg.cc/Zn8T8Bxs/Whats-App-Image-2025-08-17-at-20-27-59-ccefe658.jpg",
     "description": "بوكيت عملي وخفيف 💕\nمناسب للخروج السريع أو إضافي جوه شنطتك الكبيرة ✨\nالطول 15 × العرض 11 سم\n\nصغنونه لكنها بتشيل: مفاتيح، فلوس، ملمع شفاه ومنديل بكل سهولة 🌸",
@@ -388,7 +507,7 @@
     "id": 49,
     "name": "مقلمة قطن مبطنة",
     "price": 165.00,
-    "mainImageUrl": "https://i.postimg.cc/wMkrYZ82/Whats-App-Image-2025-08-17-at-20-38-20-a7a70386.jpg",
+    "mainImageUrl": "https://i.postimg.cc/QN0xFYxb/Whats-App-Image-2025-09-01-at-00-28-04-7147258d.jpg",
     "image2Url": "https://i.postimg.cc/WzmBbtrM/Whats-App-Image-2025-08-17-at-20-38-20-e75e28b4.jpg",
     "image3Url": "https://i.postimg.cc/sXpFqFGv/Whats-App-Image-2025-08-17-at-20-38-20-389582b9.jpg",
     "description": "مقلمة قطن مبطنة ناعمة وأنيقة 😍\nمثالية للمدرسة، الجامعة أو المكتب ✨\nبتجمع بين العملية والشكل الكيوت 🌼",
@@ -405,7 +524,7 @@
   "image3Url": "https://i.postimg.cc/8k4Pw38Z/Whats-App-Image-2025-08-17-at-21-21-51-6a137760.jpg",
   "description": "بطانية بيكنك أنيقة وعملية 🌿🧺✨\nخامة مريحة وسهلة الحمل 💕\nمناسبة للجنينة، البحر أو الكافيهات المفتوحة ✨\nخلي كل خروجة مليانة دفء وبهجة مع لمسة ستايل خاصة 🌸",
   "colors": "أحمر / أزرق / بني / بينك",
-  "isAvailable": true,
+  "isAvailable": false,
   "categoryId": 3
   
 },
@@ -419,7 +538,7 @@
   "description": "مضرب آيس كوفي وبيض عملي وخفيف ✨\nبيخلي قهوتك رغوة كريمية زي الكافيه 💕 وكمان بيساعدك في خفق البيض بكل سهولة وسرعة 🥚\nقطعة صغيرة لكن أساسية في مطبخك 👌",
   "colors": "أسود / فضي",
   "isAvailable": true,
-  "categoryId": 6
+  "categoryId": 3
 },
   {
   "id": 52,
@@ -433,18 +552,7 @@
   "isAvailable": true,
   "categoryId": 2
 },
-  {
-  "id": 53,
-  "name": "ما لا يسع أطفال المسلمين جهله",
-  "price": 80.00,
-  "mainImageUrl": "https://i.postimg.cc/4N2RqRxx/Whats-App-Image-2025-08-17-at-22-27-39-a8d7451d.jpg",
-  "image2Url": "https://i.postimg.cc/wxVp5mKJ/Whats-App-Image-2025-08-17-at-22-27-38-d43c47b0.jpg",
-  "image3Url": "https://i.postimg.cc/pL9MtcmY/Whats-App-Image-2025-08-17-at-22-27-39-08e7b2bd.jpg",
-  "description": "منهج يسير سهل متكامل في العقيدة والفقه والسيرة والآداب والتفسير والحديث والأخلاق والأذكار، يصلح للصبيان ولكافة الأعمار وحديثي الإسلام، ويُعطَى في البيوت والمحاضن ومعاهد التدريس، وللحفظ والشرح، وقد رتبتها على حسب الفنون، وجعلتها على طريقة السؤال والجواب؛ لأن ذلك أشحذ للذهن وأرسخ للحفظ، ويختار المربي منها ما يتناسب مع سنهم.\n✍️ تأليف: يزن الغانم",
-  "colors": "كتاب ورقي",
-  "isAvailable": true,
-  "categoryId": 1
-  },
+
   {
   "id": 54,
   "name": "زيت زيتون نقي",
@@ -537,7 +645,7 @@
   "image3Url": "https://i.postimg.cc/wTQDvjF5/Whats-App-Image-2025-08-21-at-02-05-22-5a907aad.jpg",
   "description": "مج ترمس Lovely 💖\n\n- ضد الانسكاب\n- يحفظ الحرارة لفترات طويلة\n- ستانلس من الداخل\n- السعة: حوالي 500 مل\n- مزود بعلاقة وشاليموه\n\nبسعر 265 ج.م",
   "colors": "",
-  "isAvailable": true,
+  "isAvailable": false,
   "categoryId": 3
 },
 {
@@ -564,18 +672,7 @@
   "isAvailable": false,
   "categoryId": 2
 },
-  {
-    "id": 64,
-    "name": "كتاب رسائل من النبي",
-    "price": 85.00,
-    "mainImageUrl": "https://i.postimg.cc/kGVrXg07/OIP-1.webp",
-    "image2Url": "https://i.postimg.cc/kGVrXg07/OIP-1.webp",
-    "image3Url": "https://i.postimg.cc/kGVrXg07/OIP-1.webp",
-    "description": "كتاب رسائل من النبي: تجميع لأجمل الأحاديث والرسائل النبوية.",
-    "colors": "__",
-    "isAvailable": true,
-    "categoryId": 1
-  },
+
   {
     "id": 65,
     "name": "طقم ديسبنسر شاور 3*1",
@@ -805,6 +902,261 @@
     "categoryId": 4
   },
   {
+    "id": 13,
+    "name": "نوت هارد كافر ٤ فواصل",
+    "price": 120.00,
+    "mainImageUrl": "https://i.postimg.cc/MH1QSyLD/IMG-20250816-WA0002.jpg",
+    "image2Url": "https://i.postimg.cc/h4mxTBGd/IMG-20250816-WA0003.jpg",
+    "image3Url": "https://i.postimg.cc/jdrfhFWk/IMG-20250816-WA0004.jpg",
+    "description": "نوت 120 ورقة، ورق نقي وخامة جميلة",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 2
+  },
+  {
+    "id": 14,
+    "name": "مج آيس كوفي إزاز",
+    "price": 35.00,
+    "mainImageUrl": "https://i.postimg.cc/wjqsCRQX/IMG-20250816-WA0007.jpg",
+    "image2Url": "https://i.postimg.cc/zB9kKscX/ice.jpg",
+    "image3Url": "https://i.postimg.cc/RhCBSmsD/IMG-20250816-WA0035.jpg",
+    "description": "مج إزاز مخصص للقهوة الباردة",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 3
+  },
+  {
+    "id": 16,
+    "name": "قلم هايلايتر جزره",
+    "price": 15.00,
+    "mainImageUrl": "https://i.postimg.cc/zGxR8Dx9/IMG-20250816-WA0013.jpg",
+    "image2Url": "https://i.postimg.cc/zGxR8Dx9/IMG-20250816-WA0013.jpg",
+    "image3Url": "https://i.postimg.cc/zGxR8Dx9/IMG-20250816-WA0013.jpg",
+    "description": "أقلام تمييز بشكل جزر",
+    "colors": "اصفر-اخضر-بينك-اورنج",
+    "isAvailable": true,
+    "categoryId": 2
+  },
+  {
+    "id": 17,
+    "name": "نوت بوك حقيبة كيوت",
+    "price": 45.00,
+    "mainImageUrl": "https://i.postimg.cc/y8pW2QdK/IMG-20250816-WA0021.jpg",
+    "image2Url": "https://i.postimg.cc/PqBJ5CYF/IMG-20250816-WA0023.jpg",
+    "image3Url": "https://i.postimg.cc/KjbYtC9P/IMG-20250816-WA0024.jpg",
+    "description": "نوت بوك 60 ورقة مقاس 11×10.5 سم",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 2
+  },
+  {
+    "id": 18,
+    "name": "استيكي نوت",
+    "price": 25.00,
+    "mainImageUrl": "https://i.postimg.cc/PrtxJsvh/IMG-20250816-WA0027.jpg",
+    "image2Url": "https://i.postimg.cc/SRGxdV5w/IMG-20250816-WA0026.jpg",
+    "image3Url": "https://i.postimg.cc/26h6bCxj/IMG-20250816-WA0025.jpg",
+    "description": "استيكي نوت ناعم ولطيف",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 2
+  },
+  {
+    "id": 19,
+    "name": "نوت جليتر لامعة",
+    "price": 45.00,
+    "mainImageUrl": "https://i.postimg.cc/wx5M9Tv0/IMG-20250816-WA0028.jpg",
+    "image2Url": "https://i.postimg.cc/bwrw0xRB/IMG-20250816-WA0029.jpg",
+    "image3Url": "https://i.postimg.cc/9FJfq8y9/IMG-20250816-WA0030.jpg",
+    "description": "نوت كبيرة حجم 80 ورقة جليتر لامعة",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 2
+  },
+  {
+    "id": 20,
+    "name": "تودو ليست 60 ورقة",
+    "price": 65.00,
+    "mainImageUrl": "https://i.postimg.cc/pTfWVq2p/IMG-20250816-WA0031.jpg",
+    "image2Url": "https://i.postimg.cc/fT2wb3hj/IMG-20250816-WA0032.jpg",
+    "image3Url": "https://i.postimg.cc/CxRwnFhy/IMG-20250816-WA0033.jpg",
+    "description": "تودو ليست 60 ورقة متوفرة بأشكال بطوط واستيتش",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 2
+  },
+  {
+    "id": 21,
+    "name": "استيكي نوت وسط وكبير",
+    "price": 30.00,
+    "mainImageUrl": "https://i.postimg.cc/Vk0cLDgm/IMG-20250816-WA0037.jpg",
+    "image2Url": "https://i.postimg.cc/Vk0cLDgm/IMG-20250816-WA0037.jpg",
+    "image3Url": "https://i.postimg.cc/Vk0cLDgm/IMG-20250816-WA0037.jpg",
+    "description": "استيكي نوت وسط (30 ج) وكبير (35 ج)",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 2
+  },
+  {
+    "id": 22,
+    "name": "شيت فواصل طويل",
+    "price": 35.00,
+    "mainImageUrl": "https://i.postimg.cc/CKypZkrD/IMG-20250816-WA0038.jpg",
+    "image2Url": "https://i.postimg.cc/mkgvxwhx/IMG-20250816-WA0039.jpg",
+    "image3Url": "https://i.postimg.cc/PrNg22BY/IMG-20250816-WA0040.jpg",
+    "description": "فواصل طويلة لزقة بألوان وأشكال مختلفة، 3 أشكال = 100ج",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 2
+  },
+  {
+    "id": 23,
+    "name": "مج جلد شاليموه",
+    "price": 50.00,
+    "mainImageUrl": "https://i.postimg.cc/fTF6FYNF/IMG-20250816-WA0041.jpg",
+    "image2Url": "https://i.postimg.cc/HxpK52wJ/IMG-20250816-WA0042.jpg",
+    "image3Url": "https://i.postimg.cc/FzzBCHnN/IMG-20250816-WA0043.jpg",
+    "description": "مج بجاكت جلدي قابل للطباعة متوفر بجميع الألوان",
+    "colors": "متعدد",
+    "isAvailable": true,
+    "categoryId": 3
+  },
+  {
+    "id": 24,
+    "name": "نوته جلد A6",
+    "price": 35.00,
+    "mainImageUrl": "https://i.postimg.cc/9M8x9jXS/IMG-20250816-WA0048.jpg",
+    "image2Url": "https://i.postimg.cc/Y9qnjS7Y/IMG-20250816-WA0047.jpg",
+    "image3Url": "https://i.postimg.cc/DzhYkgYC/IMG-20250816-WA0046.jpg",
+    "description": "نوته جلد مقاس A6 وسط",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 2
+  },
+  {
+    "id": 25,
+    "name": "قلم جاف سوستة ديزني",
+    "price": 15.00,
+    "mainImageUrl": "https://i.postimg.cc/ZnWwFDCq/IMG-20250816-WA0050.jpg",
+    "image2Url": "https://i.postimg.cc/90sJxt7Y/IMG-20250816-WA0049.jpg",
+    "image3Url": "https://i.postimg.cc/J4BTsgf6/IMG-20250816-WA0051.jpg",
+    "description": "قلم جاف ديزني بسوستة",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 2
+  },
+  {
+    "id": 26,
+    "name": "مج بورسلين وردات",
+    "price": 350.00,
+    "mainImageUrl": "https://i.postimg.cc/90HDJDfq/IMG-20250816-WA0016.jpg",
+    "image2Url": "https://i.postimg.cc/HLKc8ZDz/IMG-20250816-WA0014.jpg",
+    "image3Url": "https://i.postimg.cc/nzDs44nJ/IMG-20250816-WA0015.jpg",
+    "description": "مج بورسلين بتصميم وردات رقيقة يصلح للشرب والديكور",
+    "colors": "—",
+    "isAvailable": false,
+    "categoryId": 3
+  },
+  {
+    "id": 27,
+    "name": "مفكرة العبادات",
+    "price": 55.00,
+    "mainImageUrl": "https://i.postimg.cc/7PSGbnB1/IMG-20250816-WA0018.jpg",
+    "image2Url": "https://i.postimg.cc/BQs8FPyr/IMG-20250816-WA0019.jpg",
+    "image3Url": "https://i.postimg.cc/L88nCKmv/IMG-20250816-WA0017.jpg",
+    "description": "مفكرة 50 ورقة لمتابعة الصلاة والسنن والأذكار",
+    "colors": "3 تصميمات",
+    "isAvailable": false,
+    "categoryId": 2
+  },
+  {
+    "id": 28,
+    "name": "منظم يومي استيتش/باندا",
+    "price": 60.00,
+    "mainImageUrl": "https://i.postimg.cc/s23K02vq/IMG-20250816-WA0055.jpg",
+    "image2Url": "https://i.postimg.cc/XNPH73zB/IMG-20250816-WA0052.jpg",
+    "image3Url": "https://i.postimg.cc/wj8wL2H6/IMG-20250816-WA0053.jpg",
+    "description": "منظم يومي 50 ورقة بسلكة جانبية بأشكال استيتش وباندا",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 2
+  },
+ 
+  {
+    "id": 30,
+    "name": "نوت وسط",
+    "price": 40.00,
+    "mainImageUrl": "https://i.postimg.cc/ry7BZScH/IMG-20250816-WA0062.jpg",
+    "image2Url": "https://i.postimg.cc/R0CyJdQW/IMG-20250816-WA0064.jpg",
+    "image3Url": "https://i.postimg.cc/52SDtTvc/IMG-20250816-WA0063.jpg",
+    "description": "نوت بوك وسط بآخر تصميمين",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 2
+  },
+  {
+    "id": 31,
+    "name": "خاتم تسبيح إلكتروني",
+    "price": 13.00,
+    "mainImageUrl": "https://i.postimg.cc/0Nt3YScc/IMG-20250816-WA0068.jpg",
+    "image2Url": "https://i.postimg.cc/0Nt3YScc/IMG-20250816-WA0068.jpg",
+    "image3Url": "https://i.postimg.cc/0Nt3YScc/IMG-20250816-WA0068.jpg",
+    "description": "خاتم تسبيح بزرار وعدد و زر Reset",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 3
+  },
+  {
+    "id": 32,
+    "name": "رف متعدد الاستخدام",
+    "price": 125.00,
+    "mainImageUrl": "https://i.postimg.cc/G2V5NC0D/IMG-20250816-WA0070.jpg",
+    "image2Url": "https://i.postimg.cc/zXmQF8FZ/IMG-20250816-WA0071.jpg",
+    "image3Url": "https://i.postimg.cc/zDHMhVWF/IMG-20250816-WA0072.jpg",
+    "description": "رف بلاستيك عالي الجودة متوفر 3 دور و4 دور",
+    "colors": "بينك-ابيض",
+    "isAvailable": true,
+    "categoryId": 2
+  },
+  {
+    "id": 33,
+    "name": "ورق حائط لاصق",
+    "price": 55.00,
+    "mainImageUrl": "https://i.postimg.cc/Z5HDm3t4/IMG-20250816-WA0075.jpg",
+    "image2Url": "https://i.postimg.cc/tggv4TpP/IMG-20250816-WA0074.jpg",
+    "image3Url": "https://i.postimg.cc/bJ7mg9bH/IMG-20250816-WA0077.jpg",
+    "description": "ورق حائط لاصق مقاوم للماء مقاس 77×70 سم",
+    "colors": "أبيض",
+    "isAvailable": true,
+    "categoryId": 2
+  },
+  {
+    "id": 34,
+    "name": "مج شي إن",
+    "price": 220.00,
+    "mainImageUrl": "https://i.postimg.cc/28hgb7ns/Whats-App-Image-2025-08-24-at-04-01-46-d262c983.jpg",
+    "image2Url": "https://i.postimg.cc/3xhVg0Bd/Whats-App-Image-2025-08-24-at-04-01-53-4712fad9.jpg",
+    "image3Url": "https://i.postimg.cc/JzQgK76K/Whats-App-Image-2025-08-24-at-04-01-57-3770afd2.jpg",
+    "description": "مج بورسلين مستورد ترندي شي إن",
+    "colors": "متعدد",
+    "isAvailable": true,
+    "categoryId": 3
+  },
+
+  {
+    "id": 37,
+    "name": "مغناطيس الأذكار",
+    "price": 40.00,
+    "mainImageUrl": "https://i.postimg.cc/XvTK67Jn/IMG-20250816-WA0092.jpg",
+    "image2Url": "https://i.postimg.cc/XvTK67Jn/IMG-20250816-WA0092.jpg",
+    "image3Url": "https://i.postimg.cc/fRPmYTYY/IMG-20250816-WA0093.jpg",
+    "description": "مغناطيس ثلاجة بأذكار وأدعية متنوعة (11 قطعة)",
+    "colors": "—",
+    "isAvailable": false,
+    "categoryId": 6
+  },
+  
+  {
     "id": 85,
     "name": "قالب ثلج بالغطاء دورين",
     "price": 69.00,
@@ -852,18 +1204,7 @@
   "isAvailable": true,
   "categoryId": 2
 },
-  {
-    "id": 90,
-    "name": "كتاب رسائل من القرآن",
-    "price": 80.00,
-    "mainImageUrl": "https://i.postimg.cc/BbRr8G3H/OIP.webp",
-    "image2Url": "https://i.postimg.cc/BbRr8G3H/OIP.webp",
-    "image3Url": "https://i.postimg.cc/BbRr8G3H/OIP.webp",
-    "description": "كتاب رسائل من القرآن: رحلة روحانية مع آيات مختارة من القرآن الكريم.",
-    "colors": "--",
-    "isAvailable": true,
-    "categoryId": 1
-  },
+
   {
     "id": 91,
     "name": "زجاجه رقميه",
@@ -1354,7 +1695,7 @@
   "description": "عامود حفظ الطعام ٤ دور عملي ومتين، يحافظ على الأكل ساخن أو بارد لفترات طويلة، مثالي للمشاوير والرحلات 🍱",
   "colors": "متعدد",
   "isAvailable": true,
-  "categoryId": 6
+  "categoryId": 3
 },
 {
   "id": 135,
@@ -1486,7 +1827,7 @@
   "description": "شماعة عملية متعددة الاستخدام مزودة بـ 8 خطافات متينة.",
   "colors": "متعدد",
   "isAvailable": true,
-  "categoryId": 3
+  "categoryId": 6
 },
 {
   "id": 146,
@@ -1632,522 +1973,8 @@
   "isAvailable": true,
   "categoryId": 6
 },
-{
-  "id": 158,
-  "name": "فوطة بديل سلك المواعين",
-  "price": 10.00,
-  "mainImageUrl": "https://i.postimg.cc/c4q1trDC/IMG-20250825-WA0132.jpg",
-  "image2Url": "https://i.postimg.cc/C1BYzgkb/IMG-20250825-WA0133.jpg",
-  "image3Url": "https://i.postimg.cc/59QNtwSD/IMG-20250825-WA0131.jpg",
-  "description": "فوطة مطبخ عبقرية بديل سلك المواعين، تنظف بدون خدش أو صدأ، متعددة الاستخدام، المقاس 30*30.",
-  "colors": "متعدد",
-  "isAvailable": true,
-  "categoryId": 6
-},
-{
-  "id": 159,
-  "name": "ميني دباسة باندا للأطفال",
-  "price": 60.00,
-  "mainImageUrl": "https://i.postimg.cc/3Rf8xCwb/IMG-20250827-000153-198.jpg",
-  "image2Url": "https://i.postimg.cc/WbkNsZcX/IMG-20250827-000153-887.jpg",
-  "image3Url": "https://i.postimg.cc/vm3M0L5H/IMG-20250827-000153-976.jpg",
-  "description": "ميني دباسة بشكل باندا وألوان باستل تحفة 🩷🩶💜💙 تدبس لحد 20 ورقة، عملية ومناسبة للأطفال والكبار 🐼",
-  "colors": "4 ألوان باستل",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 160,
-  "name": "أقلام جل سوسته",
-  "price": 115.00,
-  "mainImageUrl": "https://i.postimg.cc/85cG9Jbd/IMG-20250827-000158-852.jpg",
-  "image2Url": "https://i.postimg.cc/hjYnBDCk/IMG-20250827-000159-000.jpg",
-  "image3Url": "https://i.postimg.cc/prnHVw4p/IMG-20250827-000159-011.jpg",
-  "description": "أقلام جل سوسته بمجموعتين (درجات بينك وبيبي بلو) 💙🩷 خط سلس، مريحة للكتابة اليومية، مقاس السن 5 مم. سعر الطقم 115ج، عرض خاص 2 بـ200 بدل 230.",
-  "colors": "بينك - بيبي بلو",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 161,
-  "name": "ترابيزة مذاكرة قابلة للطي",
-  "price": 225.00,
-  "mainImageUrl": "https://i.postimg.cc/R0FV5DSn/IMG-20250827-000207-676.jpg",
-  "image2Url": "https://i.postimg.cc/VvyYtsjj/IMG-20250827-000207-884.jpg",
-  "image3Url": "https://i.postimg.cc/fRWMmr0g/IMG-20250827-000208-612.jpg",
-  "description": "ترابيزة مذاكرة قابلة للطي بقوائم معدن 🤎 بخامة أفضل وألوان عصرية (بني، خشبي، بيج) عملية للمذاكرة في أي مكان.",
-  "colors": "بني - خشبي - بيج",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 162,
-  "name": "أقلام تحديد قابلة للمسح",
-  "price": 140.00,
-  "mainImageUrl": "https://i.postimg.cc/5yqMFB9V/IMG-20250827-000213-273.jpg",
-  "image2Url": "https://i.postimg.cc/QdMrHKR2/IMG-20250827-000213-616.jpg",
-  "image3Url": "https://i.postimg.cc/3RmsPXvv/IMG-20250827-000213-763.jpg",
-  "description": "أقلام تحديد فسفورية قابلة للمسح 🌷🩷 العبوة 6 ألوان واضحة وجميلة، خامة ممتازة ومبهجة.",
-  "colors": "6 ألوان فسفورية",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 163,
-  "name": "مقلمة شنطة متينة",
-  "price": 195.00,
-  "mainImageUrl": "https://i.postimg.cc/d39z0JnQ/IMG-20250827-000217-843.jpg",
-  "image2Url": "https://i.postimg.cc/GhcW5sh4/IMG-20250827-000217-850.jpg",
-  "image3Url": "https://i.postimg.cc/sXd89MND/IMG_20250827_000218_214.jpg",
-  "description": "مقلمة شنطة بخامة ممتازة ومتينة 🤎 تشيل أكتر من 50 قلم بدون مبالغة، عملية جدًا وأنيقة.",
-  "colors": "متعدد",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 164,
-  "name": "أقلام أكريليك",
-  "price": 65.00,
-  "mainImageUrl": "https://i.postimg.cc/0j9BFLvT/IMG_20250827_000221_850.jpg",
-  "image2Url": "https://i.postimg.cc/zDkMKXS8/IMG_20250827_000222_023.jpg",
-  "image3Url": "https://i.postimg.cc/3xzbYy7C/IMG_20250827_000222_179.jpg",
-  "description": "أقلام أكريليك بخط سلس وناعم جدًا 🤎 الطقم 5 أقلام نفس اللون بدرجات مختلفة. متوفر بـ4 ألوان (أزرق، موف، أخضر، بينك).",
-  "colors": "أزرق - موف - أخضر - بينك",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 165,
-  "name": "أقلام شي إن باستل",
-  "price": 75.00,
-  "mainImageUrl": "https://i.postimg.cc/Kzxf8BWL/IMG_20250827_000226_357.jpg",
-  "image2Url": "https://i.postimg.cc/jjrQMyt9/IMG_20250827_000227_159.jpg",
-  "image3Url": "https://i.postimg.cc/3wCjVWww/IMG_20250827_000227_168.jpg",
-  "description": "أقلام شي إن بألوان باستل رائعة ومعها درجات غامقة كمان 🤎 خطهم تحفة وسعرهم أوفر من شي إن.",
-  "colors": "ألوان باستل + غامقة",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 166,
-  "name": "ساعة ديجيتال LED",
-  "price": 275.00,
-  "mainImageUrl": "https://i.postimg.cc/vmQx1hQQ/IMG_20250827_000231_645.jpg",
-  "image2Url": "https://i.postimg.cc/HLHXwHt1/IMG_20250827_000231_040.jpg",
-  "image3Url": "https://i.postimg.cc/DzBJ1GZ1/IMG_20250827_000231_455.jpg",
-  "description": "ساعة LED ديجيتال متعددة الوظائف: عرض الوقت (12/24)، التاريخ، الحرارة، منبه، إضاءة ليلية، 3 مستويات سطوع قابلة للتعديل. بتشتغل بكابل USB.",
-  "colors": "أبيض",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 167,
-  "name": "هايلايتر باستل",
-  "price": 87.00,
-  "mainImageUrl": "https://i.postimg.cc/sXLMNR5X/IMG_20250827_000236_857.jpg",
-  "image2Url": "https://i.postimg.cc/gj6x9BKK/IMG_20250827_000236_962.jpg",
-  "image3Url": "https://i.postimg.cc/pdGQR4DN/IMG_20250827_000237_556.jpg",
-  "description": "هايلايتر باستل خفيف على الورق وألوانه مريحة للعين والقلب 🎨💕 مناسب للمذاكرة اليومية.",
-  "colors": "ألوان باستل",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 168,
-  "name": "مفرش وتر بروف",
-  "price": 65.00,
-  "mainImageUrl": "https://i.postimg.cc/zXCnVVnF/IMG_20250827_000241_096.jpg",
-  "image2Url": "https://i.postimg.cc/90TyPfsV/IMG_20250827_000241_094.jpg",
-  "image3Url": "https://i.postimg.cc/nrvQjPQh/IMG_20250827_000241_613.jpg",
-  "description": "مفرش خفيف بخامة وتر بروف مقاس 130×180 سم. متوفر بـ5 ألوان (أبيض، رصاصي، أخضر، بيج، لون مميز).",
-  "colors": "أبيض - رصاصي - أخضر - بيج - لون مميز",
-  "isAvailable": true,
-  "categoryId": 2
-},
-  {
-  "id": 169,
-  "name": "منظم أكريلك 3 أقسام",
-  "price": 75.00,
-  "mainImageUrl": "https://i.postimg.cc/yNtJfHmN/IMG-20250827-000250-879.jpg",
-  "image2Url": "https://i.postimg.cc/mrtzNDFq/IMG-20250827-000250-443.jpg",
-  "image3Url": "https://i.postimg.cc/zGdHgW3K/IMG-20250827-000250-120.jpg",
-  "description": "منظم مكتبي شيك من الأكريلك، 3 أقسام بأطوال مختلفة + مكان للتليفون. متوفر بـ 4 ألوان (أبيض - منتجرين - لبني - وردي فاتح).",
-  "colors": "أبيض، منتجرين، لبني، وردي فاتح",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 170,
-  "name": "لمبة 3 مستويات إضاءة",
-  "price": 225.00,
-  "mainImageUrl": "https://i.postimg.cc/J4xGfJNv/IMG-20250827-000255-271.jpg",
-  "image2Url": "https://i.postimg.cc/jdtD3v7y/IMG-20250827-000254-880.jpg",
-  "image3Url": "https://i.postimg.cc/CxKzS1J1/IMG-20250827-000254-594.jpg",
-  "description": "لمبة مكتبية عملية بــ3 مستويات إضاءة تعمل باللمس (تاتش). مثالية للمذاكرة والمكتب.",
-  "colors": "متعدد",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 171,
-  "name": "لوحة ملاحظات 60×45 سم",
-  "price": 250.00,
-  "mainImageUrl": "https://i.postimg.cc/gJ30N6cM/IMG-20250827-000302-884.jpg",
-  "image2Url": "https://i.postimg.cc/rsJwLXrx/IMG-20250827-000302-922.jpg",
-  "image3Url": "https://i.postimg.cc/3wsRXZh4/IMG-20250827-000302-451.jpg",
-  "description": "لوحة ملاحظات مقاس 60×45 سم بخامة عالية وجهين + فريم معدن مع مكان للتعليق. مثالية للمكتب والدراسة.",
-  "colors": "أسود",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 172,
-  "name": "منظم ملفات معدني 3 دور",
-  "price": 275.00,
-  "mainImageUrl": "https://i.postimg.cc/bvtYw2nz/IMG-20250827-000309-894.jpg",
-  "image2Url": "https://i.postimg.cc/YqdCn7kw/IMG-20250827-000309-499.jpg",
-  "image3Url": "https://i.postimg.cc/y6XdR9bx/IMG-20250827-000309-231.jpg",
-  "description": "منظم ملفات وورق معدني 3 دور بخامة متينة ولون أسود أنيق. مناسب لترتيب المكتب.",
-  "colors": "أسود",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 173,
-  "name": "دفاتر بريمو من الأديب",
-  "price": 55.00,
-  "mainImageUrl": "https://i.postimg.cc/brvKdK5Q/IMG-20250827-000314-161.jpg",
-  "image2Url": "https://i.postimg.cc/Kzf6GZ0G/IMG-20250827-000314-151.jpg",
-  "image3Url": "https://i.postimg.cc/fLssWqZK/IMG-20250827-000313-551.jpg",
-  "description": "كوليشكن دفاتر بريمو من الأديب بتصميمات صيفية مبهجة. متوفر بمقاسات وعدد ورق مختلفة: 100 ورقة (A4) - 80 ورقة (55ج) - 60 ورقة (45ج).",
-  "colors": "تصميمات متنوعة",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 174,
-  "name": "أقلام سحرية قابلة للمسح",
-  "price": 20.00,
-  "mainImageUrl": "https://i.postimg.cc/T2kzB3yQ/IMG-20250827-000317-945.jpg",
-  "image2Url": "https://i.postimg.cc/hv3Nm2FN/IMG-20250827-000317-934.jpg",
-  "image3Url": "https://i.postimg.cc/Zn0MJ69H/IMG-20250827-000318-730.jpg",
-  "description": "أقلام سحرية بحبر قابل للمسح وخط سلس في الكتابة، مع أستيكة مدمجة تدوم طويلًا. تصميمات متعددة.",
-  "colors": "ألوان وتصميمات مختلفة",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 175,
-  "name": "طقم أقلام تزيين",
-  "price": 15.00,
-  "mainImageUrl": "https://i.postimg.cc/Dy9MKJ7Q/IMG-20250827-000322-717.jpg",
-  "image2Url": "https://i.postimg.cc/WbFHK6cb/IMG-20250827-000322-514.jpg",
-  "image3Url": "https://i.postimg.cc/zBzQPs89/IMG-20250827-000322-322.jpg",
-  "description": "طقم أقلام لمحبي التزيين وتحديد الدفاتر. 6 أقلام بتصميمات وألوان مختلفة.",
-  "colors": "ألوان مختلفة",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 176,
-  "name": "شبكة معدنية للتزيين 40×40 سم",
-  "price": 320.00,
-  "mainImageUrl": "https://i.postimg.cc/DwQBkxjF/IMG-20250827-000331-989.jpg",
-  "image2Url": "https://i.postimg.cc/6qGfHc2k/IMG-20250827-000332-671.jpg",
-  "image3Url": "https://i.postimg.cc/tRLK9m5V/IMG-20250827-000332-697.jpg",
-  "description": "شبكة معدنية لتزيين المكتب وتعليق الملاحظات. مقاس 40×40 سم متوفرة باللون الأبيض والأسود.",
-  "colors": "أبيض، أسود",
-  "isAvailable": true,
-  "categoryId": 2
-},
-  {
-  "id": 177,
-  "name": "قلم جاف سوستة استتش",
-  "price": 15.00,
-  "mainImageUrl": "https://i.postimg.cc/VNbFvF1Z/IMG-20250827-WA0007.jpg",
-  "image2Url": "https://i.postimg.cc/VNbFvF1Z/IMG-20250827-WA0007.jpg",
-  "image3Url": "https://i.postimg.cc/VNbFvF1Z/IMG-20250827-WA0007.jpg",
-  "description": "قلم جاف عملي بتصميم سوستة استتش كيوت، كتابة واضحة وسلسة، مناسب للمدرسة والمكتب والاستخدام اليومي.",
-  "colors": "أزرق",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 178,
-  "name": "استيكي نوت كيوت ومعاها دبوس",
-  "price": 35.00,
-  "mainImageUrl": "https://i.postimg.cc/x1ZR9Zrb/IMG-20250827-WA0008.jpg",
-  "image2Url": "https://i.postimg.cc/x1ZR9Zrb/IMG-20250827-WA0008.jpg",
-  "image3Url": "https://i.postimg.cc/x1ZR9Zrb/IMG-20250827-WA0008.jpg",
-  "description": "استيكي نوتس بأشكال كيوت مميزة لتدوين الملاحظات وتنظيم أفكارك بشكل ممتع وعملي.",
-  "colors": "متعدد الألوان",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 179,
-  "name": "استيكي نوتس باندا",
-  "price": 27.00,
-  "mainImageUrl": "https://i.postimg.cc/Dw06kTNT/IMG-20250827-WA0009.jpg",
-  "image2Url": "https://i.postimg.cc/Dw06kTNT/IMG-20250827-WA0009.jpg",
-  "image3Url": "https://i.postimg.cc/Dw06kTNT/IMG-20250827-WA0009.jpg",
-  "description": "استيكي نوتس لطيف بتصميم باندا، مثالي لتذكير نفسك بالملاحظات الصغيرة بطريقة مرحة.",
-  "colors": "متعدد",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 180,
-  "name": "قلم جاف جل بأشكال كيوت",
-  "price": 13.00,
-  "mainImageUrl": "https://i.postimg.cc/fTBCrLBC/IMG-20250827-WA0010.jpg",
-  "image2Url": "https://i.postimg.cc/fTBCrLBC/IMG-20250827-WA0010.jpg",
-  "image3Url": "https://i.postimg.cc/sXY99DMp/IMG-20250827-WA0011.jpg",
-  "description": "قلم جل جاف بأشكال كيوت ورسومات مبهجة، خط ناعم وسلس مناسب للكتابة اليومية والتدوين.",
-  "colors": "متعدد الألوان",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 181,
-  "name": "فوم الصلصال",
-  "price": 28.00,
-  "mainImageUrl": "https://i.postimg.cc/PfvfLNF7/Whats-App-Image-2025-08-28-at-00-51-54-9a132de0.jpg",
-  "image2Url": "https://i.postimg.cc/tJ698mxb/Whats-App-Image-2025-08-28-at-00-51-54-364bbc71.jpg",
-  "image3Url": "https://i.postimg.cc/bNXy187w/Whats-App-Image-2025-08-28-at-00-51-54-d0359c03.jpg",
-  "description": "فوم صلصال مميز مناسب للأطفال والكبار 🎨✨، مثالي لتزيين المرايات، عمل أشكال جميلة أو حتى لتفريغ الطاقة والتجديد. سهل الاستخدام وخفيف وبيخلي وقتكم ممتع مليان إبداع وحماس 🤍⭐",
-  "colors": "متعدد الألوان",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 182,
-  "name": "مقلمة تنظيم الأقلام",
-  "price": 12.00,
-  "mainImageUrl": "https://i.postimg.cc/50Tx7Mjp/Whats-App-Image-2025-08-28-at-01-09-21-821677fe.jpg",
-  "image2Url": "https://i.postimg.cc/50Tx7Mjp/Whats-App-Image-2025-08-28-at-01-09-21-821677fe.jpg",
-  "image3Url": "https://i.postimg.cc/50Tx7Mjp/Whats-App-Image-2025-08-28-at-01-09-21-821677fe.jpg",
-  "description": "مقلمة عملية تجمع كل الأقلام والألوان في مكان واحد من غير بعثرة 🎒✨. مناسبة للمدرسة، الكلية أو المكتب، متوفرة بألوان جذابة تخلي المذاكرة والتنظيم أمتع 😍👌",
-  "colors": "متعدد الألوان",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 183,
-  "name": "منظم المكتب العصري",
-  "price": 110.00,
-  "mainImageUrl": "https://i.postimg.cc/fbn61MT5/Whats-App-Image-2025-08-28-at-16-06-27-e6347e53.jpg",
-  "image2Url": "https://i.postimg.cc/fbn61MT5/Whats-App-Image-2025-08-28-at-16-06-27-e6347e53.jpg",
-  "image3Url": "https://i.postimg.cc/fbn61MT5/Whats-App-Image-2025-08-28-at-16-06-27-e6347e53.jpg",
-  "description": "منظم مكتب عصري أنيق 🤍، مناسب للأقلام والأدوات الدراسية، بخامة عالية الجودة وشكل شيك يدي لمسة فخامة لمكتبك 🌸✨",
-  "colors": "__",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 184,
-  "name": "منظم الميكب",
-  "price": 110.00,
-  "mainImageUrl": "https://i.postimg.cc/g26CMxdn/Whats-App-Image-2025-08-28-at-16-08-04-44b1bcb9.jpg",
-  "image2Url": "https://i.postimg.cc/g26CMxdn/Whats-App-Image-2025-08-28-at-16-08-04-44b1bcb9.jpg",
-  "image3Url": "https://i.postimg.cc/g26CMxdn/Whats-App-Image-2025-08-28-at-16-08-04-44b1bcb9.jpg",
-  "description": "منظم عملي لمستحضرات التجميل 💄✨، يساعدك على ترتيب الميكب والعناية بالبشرة والعطور بشكل أنيق وسهل الاستخدام، يضيف لمسة جمال على التسريحة 🌸🌈",
-  "colors": "__",
-  "isAvailable": true,
-  "categoryId": 4
-},
-{
-  "id": 185,
-  "name": "منظم دورين",
-  "price": 100.00,
-  "mainImageUrl": "https://i.postimg.cc/25QPDg1Y/Whats-App-Image-2025-08-28-at-16-10-50-6664ff7f.jpg",
-  "image2Url": "https://i.postimg.cc/25QPDg1Y/Whats-App-Image-2025-08-28-at-16-10-50-6664ff7f.jpg",
-  "image3Url": "https://i.postimg.cc/25QPDg1Y/Whats-App-Image-2025-08-28-at-16-10-50-6664ff7f.jpg",
-  "description": "منظم مكتبي دورين ✨💖، يوفر مساحة أكبر ويحافظ على ترتيب أدواتك الدراسية أو مستلزماتك الصغيرة، شكله عصري وأنيق 🤍",
-  "colors": "__",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 186,
-  "name": "فرشاة شعر طبية تنظيف ذاتي",
-  "price": 45.00,
-  "mainImageUrl": "https://i.postimg.cc/bJLWGb0F/Whats-App-Image-2025-08-28-at-21-20-19-eff0f16e.jpg",
-  "image2Url": "https://i.postimg.cc/KvNYfsG1/Whats-App-Image-2025-08-30-at-00-49-00-bc7c4c9d.jpg",
-  "image3Url": "https://i.postimg.cc/KvNYfsG1/Whats-App-Image-2025-08-30-at-00-49-00-bc7c4c9d.jpg",
-  "description": "فرشاة عملية لفك تشابك الشعر ومنع التقصف والهيشان 🌸، مضادة للكهرباء الساكنة وتعمل على تدليك فروة الرأس، قابلة للتنظيف بسهولة ومناسبة للأطفال والسيدات 🤍",
-  "colors": "متعدد",
-  "isAvailable": true,
-  "categoryId": 4
-},
-{
-  "id": 187,
-  "name": "شنطة سفر ووتر بروف قابلة للطي",
-  "price": 250.00,
-  "mainImageUrl": "https://i.postimg.cc/vTNKhsNr/Whats-App-Image-2025-08-28-at-21-23-32-722741a1.jpg",
-  "image2Url": "https://i.postimg.cc/vTNKhsNr/Whats-App-Image-2025-08-28-at-21-23-32-722741a1.jpg",
-  "image3Url": "https://i.postimg.cc/vTNKhsNr/Whats-App-Image-2025-08-28-at-21-23-32-722741a1.jpg",
-  "description": "شنطة سفر عملية مقاومة للماء مصنوعة من قماش نايلون وأوكسفورد خفيف الوزن 💼✨، متعددة الاستخدام: سفر، خروج، مستلزمات أطفال، مزودة بسوستة للتوسعة لتسع أغراض أكثر. متاحة بألوان مختلفة 🌸",
-  "colors": "متعدد",
-  "isAvailable": true,
-  "categoryId": 3
-},
-{
-  "id": 188,
-  "name": "فرشاة مرنة للتنظيف",
-  "price": 25.00,
-  "mainImageUrl": "https://i.postimg.cc/9FDKMDDJ/Whats-App-Image-2025-08-28-at-21-25-13-a76293bd.jpg",
-  "image2Url": "https://i.postimg.cc/9FDKMDDJ/Whats-App-Image-2025-08-28-at-21-25-13-a76293bd.jpg",
-  "image3Url": "https://i.postimg.cc/zvBMTB0D/Whats-App-Image-2025-08-28-at-21-25-13-2d3dc45a.jpg",
-  "description": "فرشاة مرنة متعددة الاستخدام، مناسبة لتنظيف الملابس، السجاد، الأرضيات وغيرها من الأغراض 🧽✨",
-  "colors": "متعدد",
-  "isAvailable": true,
-  "categoryId": 6
-},
-{
-  "id": 189,
-  "name": "Sticky Notes باستل",
-  "price": 27.00,
-  "mainImageUrl": "https://i.postimg.cc/ncN5Qn7Z/Whats-App-Image-2025-08-29-at-02-07-30-733e7421.jpg",
-  "image2Url": "https://i.postimg.cc/ncN5Qn7Z/Whats-App-Image-2025-08-29-at-02-07-30-733e7421.jpg",
-  "image3Url": "https://i.postimg.cc/ncN5Qn7Z/Whats-App-Image-2025-08-29-at-02-07-30-733e7421.jpg",
-  "description": "Sticky Notes بألوان باستل وألوان غامقة تناسب جميع الأذواق 📝🤎، مثالية للمذاكرة وتدوين الملاحظات بشكل مرتب وبسعر أوفر من أي مكان 🌸",
-  "colors": "__",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 190,
-  "name": "قلم حبر يونيكورن",
-  "price": 10.00,
-  "mainImageUrl": "https://i.postimg.cc/rwWH17C4/Whats-App-Image-2025-08-29-at-02-09-49-b5ccc71e.jpg",
-  "image2Url": "https://i.postimg.cc/rwWH17C4/Whats-App-Image-2025-08-29-at-02-09-49-b5ccc71e.jpg",
-  "image3Url": "https://i.postimg.cc/rwWH17C4/Whats-App-Image-2025-08-29-at-02-09-49-b5ccc71e.jpg",
-  "description": "أقلام حبر بتصميم يونيكورن 🦄💜، ألوانها هادئة وكيوت تخلي المذاكرة ممتعة، كتابة سلسة وخامة مميزة 🌸",
-  "colors": "متعدد",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 191,
-  "name": "مصحف التدوين",
-  "price": 200.00,
-  "mainImageUrl": "https://i.postimg.cc/3wFb6pqJ/Whats-App-Image-2025-08-29-at-09-53-59-87b4557e.jpg",
-  "image2Url": "https://i.postimg.cc/tTRmHJ0d/Whats-App-Image-2025-08-29-at-09-53-59-c4b0aa86.jpg",
-  "image3Url": "https://i.postimg.cc/654bKFPP/Whats-App-Image-2025-08-29-at-09-54-14-20761350.jpg",
-  "description": "المصحف الشريف وبهامشه فراغات للتدوين ✍🏻، متوفر بمقاس 17*24 سم ليساعدك على كتابة خواطرك وفهمك للآيات 📖🤍",
-  "colors": "متعدد الألوان",
-  "isAvailable": true,
-  "categoryId": 1
-},
-{
-  "id": 192,
-  "name": " 3 كتب تدبر القرآن",
-  "price": 430.00,
-  "mainImageUrl": "https://i.postimg.cc/Jzw6zPVz/Whats-App-Image-2025-08-29-at-09-54-15-8b7fa774.jpg",
-  "image2Url": "https://i.postimg.cc/Nj1N9mB7/Whats-App-Image-2025-08-29-at-09-54-15-27ac1471.jpg",
-  "image3Url": "https://i.postimg.cc/43MvdxjR/Whats-App-Image-2025-08-30-at-00-59-24-03127038.jpg",
-  "description": "3 كتب مميزة تعينك على تدبر القرآن وفهم الأمثال والتلذذ بالدعاء ❤️. بخصم 20% على كل كتاب لوحده وخصم 25% على الـ 3 كتب مع بعض 📚👌",
-  "colors": "__",
-  "isAvailable": true,
-  "categoryId": 1
-},
-{
-  "id": 193,
-  "name": "شرح تحفة الأطفال والغلمان - مصطفى الجندي",
-  "price": 70.00,
-  "mainImageUrl": "https://i.postimg.cc/dVgDZZQ6/Whats-App-Image-2025-08-30-at-01-02-08-482bc89a.jpg",
-  "image2Url": "https://i.postimg.cc/d0w5830M/Whats-App-Image-2025-08-29-at-09-54-53-64397112.jpg",
-  "image3Url": "https://i.postimg.cc/W48XSVDd/Whats-App-Image-2025-08-29-at-09-54-56-a1f567f1.jpg",
-  "description": "شرح مبسط لمنظومة تحفة الأطفال والغلمان في تجويد القرآن الكريم، مخصص للمبتدئين في تعلم القراءة برواية حفص ✨",
-  "colors": "__",
-  "isAvailable": true,
-  "categoryId": 1
-},
-{
-  "id": 194,
-  "name": "بداية الطريق",
-  "price": 125.00,
-  "mainImageUrl": "https://i.postimg.cc/MHM5Wj9B/Whats-App-Image-2025-08-29-at-09-55-15-22f4870d.jpg",
-  "image2Url": "https://i.postimg.cc/MHM5Wj9B/Whats-App-Image-2025-08-29-at-09-55-15-22f4870d.jpg",
-  "image3Url": "https://i.postimg.cc/MHM5Wj9B/Whats-App-Image-2025-08-29-at-09-55-15-22f4870d.jpg",
-  "description": "من أفضل المناهج المختصرة في العقيدة والعبادات والآداب، مناسب للشباب 💙",
-  "colors": "__",
-  "isAvailable": true,
-  "categoryId": 1
-},
-{
-  "id": 195,
-  "name": "التحفة الوردية بشرح الأربعين النووية",
-  "price": 115.00,
-  "mainImageUrl": "https://i.postimg.cc/906pzFkn/Whats-App-Image-2025-08-29-at-09-56-28-bc1b141b.jpg",
-  "image2Url": "https://i.postimg.cc/QNFZB4PQ/Whats-App-Image-2025-08-29-at-09-56-28-fe85ded6.jpg",
-  "image3Url": "https://i.postimg.cc/bY4c10cK/Whats-App-Image-2025-08-29-at-09-56-32-97df8c41.jpg",
-  "description": "كتاب التحفة الوردية بشرح الأربعين النووية ويليه شرح زيادات ابن رجب، بفوائد تربوية قيمة، مناسب للحضانات ودور التحفيظ 📚❤️",
-  "colors": "__",
-  "isAvailable": true,
-  "categoryId": 1
-},
-{
-  "id": 196,
-  "name": "أصول الإيمان في ضوء الكتاب والسنة",
-  "price": 135.00,
-  "mainImageUrl": "https://i.postimg.cc/vZLJRpgs/Whats-App-Image-2025-08-29-at-09-57-23-c36acf7d.jpg",
-  "image2Url": "https://i.postimg.cc/FKTwz3VC/Whats-App-Image-2025-08-29-at-10-00-32-b783c233.jpg",
-  "image3Url": "https://i.postimg.cc/G2NNJRNk/Whats-App-Image-2025-08-29-at-10-00-34-45ac5804.jpg",
-  "description": "كتاب موجز يشرح أصول العقيدة الإسلامية وأهم أسسها مقرونًا بالأدلة والشواهد من الكتاب والسنة، طبعة مشكولة بالكامل ورق شمواه 2 لون ❤️",
-  "colors": "__",
-  "isAvailable": true,
-  "categoryId": 1
-},
-{
-  "id": 197,
-  "name": "الفقه الميسر في ضوء الكتاب والسنة",
-  "price": 150.00,
-  "mainImageUrl": "https://i.postimg.cc/vZLJRpgs/Whats-App-Image-2025-08-29-at-09-57-23-c36acf7d.jpg",
-  "image2Url": "https://i.postimg.cc/FKTwz3VC/Whats-App-Image-2025-08-29-at-10-00-32-b783c233.jpg",
-  "image3Url": "https://i.postimg.cc/G2NNJRNk/Whats-App-Image-2025-08-29-at-10-00-34-45ac5804.jpg",
-  "description": "كتاب مبسط في الفقه الإسلامي، قريب المأخذ وسهل الفهم دون إخلال بالمادة العلمية. طبعة مشكولة بالكامل ورق شمواه 2 لون ❤️",
-  "colors": "__",
-  "isAvailable": true,
-  "categoryId": 1
-},
-{
-  "id": 199,
-  "name": "القرآن تدبر وعمل",
-  "price": 365.00,
-  "mainImageUrl": "https://i.postimg.cc/fRKrqmpW/Whats-App-Image-2025-08-29-at-10-06-13-9b1878d4.jpg",
-  "image2Url": "https://i.postimg.cc/bvVFp8qK/Whats-App-Image-2025-08-29-at-10-06-24-3c4c4455.jpg",
-  "image3Url": "https://i.postimg.cc/26PcLwbG/Whats-App-Image-2025-08-29-at-10-06-27-489cfd4a.jpg",
-  "description": "كتاب قيم يعين على تدبر القرآن الكريم ❤️، مزود بخدمات QR للقارئ الصوتي ودليل التدبر ومختصر تفسير ابن كثير. متوفر بمقاسين: كبير 420 ج (20*28 سم) ووسط 375 ج (17*24 سم) ✨",
-  "colors": "__",
-  "isAvailable": true,
-  "categoryId": 1
-},
-{
-  "id": 200,
-  "name": "مجموعة كتب هاري بوتر 7 أجزاء",
-  "price": 665.00,
-  "mainImageUrl": "https://i.postimg.cc/m23Xh7b3/Whats-App-Image-2025-08-29-at-10-06-33-f34f8f3e.jpg",
-  "image2Url": "https://i.postimg.cc/5NWKxsMN/Whats-App-Image-2025-08-29-at-10-06-33-9d36a459.jpg",
-  "image3Url": "https://i.postimg.cc/sx7nYh5r/Whats-App-Image-2025-08-29-at-10-06-33-2be02b74.jpg",
-  "description": "مجموعة روايات هاري بوتر كاملة (7 أجزاء) غلاف ورقي عادي باللغة الإنجليزية 🤍",
-  "colors": "__",
-  "isAvailable": true,
-  "categoryId": 1
-},
-{
-  "id": 201,
-  "name": "صحيح البخاري",
-  "price": 275.00,
-  "mainImageUrl": "https://i.postimg.cc/Z5VwxZvC/Whats-App-Image-2025-08-29-at-10-07-44-cef64903.jpg",
-  "image2Url": "https://i.postimg.cc/Z5VwxZvC/Whats-App-Image-2025-08-29-at-10-07-44-cef64903.jpg",
-  "image3Url": "https://i.postimg.cc/Z5VwxZvC/Whats-App-Image-2025-08-29-at-10-07-44-cef64903.jpg",
-  "description": "صحيح البخاري - الجامع الصحيح للإمام البخاري، من أهم كتب الحديث الشريف 📖",
-  "colors": "__",
-  "isAvailable": true,
-  "categoryId": 1
-},
+
+
 {
   "id": 202,
   "name": "أقلام روتو 5 قطع",
@@ -2183,6 +2010,19 @@
   "colors": "__",
   "isAvailable": true,
   "categoryId": 2
+},
+
+{
+  "id": 201,
+  "name": "صحيح البخاري",
+  "price": 275.00,
+  "mainImageUrl": "https://i.postimg.cc/Z5VwxZvC/Whats-App-Image-2025-08-29-at-10-07-44-cef64903.jpg",
+  "image2Url": "https://i.postimg.cc/Z5VwxZvC/Whats-App-Image-2025-08-29-at-10-07-44-cef64903.jpg",
+  "image3Url": "https://i.postimg.cc/Z5VwxZvC/Whats-App-Image-2025-08-29-at-10-07-44-cef64903.jpg",
+  "description": "صحيح البخاري - الجامع الصحيح للإمام البخاري، من أهم كتب الحديث الشريف 📖",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
 },
 {
   "id": 205,
@@ -2231,7 +2071,250 @@
   "colors": "غلاف ورقي",
   "isAvailable": true,
   "categoryId": 1
+},
+  {
+  "id": 191,
+  "name": "مصحف التدوين",
+  "price": 200.00,
+  "mainImageUrl": "https://i.postimg.cc/3wFb6pqJ/Whats-App-Image-2025-08-29-at-09-53-59-87b4557e.jpg",
+  "image2Url": "https://i.postimg.cc/tTRmHJ0d/Whats-App-Image-2025-08-29-at-09-53-59-c4b0aa86.jpg",
+  "image3Url": "https://i.postimg.cc/654bKFPP/Whats-App-Image-2025-08-29-at-09-54-14-20761350.jpg",
+  "description": "المصحف الشريف وبهامشه فراغات للتدوين ✍🏻، متوفر بمقاس 17*24 سم ليساعدك على كتابة خواطرك وفهمك للآيات 📖🤍",
+  "colors": "متعدد الألوان",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 196,
+  "name": "أصول الإيمان في ضوء الكتاب والسنة",
+  "price": 135.00,
+  "mainImageUrl": "https://i.postimg.cc/vZLJRpgs/Whats-App-Image-2025-08-29-at-09-57-23-c36acf7d.jpg",
+  "image2Url": "https://i.postimg.cc/FKTwz3VC/Whats-App-Image-2025-08-29-at-10-00-32-b783c233.jpg",
+  "image3Url": "https://i.postimg.cc/G2NNJRNk/Whats-App-Image-2025-08-29-at-10-00-34-45ac5804.jpg",
+  "description": "كتاب موجز يشرح أصول العقيدة الإسلامية وأهم أسسها مقرونًا بالأدلة والشواهد من الكتاب والسنة، طبعة مشكولة بالكامل ورق شمواه 2 لون ❤️",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 197,
+  "name": "الفقه الميسر في ضوء الكتاب والسنة",
+  "price": 150.00,
+  "mainImageUrl": "https://i.postimg.cc/vZLJRpgs/Whats-App-Image-2025-08-29-at-09-57-23-c36acf7d.jpg",
+  "image2Url": "https://i.postimg.cc/FKTwz3VC/Whats-App-Image-2025-08-29-at-10-00-32-b783c233.jpg",
+  "image3Url": "https://i.postimg.cc/G2NNJRNk/Whats-App-Image-2025-08-29-at-10-00-34-45ac5804.jpg",
+  "description": "كتاب مبسط في الفقه الإسلامي، قريب المأخذ وسهل الفهم دون إخلال بالمادة العلمية. طبعة مشكولة بالكامل ورق شمواه 2 لون ❤️",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 194,
+  "name": "بداية الطريق",
+  "price": 125.00,
+  "mainImageUrl": "https://i.postimg.cc/MHM5Wj9B/Whats-App-Image-2025-08-29-at-09-55-15-22f4870d.jpg",
+  "image2Url": "https://i.postimg.cc/MHM5Wj9B/Whats-App-Image-2025-08-29-at-09-55-15-22f4870d.jpg",
+  "image3Url": "https://i.postimg.cc/MHM5Wj9B/Whats-App-Image-2025-08-29-at-09-55-15-22f4870d.jpg",
+  "description": "من أفضل المناهج المختصرة في العقيدة والعبادات والآداب، مناسب للشباب 💙",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 195,
+  "name": "التحفة الوردية بشرح الأربعين النووية",
+  "price": 115.00,
+  "mainImageUrl": "https://i.postimg.cc/906pzFkn/Whats-App-Image-2025-08-29-at-09-56-28-bc1b141b.jpg",
+  "image2Url": "https://i.postimg.cc/QNFZB4PQ/Whats-App-Image-2025-08-29-at-09-56-28-fe85ded6.jpg",
+  "image3Url": "https://i.postimg.cc/bY4c10cK/Whats-App-Image-2025-08-29-at-09-56-32-97df8c41.jpg",
+  "description": "كتاب التحفة الوردية بشرح الأربعين النووية ويليه شرح زيادات ابن رجب، بفوائد تربوية قيمة، مناسب للحضانات ودور التحفيظ 📚❤️",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
+},
+  {
+  "id": 53,
+  "name": "ما لا يسع أطفال المسلمين جهله",
+  "price": 80.00,
+  "mainImageUrl": "https://i.postimg.cc/4N2RqRxx/Whats-App-Image-2025-08-17-at-22-27-39-a8d7451d.jpg",
+  "image2Url": "https://i.postimg.cc/wxVp5mKJ/Whats-App-Image-2025-08-17-at-22-27-38-d43c47b0.jpg",
+  "image3Url": "https://i.postimg.cc/pL9MtcmY/Whats-App-Image-2025-08-17-at-22-27-39-08e7b2bd.jpg",
+  "description": "منهج يسير سهل متكامل في العقيدة والفقه والسيرة والآداب والتفسير والحديث والأخلاق والأذكار، يصلح للصبيان ولكافة الأعمار وحديثي الإسلام، ويُعطَى في البيوت والمحاضن ومعاهد التدريس، وللحفظ والشرح، وقد رتبتها على حسب الفنون، وجعلتها على طريقة السؤال والجواب؛ لأن ذلك أشحذ للذهن وأرسخ للحفظ، ويختار المربي منها ما يتناسب مع سنهم.\n✍️ تأليف: يزن الغانم",
+  "colors": "كتاب ورقي",
+  "isAvailable": true,
+  "categoryId": 1
+  },
+    {
+    "id": 64,
+    "name": "كتاب رسائل من النبي",
+    "price": 85.00,
+    "mainImageUrl": "https://i.postimg.cc/kGVrXg07/OIP-1.webp",
+    "image2Url": "https://i.postimg.cc/kGVrXg07/OIP-1.webp",
+    "image3Url": "https://i.postimg.cc/kGVrXg07/OIP-1.webp",
+    "description": "كتاب رسائل من النبي: تجميع لأجمل الأحاديث والرسائل النبوية.",
+    "colors": "__",
+    "isAvailable": true,
+    "categoryId": 1
+  },
+    {
+    "id": 90,
+    "name": "كتاب رسائل من القرآن",
+    "price": 80.00,
+    "mainImageUrl": "https://i.postimg.cc/BbRr8G3H/OIP.webp",
+    "image2Url": "https://i.postimg.cc/BbRr8G3H/OIP.webp",
+    "image3Url": "https://i.postimg.cc/BbRr8G3H/OIP.webp",
+    "description": "كتاب رسائل من القرآن: رحلة روحانية مع آيات مختارة من القرآن الكريم.",
+    "colors": "--",
+    "isAvailable": true,
+    "categoryId": 1
+  },
+   {
+    "id": 29,
+    "name": "ألواح ودسر",
+    "price": 110.00,
+    "mainImageUrl": "https://i.postimg.cc/pTTCR1QB/IMG-20250816-WA0058.jpg",
+    "image2Url": "https://i.postimg.cc/w3KQ5qCW/IMG-20250816-WA0060.jpg",
+    "image3Url": "https://i.postimg.cc/VsSyF7yM/IMG-20250816-WA0061.jpg",
+    "description": "رواية للكاتب أحمد خيري العمري",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 1
+  },
+    {
+    "id": 36,
+    "name": "ما لا يسع المسلم جهله",
+    "price": 120.00,
+    "mainImageUrl": "https://i.postimg.cc/RCwd9fKy/IMG-20250816-WA0086.jpg",
+    "image2Url": "https://i.postimg.cc/zX5jfBkB/IMG-20250816-WA0087.jpg",
+    "image3Url": "https://i.postimg.cc/DzWQNb7C/IMG-20250816-WA0089.jpg",
+    "description": "كتاب مبسط يشمل العقيدة والفقه والتزكية",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 1
+  },
+
+{
+  "id": 192,
+  "name": " 3 كتب تدبر القرآن",
+  "price": 430.00,
+  "mainImageUrl": "https://i.postimg.cc/Jzw6zPVz/Whats-App-Image-2025-08-29-at-09-54-15-8b7fa774.jpg",
+  "image2Url": "https://i.postimg.cc/Nj1N9mB7/Whats-App-Image-2025-08-29-at-09-54-15-27ac1471.jpg",
+  "image3Url": "https://i.postimg.cc/43MvdxjR/Whats-App-Image-2025-08-30-at-00-59-24-03127038.jpg",
+  "description": "3 كتب مميزة تعينك على تدبر القرآن وفهم الأمثال والتلذذ بالدعاء ❤️. بخصم 20% على كل كتاب لوحده وخصم 25% على الـ 3 كتب مع بعض 📚👌",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 193,
+  "name": "شرح تحفة الأطفال والغلمان - مصطفى الجندي",
+  "price": 70.00,
+  "mainImageUrl": "https://i.postimg.cc/dVgDZZQ6/Whats-App-Image-2025-08-30-at-01-02-08-482bc89a.jpg",
+  "image2Url": "https://i.postimg.cc/d0w5830M/Whats-App-Image-2025-08-29-at-09-54-53-64397112.jpg",
+  "image3Url": "https://i.postimg.cc/W48XSVDd/Whats-App-Image-2025-08-29-at-09-54-56-a1f567f1.jpg",
+  "description": "شرح مبسط لمنظومة تحفة الأطفال والغلمان في تجويد القرآن الكريم، مخصص للمبتدئين في تعلم القراءة برواية حفص ✨",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
+},
+
+
+{
+  "id": 199,
+  "name": "القرآن تدبر وعمل",
+  "price": 365.00,
+  "mainImageUrl": "https://i.postimg.cc/fRKrqmpW/Whats-App-Image-2025-08-29-at-10-06-13-9b1878d4.jpg",
+  "image2Url": "https://i.postimg.cc/bvVFp8qK/Whats-App-Image-2025-08-29-at-10-06-24-3c4c4455.jpg",
+  "image3Url": "https://i.postimg.cc/26PcLwbG/Whats-App-Image-2025-08-29-at-10-06-27-489cfd4a.jpg",
+  "description": "كتاب قيم يعين على تدبر القرآن الكريم ❤️، مزود بخدمات QR للقارئ الصوتي ودليل التدبر ومختصر تفسير ابن كثير. متوفر بمقاسين: كبير 420 ج (20*28 سم) ووسط 375 ج (17*24 سم) ✨",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
+},
+
+
+{
+  "id": 300,
+  "name": "كتاب كن الشخص الذي يجعلك سعيدًا",
+  "price": 60.00,
+  "mainImageUrl": "https://i.postimg.cc/sDs7rNH4/f0e0420a-f5a1-48c6-acb2-5635a0e111e0.jpg",
+  "image2Url": "https://i.postimg.cc/Wb8rbwQL/ffc98403c4c07b9026addb3c4dd2023c42f1ede9a5d4d83f69f5f69ba25b5c95-jpg.webp",
+  "image3Url": "https://i.postimg.cc/QdBtGgDq/kn-lshkhs-lthy-ygaalk-saayd-screenshot.avif",
+  "description": "كتاب تحفيزي يساعدك على اكتشاف ذاتك وصناعة سعادتك بنفسك بعيدًا عن الضغوط الخارجية 🌸✨",
+  "colors": "غلاف ورقي",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 301,
+  "name": "كتاب التغير للأفضل",
+  "price": 80.00,
+  "mainImageUrl": "https://i.postimg.cc/GmSyvhLX/e1294242-d670-4dd4-9880-8aee97643f9c-CR0-0-970-600-PT0-SX970-V1.jpg",
+  "image2Url": "https://i.postimg.cc/GmSyvhLX/e1294242-d670-4dd4-9880-8aee97643f9c-CR0-0-970-600-PT0-SX970-V1.jpg",
+  "image3Url": "https://i.postimg.cc/GmSyvhLX/e1294242-d670-4dd4-9880-8aee97643f9c-CR0-0-970-600-PT0-SX970-V1.jpg",
+  "description": "رحلة تطوير الذات نحو مستقبل أفضل، يركز على تغيير العادات واكتساب مهارات النجاح 🌟📘",
+  "colors": "غلاف ورقي",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 302,
+  "name": "رواية ارتواء - بسمة هنداوي",
+  "price": 65.00,
+  "mainImageUrl": "https://i.postimg.cc/6QnpT9y2/OIP-1.webp",
+  "image2Url": "https://i.postimg.cc/6QnpT9y2/OIP-1.webp",
+  "image3Url": "https://i.postimg.cc/6QnpT9y2/OIP-1.webp",
+  "description": "رواية اجتماعية رومانسية بأسلوب مشوق، تلمس المشاعر وتغوص في تفاصيل العلاقات الإنسانية 💖📖",
+  "colors": "غلاف ورقي",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 303,
+  "name": "سلسلة ضوء في المجرة - د. أحمد خيري العمري",
+  "price": 300.00,
+  "mainImageUrl": "https://i.postimg.cc/vmg3VKs6/28951-1024x.webp",
+  "image2Url": "https://i.postimg.cc/5y3HyfKq/IMG-20250901-WA0007.jpg",
+  "image3Url": "https://i.postimg.cc/SscY06WP/IMG-20250901-WA0005.jpg",
+  "description": "سلسلة فكرية وروحانية تجمع بين العلم والإيمان، كتب بأسلوب ممتع يلامس العقول والقلوب 🌌📚",
+  "colors": "غلاف ورقي",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 304,
+  "name": "كتاب الرجال من المريخ والنساء من الزهرة",
+  "price": 70.00,
+  "mainImageUrl": "https://i.postimg.cc/nLy9wRQ7/IMG-20250901-WA0004.jpg",
+  "image2Url": "https://i.postimg.cc/nLy9wRQ7/IMG-20250901-WA0004.jpg",
+  "image3Url": "https://i.postimg.cc/nLy9wRQ7/IMG-20250901-WA0004.jpg",
+  "description": "كتاب عالمي يشرح الاختلافات بين الرجال والنساء في التفكير والتواصل لتحسين العلاقات الزوجية 💞🌍",
+  "colors": "غلاف ورقي",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 305,
+  "name": "كتاب وحي القلم - 3 أجزاء",
+  "price": 400.00,
+  "mainImageUrl": "https://i.postimg.cc/1t14K8Lr/IMG-20250901-WA0014.jpg",
+  "image2Url": "https://i.postimg.cc/Bbq6ddZ8/IMG-20250901-WA0016.jpg",
+  "image3Url": "https://i.postimg.cc/dVz0q7tc/IMG-20250901-WA0019.jpg",
+  "description": "من أروع كتب الأدب والخواطر للرافعي، 3 أجزاء تضم مقالات وأفكار عميقة بأسلوب أدبي رفيع ✨📖",
+  "colors": "غلاف ورقي",
+  "isAvailable": true,
+  "categoryId": 1
+},
+{
+  "id": 200,
+  "name": "مجموعة كتب هاري بوتر 7 أجزاء",
+  "price": 665.00,
+  "mainImageUrl": "https://i.postimg.cc/m23Xh7b3/Whats-App-Image-2025-08-29-at-10-06-33-f34f8f3e.jpg",
+  "image2Url": "https://i.postimg.cc/5NWKxsMN/Whats-App-Image-2025-08-29-at-10-06-33-9d36a459.jpg",
+  "image3Url": "https://i.postimg.cc/sx7nYh5r/Whats-App-Image-2025-08-29-at-10-06-33-2be02b74.jpg",
+  "description": "مجموعة روايات هاري بوتر كاملة (7 أجزاء) غلاف ورقي عادي باللغة الإنجليزية 🤍",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 1
 }
-
-
 ]
