@@ -1,5 +1,174 @@
 [
   {
+  "id": 319,
+  "name": "  منظم أكريليك",
+  "price": 170.00,
+  "mainImageUrl": "https://i.postimg.cc/V6ZknLQY/photo-2025-09-02-03-06-50.jpg",
+  "image2Url": "https://i.postimg.cc/gjwkDFm3/photo-2025-09-02-03-07-32.jpg",
+  "image3Url": "https://i.postimg.cc/d0v3KxjK/IMG-20250902-WA0008.jpg",
+  "description": "  منظم الأكريليك لتخزين الأدوات المكتبية بشكل أنيق ومرتب، عملي ومتوفر بعدد محدود 🩷",
+  "colors": "شفاف",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 320,
+  "name": "ورق ملون A4",
+  "price": 100.00,
+  "mainImageUrl": "https://i.postimg.cc/y65NNdyj/photo-2025-09-02-03-08-21.jpg",
+  "image2Url": "https://i.postimg.cc/d0qsfTJs/photo-2025-09-02-03-08-43.jpg",
+  "image3Url": "https://i.postimg.cc/sgPfKJdH/photo-2025-09-02-03-08-32.jpg",
+  "description": "ورق ملون مقاس A4، مثالي للتلخيصات والدراسة والأعمال اليدوية. يحتوي على 100 ورقة و10 ألوان متنوعة 🤎",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 321,
+  "name": "باكدچ 3×1 منظم للمذاكرة",
+  "price": 160.00,
+  "mainImageUrl": "https://i.postimg.cc/MGd6JKGy/photo-2025-09-02-03-08-56.jpg",
+  "image2Url": "https://i.postimg.cc/MGd6JKGy/photo-2025-09-02-03-08-56.jpg",
+  "image3Url": "https://i.postimg.cc/prnRjfJZ/photo-2025-09-02-03-09-02.jpg",
+  "description": "باكدچ منظم للمذاكرة يتكون من نوت باد A4، ميمو باد، وتودو ليست. كل قطعة تحتوي على 60 ورقة + ورقة حماية. متوفر بأشكال لذيذة مثل الفستق والبطيخ 🍉💚",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 322,
+  "name": "ورق تلخيص مربعات A4",
+  "price": 90.00,
+  "mainImageUrl": "https://i.postimg.cc/sXxVjdBb/photo-2025-09-02-03-09-14.jpg",
+  "image2Url": "https://i.postimg.cc/9Mkcz8Z0/photo-2025-09-02-03-09-21.jpg",
+  "image3Url": "https://i.postimg.cc/9Mkcz8Z0/photo-2025-09-02-03-09-21.jpg",
+  "description": "ورق تلخيص مربعات عملي يسهل المذاكرة والتنظيم. مقاس A4، وزن 80 جرام، يحتوي على 50 ورقة ✨",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 323,
+  "name": "كشكول مواد ثانوية عامة",
+  "price": 130.00,
+  "mainImageUrl": "https://i.postimg.cc/mg7kJsMw/IMG-20250902-WA0004.jpg",
+  "image2Url": "https://i.postimg.cc/GhGswGnG/photo-2025-09-02-03-10-43.jpg",
+  "image3Url": "https://i.postimg.cc/mg41bkTq/photo-2025-09-02-03-10-37.jpg",
+  "description": "كشكول مقاس 21×30 يحتوي على 100 ورقة بوزن 80 جرام وجودة عالية. الغلاف 350 جرام متين وخفيف في الإيد، عملي للمذاكرة والدروس ✨",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 324,
+  "name": "مخطط لحفظ الزهراوين",
+  "price": 15.00,
+  "mainImageUrl": "https://i.postimg.cc/d0Hhm9GP/photo-2025-09-02-03-11-03.jpg",
+  "image2Url": "https://i.postimg.cc/d0Hhm9GP/photo-2025-09-02-03-11-03.jpg",
+  "image3Url": "https://i.postimg.cc/d0Hhm9GP/photo-2025-09-02-03-11-03.jpg",
+  "description": "مخطط عملي لحفظ سورتي البقرة وآل عمران خطوة بخطوة 💚، مع بوك مارك للمصحف يساعدك في متابعة وردك اليومي 🌸",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 3
+},
+{
+  "id": 325,
+  "name": "بوستر أذكار الصباح والمساء",
+  "price": 5.00,
+  "mainImageUrl": "https://i.postimg.cc/FRw1wsPT/photo-2025-09-02-03-11-09.jpg",
+  "image2Url": "https://i.postimg.cc/FRw1wsPT/photo-2025-09-02-03-11-09.jpg",
+  "image3Url": "https://i.postimg.cc/pr8yvb4R/photo-2025-09-02-03-11-14.jpg",
+  "description": "بوستر أنيق لأذكار الصباح والمساء 🌅🌙 يمكنك تعليقه في الغرفة أو المكتب ليكون reminder يومي 💚",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 3
+},
+{
+  "id": 326,
+  "name": "بوك مارك للمصحف",
+  "price": 10.00,
+  "mainImageUrl": "https://i.postimg.cc/pVnmzzT4/photo-2025-09-02-03-11-28.jpg",
+  "image2Url": "https://i.postimg.cc/765fBTNC/photo-2025-09-02-03-11-23.jpg",
+  "image3Url": "https://i.postimg.cc/765fBTNC/photo-2025-09-02-03-11-23.jpg",
+  "description": "بوك مارك عملي بألوان وتصاميم جميلة ✨ يساعدك تتابعي وردك اليومي ويحفظ مكانك بكل سهولة 💚",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 3
+},
+{
+  "id": 327,
+  "name": "بلانر القرآن رفيقي",
+  "price": 150.00,
+  "mainImageUrl": "https://i.postimg.cc/m2ftwk1D/photo-2025-09-02-03-11-39.jpg",
+  "image2Url": "https://i.postimg.cc/ncyM3zsr/IMG-20250902-WA0007.jpg",
+  "image3Url": "https://i.postimg.cc/52fyhr3W/photo-2025-09-02-03-11-58.jpg",
+  "description": "بلانر مميز يساعدك في متابعة الحفظ والمراجعة. يشمل صفحات للحفظ الجديد، تقييم الإنجاز، مراجعة المصحف، خرائط ذهنية، ومخطط للتجويد ✨",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 3
+},
+{
+  "id": 328,
+  "name": "مخطط يومي استعن بالله",
+  "price": 120.00,
+  "mainImageUrl": "https://i.postimg.cc/1XpRT0Vz/photo-2025-09-02-03-12-22.jpg",
+  "image2Url": "https://i.postimg.cc/43dddhq8/photo-2025-09-02-03-12-17.jpg",
+  "image3Url": "https://i.postimg.cc/4yCNB2dM/photo-2025-09-02-03-12-36.jpg",
+  "description": "مخطط يومي مميز يحتوي على أفكار عملية وصفحات لمراجعة أسبوعية. يكفي 90 يوم بغلاف هارد كافر أنيق 🌿",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 3
+},
+{
+  "id": 329,
+  "name": "مخطط أسبوعي",
+  "price": 160.00,
+  "mainImageUrl": "https://i.postimg.cc/yNPd6yL3/photo-2025-08-31-14-28-07.jpg",
+  "image2Url": "https://i.postimg.cc/BnhSdnb2/photo-2025-09-02-03-13-27.jpg",
+  "image3Url": "https://i.postimg.cc/8CjpDgf9/photo-2025-09-02-03-13-34.jpg",
+  "description": "مخطط أسبوعي أنيق بغلاف هارد كافر متين وورق 80 جرام عالي الجودة. تصميم عملي يساعدك على التنظيم والمتابعة بسهولة ✨",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 330,
+  "name": "استيكر شيت فنيل",
+  "price": 25.00,
+  "mainImageUrl": "https://i.postimg.cc/YCjKLf2m/photo_2025-09-02_03-14-24.jpg",
+  "image2Url": "https://i.postimg.cc/YCjKLf2m/photo_2025-09-02_03-14-24.jpg",
+  "image3Url": "https://i.postimg.cc/4dkr0D6z/photo_2025-09-02_03-14-29.jpg",
+  "description": "استيكر شيت عملي وأنيق مصنوع من فنيل قوي بجودة عالية، مقاوم للماء وثابت الألوان. مثالي لتزيين اللابتوب أو الدفاتر 🌸",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 331,
+  "name": "بوستر A6 كوشيه",
+  "price": 15.00,
+  "mainImageUrl": "https://i.postimg.cc/VLKPNHw8/photo_2025-09-02_03-14-37.jpg",
+  "image2Url": "https://i.postimg.cc/VLKPNHw8/photo_2025-09-02_03-14-37.jpg",
+  "image3Url": "https://i.postimg.cc/VLKPNHw8/photo_2025-09-02_03-14-37.jpg",
+  "description": "بوستر كوشيه مقاس A6 بطباعة دوبل فيس أنيقة. خامة عالية الجودة وتصميم يضيف لمسة مميزة لمساحتك 🌸",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 2
+},
+{
+  "id": 332,
+  "name": "أباجورة مكتب معدن",
+  "price": 190.00,
+  "mainImageUrl": "https://i.postimg.cc/j2vmLCGX/photo_2025-09-02_03-14-56.jpg",
+  "image2Url": "https://i.postimg.cc/J0RSrjd0/photo_2025-09-02_03-14-50.jpg",
+  "image3Url": "https://i.postimg.cc/xjPWsFcz/photo_2025-09-02_03-15-03.jpg",
+  "description": "أباجورة مكتب معدن متينة بإضاءة مريحة للعين. تصميم عصري مناسب لطلاب الجامعة والمدارس يساعد على المذاكرة براحة أكبر ✨",
+  "colors": "__",
+  "isAvailable": true,
+  "categoryId": 2
+}
+
+  {
   "id": 158,
   "name": "فوطة بديل سلك المواعين",
   "price": 10.00,
@@ -80,7 +249,7 @@
   "image3Url": "https://i.postimg.cc/3RmsPXvv/IMG-20250827-000213-763.jpg",
   "description": "أقلام تحديد فسفورية قابلة للمسح 🌷🩷 العبوة 6 ألوان واضحة وجميلة، خامة ممتازة ومبهجة.",
   "colors": "بينك-بيج-اصفرمنت جرين-بيبي بلو-لافندر",
-  "isAvailable": true,
+  "isAvailable": false,
   "categoryId": 2
 },
 {
@@ -104,7 +273,7 @@
   "image3Url": "https://i.postimg.cc/sf912Kqf/IMG-20250902-WA0010.jpg",
   "description":"قلم أكريليك بخط سلس وناعم جدًا 🤎 متوفر بدرجات مختلفة من نفس اللون، مثالي للرسم والتلوين والإبداع ✨",
   "colors": "أزرق - موف - أخضر - بينك",
-  "isAvailable": true,
+  "isAvailable": false,
   "categoryId": 2
 },
 {
@@ -116,7 +285,7 @@
   "image3Url": "https://i.postimg.cc/3wCjVWww/IMG_20250827_000227_168.jpg",
   "description": "قلم شي إن بألوان باستل رائعة ومعه درجات غامقة كمان 🤎 خطه تحفة ومثالي للكتابة والرسم ✨",
   "colors": "لافندر-بينك-اصفر-اخضر-بيبي بلو",
-  "isAvailable": true,
+  "isAvailable": false,
   "categoryId": 2
 },
 {
@@ -267,9 +436,9 @@
   "id": 178,
   "name": "استيكي نوت كيوت ومعاها دبوس",
   "price": 35.00,
-  "mainImageUrl": "https://i.postimg.cc/x1ZR9Zrb/IMG-20250827-WA0008.jpg",
-  "image2Url": "https://i.postimg.cc/x1ZR9Zrb/IMG-20250827-WA0008.jpg",
-  "image3Url": "https://i.postimg.cc/x1ZR9Zrb/IMG-20250827-WA0008.jpg",
+  "mainImageUrl": "https://i.postimg.cc/ZqCyB337/IMG-20250902-WA0004.jpg",
+  "image2Url": "https://i.postimg.cc/ZqCyB337/IMG-20250902-WA0004.jpg",
+  "image3Url": "https://i.postimg.cc/ZqCyB337/IMG-20250902-WA0004.jpg",
   "description": "استيكي نوتس بأشكال كيوت مميزة لتدوين الملاحظات وتنظيم أفكارك بشكل ممتع وعملي.",
   "colors": "لبني",
   "isAvailable": true,
@@ -2056,18 +2225,6 @@
   "image2Url": "https://i.postimg.cc/7ZxBzb6F/Whats-App-Image-2025-08-29-at-21-15-02-5b723ad8.jpg",
   "image3Url": "https://i.postimg.cc/7ZxBzb6F/Whats-App-Image-2025-08-29-at-21-15-02-5b723ad8.jpg",
   "description": "5 أقلام روتو مميزة ✨، ألوانها واضحة وخامتها ممتازة تخلي كتابتك أسهل وأوضح في المذاكرة والشغل 💕",
-  "colors": "متعدد",
-  "isAvailable": true,
-  "categoryId": 2
-},
-{
-  "id": 203,
-  "name": "أقلام جاف سحرية قابلة للمسح",
-  "price": 20.00,
-  "mainImageUrl": "https://i.postimg.cc/PqJ26c1K/WhatsApp_Image_2025-08-29_at_22.44.57_3e53d3bf.jpg",
-  "image2Url": "https://i.postimg.cc/PqJ26c1K/WhatsApp_Image_2025-08-29_at_22.44.57_3e53d3bf.jpg",
-  "image3Url": "https://i.postimg.cc/PqJ26c1K/WhatsApp_Image_2025-08-29_at_22.44.57_3e53d3bf.jpg",
-  "description": "أقلام جاف عملية تكتب زي القلم العادي ✨ لكن بتميز إنها قابلة للمسح بسهولة من غير شطب أو كركبة 😍، مناسبة للمذاكرة والشغل 📝",
   "colors": "متعدد",
   "isAvailable": true,
   "categoryId": 2
