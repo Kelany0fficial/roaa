@@ -1349,18 +1349,6 @@
     "categoryId": 2
   },
   {
-    "id": 31,
-    "name": "خاتم تسبيح إلكتروني",
-    "price": 13.00,
-    "mainImageUrl": "https://i.postimg.cc/0Nt3YScc/IMG-20250816-WA0068.jpg",
-    "image2Url": "https://i.postimg.cc/0Nt3YScc/IMG-20250816-WA0068.jpg",
-    "image3Url": "https://i.postimg.cc/0Nt3YScc/IMG-20250816-WA0068.jpg",
-    "description": "خاتم تسبيح بزرار وعدد و زر Reset",
-    "colors": "—",
-    "isAvailable": true,
-    "categoryId": 3
-  },
-  {
     "id": 33,
     "name": "ورق حائط لاصق",
     "price": 55.00,
