@@ -749,7 +749,7 @@
   {
   "id": 52,
   "name": "مقلمة مكتبة معدن شبكة مربعة ومدورة ✨",
-  "price": 40.00,
+  "price": 35.00,
   "mainImageUrl": "https://i.postimg.cc/DZkPXbwv/Whats-App-Image-2025-08-27-at-14-19-24-4c332f76.jpg",
   "image2Url": "https://i.postimg.cc/gjghW2xJ/Whats-App-Image-2025-08-17-at-21-47-04-f01901be.jpg",
   "image3Url": "https://i.postimg.cc/FzrS8Ls8/Whats-App-Image-2025-08-17-at-21-47-04-d04f1c20.jpg",
@@ -1650,18 +1650,6 @@
   "colors": "متعدد",
   "isAvailable": true,
   "categoryId": 6
-},
-{
-  "id": 112,
-  "name": "نوت جلد 200 ورقة",
-  "price": 75.00,
-  "mainImageUrl": "https://i.postimg.cc/G386DKNJ/IMG-20250825-WA0041.jpg",
-  "image2Url": "https://i.postimg.cc/G386DKNJ/IMG-20250825-WA0041.jpg",
-  "image3Url": "https://i.postimg.cc/J4jg6nRs/IMG-20250825-WA0042.jpg",
-  "description": "نوت جلد فاخرة 📒\n200 ورقة – خامة قوية وأنيقة.\nمناسبة للكتابة اليومية أو الهدايا.\n\nالسعر: 75 جنيه",
-  "colors": "متعدد",
-  "isAvailable": true,
-  "categoryId": 2
 },
 {
   "id": 113,
