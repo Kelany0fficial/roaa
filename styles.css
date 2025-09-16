@@ -139,17 +139,10 @@ body {
 }
 
 .hero-content p {
+    font-size: 1.1rem;
+    margin: 0 auto 25px;
+    color: #FFFFFF;
     position: relative;
-    display: inline-block;
-    padding: 10px 15px;
-    border-radius: 10px;
-    background: rgba(0, 0, 0, 0.45); /* خلفية غامقة شبه شفافة */
-    -webkit-backdrop-filter: blur(4px);
-    backdrop-filter: blur(4px);
-    color: #fff !important;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.6);
-    line-height: 1.6;
-    max-width: 100%;
 }
 
 .palestinian-flag {
