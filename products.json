@@ -1388,7 +1388,248 @@
     "colors": "__",
     "isAvailable": true,
     "categoryId": 1
-  }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ {
+    "id": 702,
+    "name": "مج بورسلين شي ان",
+    "price": 235.00,
+    "mainImageUrl": "https://i.postimg.cc/4xBbB7S0/Whats-App-Image-2025-08-17-at-04-31-33-b65e231d.jpg",
+    "image2Url": "https://i.postimg.cc/cJz7NqZM/Whats-App-Image-2025-08-17-at-04-31-33-c8775176.jpg",
+    "image3Url": "https://i.postimg.cc/VNv9Tsyk/Whats-App-Image-2025-08-17-at-04-32-09-8bfff9f4.jpg",
+    "description": "مج بورسلين شي ان مميز جدا",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 703,
+    "name": "مج بورسلين وردي متدرج",
+    "price": 125.00,
+    "mainImageUrl": "https://i.postimg.cc/Kvs8fm5N/Whats-App-Image-2025-08-17-at-04-34-27-47d48540.jpg",
+    "image2Url": "https://i.postimg.cc/Kvs8fm5N/Whats-App-Image-2025-08-17-at-04-34-27-47d48540.jpg",
+    "image3Url": "https://i.postimg.cc/Kvs8fm5N/Whats-App-Image-2025-08-17-at-04-34-27-47d48540.jpg",
+    "description": "ابدأ يومك برشفة من الأناقة مع المج البورسلين الرائع ده! تصميمه الانسيابي بلون وردي متدرج بيضيف لمسة رقي على كل ركن في بيتك أو مكتبك 💖\n\n☕ المميزات:\n • سعة 380 مل تناسب الشاي، القهوة أو حتى العصائر\n • خامة بورسلين ممتازة تحافظ على حرارة مشروبك لفترة أطول\n • تصميم أنيق بملمس ناعم وقاعدة مريحة\n • خفيف الوزن (حوالي 323 جرام) وسهل الحمل والاستخدام اليومي\n • الأبعاد: 9 سم ارتفاع × 8.8 سم عرض × 12.5 سم مع اليد\n\n💡 مثالي لهدية أنيقة أو كإضافة شيك لمطبخك!\n\nخلي لحظتك اليومية مع الكوب ده مختلفة تمامًا 🌸☕",
+    "colors": "وردي متدرج",
+    "isAvailable": false,
+    "categoryId": 10
+  },
+  {
+    "id": 704,
+    "name": "شاليمو مجات الايس كوفي",
+    "price": 15.00,
+    "mainImageUrl": "https://i.postimg.cc/R0TpMHkv/IMG-20250816-WA0044.jpg",
+    "image2Url": "https://i.postimg.cc/R0TpMHkv/IMG-20250816-WA0044.jpg",
+    "image3Url": "https://i.postimg.cc/J4yFbtkQ/IMG-20250816-WA0045.jpg",
+    "description": "شاليمو مجات الايس كوفي العصري 🌸\n\n💫 السعر:\n• الواحد بـ 15 جنيه فقط\n• الباكدج (مجموعة) بـ 57 جنيه\n\nخفيف، عملي، ومثالي للمشروبات الباردة زي الأيس كوفي والعصائر 🧋",
+    "colors": "شفاف",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 705,
+    "name": "🌼 Mini Pocket Bag 🌼",
+    "price": 70.00,
+    "mainImageUrl": "https://i.postimg.cc/rsn87sYb/Whats-App-Image-2025-09-01-at-00-28-04-465756a9.jpg",
+    "image2Url": "https://i.postimg.cc/Zn8T8Bxs/Whats-App-Image-2025-08-17-at-20-27-59-ccefe658.jpg",
+    "image3Url": "https://i.postimg.cc/Zn8T8Bxs/Whats-App-Image-2025-08-17-at-20-27-59-ccefe658.jpg",
+    "description": "بوكيت عملي وخفيف 💕\nمناسب للخروج السريع أو إضافي جوه شنطتك الكبيرة ✨\nالطول 15 × العرض 11 سم\n\nصغنونه لكنها بتشيل: مفاتيح، فلوس، ملمع شفاه ومنديل بكل سهولة 🌸",
+    "colors": "ليمون",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+ {
+    "id": 707,
+    "name": "☕🍳 مضرب 2×1 🍳☕",
+    "price": 150.00,
+    "mainImageUrl": "https://i.postimg.cc/qRXn1L02/Whats-App-Image-2025-08-17-at-21-42-13-d54cae71.jpg",
+    "image2Url": "https://i.postimg.cc/qRXn1L02/Whats-App-Image-2025-08-17-at-21-42-13-d54cae71.jpg",
+    "image3Url": "https://i.postimg.cc/qRXn1L02/Whats-App-Image-2025-08-17-at-21-42-13-d54cae71.jpg",
+    "description": "مضرب آيس كوفي وبيض عملي وخفيف ✨\nبيخلي قهوتك رغوة كريمية زي الكافيه 💕 وكمان بيساعدك في خفق البيض بكل سهولة وسرعة 🥚\nقطعة صغيرة لكن أساسية في مطبخك 👌",
+    "colors": "أسود / فضي",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 708,
+    "name": "مخدة الرقبة للسفر",
+    "price": 280.00,
+    "mainImageUrl": "https://i.postimg.cc/bvJ1x4XR/IMG-20250901-WA0023.jpg",
+    "image2Url": "https://i.postimg.cc/Hx85K5kc/IMG-20250901-WA0025.jpg",
+    "image3Url": "https://i.postimg.cc/8c8WV57y/IMG-20250901-WA0022.jpg",
+    "description": "✨ مخدة الرقبة للسفر ✈️\n\n✔️ مريحة جدًا وطريّة 😍\n✔️ مثالية أثناء النوم في السفر 🚂💺\n✔️ تساعد على تخفيف ألم الرقبة\n❤️",
+    "colors": "استتش-كيتي",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 709,
+    "name": "شوكة فاكهة شيك",
+    "price": 15.00,
+    "mainImageUrl": "https://i.postimg.cc/yNYM5xpL/Whats-App-Image-2025-08-21-at-02-34-02-3ff61966.jpg",
+    "image2Url": "https://i.postimg.cc/zfts1N98/Whats-App-Image-2025-08-21-at-02-34-02-9c664698.jpg",
+    "image3Url": "https://i.postimg.cc/XY8MQdLZ/Whats-App-Image-2025-08-21-at-02-34-01-70e2b5c1.jpg",
+    "description": "شوكه فاكهه شيك جدا 🌸🧺 مستورده ⬅ بلاستيك بيور ⬅ متعدد الاستخدامات :لتناول الجبن والزلابيا والفواكه....الخ ⬅ متوفره بالوان واشكال الصور",
+    "colors": "متعدد",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 710,
+    "name": "مجموعة شوك فاكهة للأطفال",
+    "price": 35.00,
+    "mainImageUrl": "https://i.postimg.cc/gkV128fM/Whats-App-Image-2025-08-21-at-02-35-26-3318fdfc.jpg",
+    "image2Url": "https://i.postimg.cc/05JLhLZ1/Whats-App-Image-2025-08-21-at-02-35-26-0469b5a3.jpg",
+    "image3Url": "https://i.postimg.cc/YqKJ7byG/Whats-App-Image-2025-08-21-at-02-35-26-35b4c783.jpg",
+    "description": "مجموعه شوك فاكهه للاطفال 🦁🦕🦐  شوك فاكهة بلاستيك لتقديم الفاكهه بشكل مميز للاطفال والكبار 😍 باشكال حيوانات مبهجه 🦒🐢مناسبه لوضعها في اللانش بوكس",
+    "colors": "متعدد",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 711,
+    "name": "حامل موبايل اثناء الشحن ومنظم ريموت",
+    "price": 20.00,
+    "mainImageUrl": "https://i.postimg.cc/1XjXgbnQ/Whats-App-Image-2025-08-21-at-02-57-15-cd12f3fe.jpg",
+    "image2Url": "https://i.postimg.cc/FFW7nkPB/Whats-App-Image-2025-08-21-at-02-57-15-bfd57e24.jpg",
+    "image3Url": "https://i.postimg.cc/FFW7nkPB/Whats-App-Image-2025-08-21-at-02-57-15-bfd57e24.jpg",
+    "description": "حامل موبايل اثناء الشحن + منظم ريمot مزود ب لاصق دبل فيس قوي.",
+    "colors": "ازرق-بينك-اصفر",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 712,
+    "name": "مج آيس كوفي إزاز",
+    "price": 35.00,
+    "mainImageUrl": "https://i.postimg.cc/wjqsCRQX/IMG-20250816-WA0007.jpg",
+    "image2Url": "https://i.postimg.cc/zB9kKscX/ice.jpg",
+    "image3Url": "https://i.postimg.cc/RhCBSmsD/IMG-20250816-WA0035.jpg",
+    "description": "مج إزاز مخصص للقهوة الباردة",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 713,
+    "name": "مج جلد شاليموه",
+    "price": 50.00,
+    "mainImageUrl": "https://i.postimg.cc/fTF6FYNF/IMG-20250816-WA0041.jpg",
+    "image2Url": "https://i.postimg.cc/HxpK52wJ/IMG-20250816-WA0042.jpg",
+    "image3Url": "https://i.postimg.cc/FzzBCHnN/IMG-20250816-WA0043.jpg",
+    "description": "مج بجاكت جلدي قابل للطباعة متوفر بجميع الألوان",
+    "colors": "متعدد",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 714,
+    "name": "مج شي إن",
+    "price": 185.00,
+    "mainImageUrl": "https://i.postimg.cc/28hgb7ns/Whats-App-Image-2025-08-24-at-04-01-46-d262c983.jpg",
+    "image2Url": "https://i.postimg.cc/3xhVg0Bd/Whats-App-Image-2025-08-24-at-04-01-53-4712fad9.jpg",
+    "image3Url": "https://i.postimg.cc/JzQgK76K/Whats-App-Image-2025-08-24-at-04-01-57-3770afd2.jpg",
+    "description": "مج بورسلين مستورد ترندي شي إن",
+    "colors": "سحابه ازرق-سحابه بينك-ورد بينك",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 715,
+    "name": "قالب ثلج بالغطاء دورين",
+    "price": 69.00,
+    "mainImageUrl": "https://i.postimg.cc/kg8G4170/Whats-App-Image-2025-08-21-at-03-01-40-df3867f4.jpg",
+    "image2Url": "https://i.postimg.cc/kg8G4170/Whats-App-Image-2025-08-21-at-03-01-40-df3867f4.jpg",
+    "image3Url": "https://i.postimg.cc/mryr3PzV/Whats-App-Image-2025-08-21-at-03-01-41-506bcd43.jpg",
+    "description": "قالب ثلج بالغطاء جديد لمسه قالب ثلج بغطاء لكل الناس ال كنت عايز قالب ثلج بالغطا ❤من لمسه بلاست دورين كل دور يحتوى على 18 مكعب تلج اثنين مع بعضيعنى 36 مكعبالباكيت 2 قطعه ♻",
+    "colors": "بينك-ابيض",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 716,
+    "name": "مج بورسلين  تريندي",
+    "price": 95.00,
+    "mainImageUrl": "https://i.postimg.cc/YqNf9pdN/IMG-20250824-WA0013.jpg",
+    "image2Url": "https://i.postimg.cc/YqNf9pdN/IMG-20250824-WA0013.jpg",
+    "image3Url": "https://i.postimg.cc/0210P602/IMG-20250824-WA0012.jpg",
+    "description": "مج بورسلين  تريندي 🌸يد بابلي حجم كبير 🧺 العدد محدود جدا و اختيار الشكل عشوائي",
+    "colors": "--",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 717,
+    "name": "مج الفراشه البورسلين المستورد 🌸",
+    "price": 130.00,
+    "mainImageUrl": "https://i.postimg.cc/DZtdWmV6/IMG-20250824-WA0010.jpg",
+    "image2Url": "https://i.postimg.cc/TwyJYgsh/IMG-20250824-WA0009.jpg",
+    "image3Url": "https://i.postimg.cc/FKCx4DD2/IMG-20250824-WA0011.jpg",
+    "description": "مج الفراشه البورسلين المستورد 🌸أحلي مج  ومن المجات البيست سيلر",
+    "colors": "--",
+    "isAvailable": false,
+    "categoryId": 10
+  },
+  {
+    "id": 718,
+    "name": "مج جلد شاليموه",
+    "price": 65.00,
+    "mainImageUrl": "https://i.postimg.cc/1Rqrk06j/IMG-20250824-WA0008.jpg",
+    "image2Url": "https://i.postimg.cc/rsxG5cMk/IMG-20250824-WA0007.jpg",
+    "image3Url": "https://i.postimg.cc/rsxG5cMk/IMG-20250824-WA0007.jpg",
+    "description": "مج أشكال لوكس كيوت اوي 🩷🌸",
+    "colors": "--",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+ {
+    "id": 726,
+    "name": "مج بايركس جود مورنينج",
+    "price": 60.00,
+    "mainImageUrl": "https://i.postimg.cc/dtz5h6Fq/1.jpg",
+    "image2Url": "https://i.postimg.cc/pLzqzjVK/2.jpg",
+    "image3Url": "https://i.postimg.cc/NfVM4dfs/IMG-20250825-WA0099.jpg",
+    "description": "مج بايركس بيضاوي كبير مطبوع عليه Good Morning، عملي وجميل ☕",
+    "colors": "شفاف",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+  "id": 200,
+  "name": "ماسك حلويات",
+  "price": 25.00,
+  "mainImageUrl": "https://i.postimg.cc/9f1F3LQh/Whats-App-Image-2025-09-16-at-17-48-40-a366cbf9.jpg",
+  "image2Url": "https://i.postimg.cc/9f1F3LQh/Whats-App-Image-2025-09-16-at-17-48-40-a366cbf9.jpg",
+  "image3Url": "https://i.postimg.cc/9f1F3LQh/Whats-App-Image-2025-09-16-at-17-48-40-a366cbf9.jpg",
+  "description": "ماسك حلويات أنيق ومميز 🤎 يساعدك في تقديم الحلويات والضيافة بشكل عملي ومنظم. تصميم بسيط يضيف لمسة لطيفة للمناسبات أو الاستخدام اليومي ✨",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 10
+}
+
 ]
 
 
