@@ -63,7 +63,7 @@
 {
 "id": 52,
 "name": "قلم سحري قابل للمسح",
-"price": 17.00,
+"price": 20.00,
 "mainImageUrl": "https://i.postimg.cc/T2kzB3yQ/IMG-20250827-000317-945.jpg",
 "image2Url": "https://i.postimg.cc/hv3Nm2FN/IMG-20250827-000317-934.jpg",
 "image3Url": "https://i.postimg.cc/Zn0MJ69H/IMG-20250827-000318-730.jpg",
@@ -87,10 +87,10 @@
 {
 "id": 54,
 "name": "قلم جاف سوستة استتش",
-"price": 16.00,
-"mainImageUrl": "https://i.postimg.cc/VNbFvF1Z/IMG-20250827-WA0007.jpg",
-"image2Url": "https://i.postimg.cc/VNbFvF1Z/IMG-20250827-WA0007.jpg",
-"image3Url": "https://i.postimg.cc/VNbFvF1Z/IMG-20250827-WA0007.jpg",
+"price": 15.00,
+"mainImageUrl": "https://i.postimg.cc/gJXR8Yzc/Whats-App-Image-2025-09-23-at-21-59-59-7fb8ca67.jpg",
+"image2Url": "https://i.postimg.cc/gJXR8Yzc/Whats-App-Image-2025-09-23-at-21-59-59-7fb8ca67.jpg",
+"image3Url": "https://i.postimg.cc/rpYxDdLY/Whats-App-Image-2025-09-23-at-21-59-58-68f03ef1.jpg",
 "description": "قلم جاف عملي بتصميم سوستة استتش كيوت، كتابة واضحة وسلسة، مناسب للمدرسة والمكتب والاستخدام اليومي.",
 "colors": "أزرق",
 "isAvailable": true,
@@ -105,7 +105,7 @@
 "image3Url": "https://i.postimg.cc/sXY99DMp/IMG-20250827-WA0011.jpg",
 "description": "قلم جل جاف بأشكال كيوت ورسومات مبهجة، خط ناعم وسلس مناسب للكتابة اليومية والتدوين.",
 "colors": "متعدد الألوان",
-"isAvailable": true,
+"isAvailable": false,
 "categoryId": 2
 },
 {
@@ -136,7 +136,7 @@
 "id": 86,
 "name": "قلم جاف سوستة ديزني",
 "price": 15.00,
-"mainImageUrl": "https://i.postimg.cc/ZnWwFDCq/IMG-20250816-WA0050.jpg",
+"mainImageUrl": "https://i.postimg.cc/FH6n4HBN/IMG-20250923-WA0060.jpg",
 "image2Url": "https://i.postimg.cc/90sJxt7Y/IMG-20250816-WA0049.jpg",
 "image3Url": "https://i.postimg.cc/J4BTsgf6/IMG-20250816-WA0051.jpg",
 "description": "قلم جاف ديزني بسوستة",
@@ -156,6 +156,19 @@
 "isAvailable": true,
 "categoryId": 2
 },
+{
+  "id": 96,
+  "name": "قلم جاف حبر جل Kuromi",
+  "price": 15.00,
+  "mainImageUrl": "https://i.postimg.cc/8CrXPg2W/IMG-20250923-WA0057.jpg",
+  "image2Url": "https://i.postimg.cc/8CrXPg2W/IMG-20250923-WA0057.jpg",
+  "image3Url": "https://i.postimg.cc/8CrXPg2W/IMG-20250923-WA0057.jpg",
+  "description": "قلم جاف حبر جل بتصميم شخصية كيوت Kuromi 🖤✨ خطه سلس ومريح للكتابة اليومية، يجمع بين العملية والشكل اللطيف.",
+  "colors": "متعدد",
+  "isAvailable": true,
+  "categoryId": 2
+},
+
 
 
 
@@ -197,7 +210,7 @@
 "image3Url": "https://i.postimg.cc/rwbwHH0j/IMG-20250902-WA0011.jpg",
 "description": "كشكول كوري سلك بتصميم دبدوب 🐻✨ شكله كيوت وأنيق يفتح النفس على الكتابة والمذاكرة 🤍 يتميز بورق عالي الجودة وسلك عملي لتقليب الصفحات بسهولة، وتصميم مختلف يميزك وسط صحابك 🌸 مثالي للمذاكرة أو تدوين أفكارك اليومية ✨",
 "colors": "__",
-"isAvailable": true,
+"isAvailable": false,
 "categoryId": 3
 },
 {
@@ -216,8 +229,8 @@
 "id": 73,
 "name": "نوت هارد كافر ٤ فواصل",
 "price": 120.00,
-"mainImageUrl": "https://i.postimg.cc/MH1QSyLD/IMG-20250816-WA0002.jpg",
-"image2Url": "https://i.postimg.cc/h4mxTBGd/IMG-20250816-WA0003.jpg",
+"mainImageUrl": "https://i.postimg.cc/wjMbZmFw/IMG-20250923-WA0056.jpg",
+"image2Url": "https://i.postimg.cc/hj6L5Xy7/Whats-App-Image-2025-09-23-at-21-59-53-4d81b440.jpg",
 "image3Url": "https://i.postimg.cc/jdrfhFWk/IMG-20250816-WA0004.jpg",
 "description": "نوت 120 ورقة، ورق نقي وخامة جميلة",
 "colors": "—",
@@ -736,7 +749,7 @@
 "image3Url": "https://i.postimg.cc/25QPDg1Y/Whats-App-Image-2025-08-28-at-16-10-50-6664ff7f.jpg",
 "description": "منظم مكتبي دورين ✨💖، يوفر مساحة أكبر ويحافظ على ترتيب أدواتك الدراسية أو مستلزماتك الصغيرة، شكله عصري وأنيق 🤍",
 "colors": "بينك-رمادي",
-"isAvailable": true,
+"isAvailable": false,
 "categoryId": 6
 },
 {
@@ -766,7 +779,7 @@
 {
   "id": 100,
   "name": "مسند هاتف وتابلت دوار",
-  "price": 120.00,
+  "price": 60.00,
   "mainImageUrl": "https://i.postimg.cc/KzWXtPCy/Whats-App-Image-2025-09-16-at-05-32-57-7f1a20cb.jpg",
   "image2Url": "https://i.postimg.cc/DmVtM22j/Whats-App-Image-2025-09-16-at-05-32-56-374dab08.jpg",
   "image3Url": "https://i.postimg.cc/MHfC5c8f/Whats-App-Image-2025-09-16-at-05-32-57-1c057916.jpg",
@@ -833,7 +846,7 @@
 {
 "id": 68,
 "name": "استيكر مميز",
-"price": 15.00,
+"price": 20.00,
 "mainImageUrl": "https://i.postimg.cc/R0Vd9HBn/Whats-App-Image-2025-08-20-at-19-49-02-6f063639.jpg",
 "image2Url": "https://i.postimg.cc/63FfdbGd/Whats-App-Image-2025-08-20-at-19-49-02-e42fb9cb.jpg",
 "image3Url": "https://i.postimg.cc/rFdFZ8YG/Whats-App-Image-2025-08-21-at-03-45-47-3f3374fd.jpg",
@@ -934,7 +947,7 @@
 "image2Url": "https://i.postimg.cc/J0RSrjd0/photo_2025-09-02_03-14-50.jpg",
 "image3Url": "https://i.postimg.cc/xjPWsFcz/photo_2025-09-02_03-15-03.jpg",
 "description": "أباجورة مكتب معدن متينة بإضاءة مريحة للعين. تصميم عصري مناسب لطلاب الجامعة والمدارس يساعد على المذاكرة براحة أكبر ✨",
-"colors": "سلفر - ابيض - اسود",
+"colors": " ابيض - اسود",
 "isAvailable": true,
 "categoryId": 8
 },
@@ -947,7 +960,7 @@
 "image3Url": "https://i.postimg.cc/KvJnv5zq/IMG-20250816-WA0101.jpg",
 "description": " إضاءة 180 درجة بمستويات متعددة، مع أو بدون حامل USB دوارة",
 "colors": "لبني-بينك-بيبي بلو",
-"isAvailable": true,
+"isAvailable": false,
 "categoryId": 8
 },
 {
@@ -1417,26 +1430,124 @@
     "id": 702,
     "name": "مج بورسلين شي ان",
     "price": 235.00,
-    "mainImageUrl": "https://i.postimg.cc/4xBbB7S0/Whats-App-Image-2025-08-17-at-04-31-33-b65e231d.jpg",
-    "image2Url": "https://i.postimg.cc/cJz7NqZM/Whats-App-Image-2025-08-17-at-04-31-33-c8775176.jpg",
-    "image3Url": "https://i.postimg.cc/VNv9Tsyk/Whats-App-Image-2025-08-17-at-04-32-09-8bfff9f4.jpg",
+    "mainImageUrl": "https://i.postimg.cc/QxLggWK2/Whats-App-Image-2025-09-23-at-21-59-57-4ede230b.jpg",
+    "image2Url": "https://i.postimg.cc/Qdmpr4YD/Whats-App-Image-2025-09-23-at-21-59-58-aebec4f4.jpg",
+    "image3Url": "https://i.postimg.cc/4xBbB7S0/Whats-App-Image-2025-08-17-at-04-31-33-b65e231d.jpg",
     "description": "مج بورسلين شي ان مميز جدا",
     "colors": "—",
     "isAvailable": true,
     "categoryId": 10
   },
+   {
+    "id": 726,
+    "name": "مج بايركس جود مورنينج",
+    "price": 60.00,
+    "mainImageUrl": "https://i.postimg.cc/dtz5h6Fq/1.jpg",
+    "image2Url": "https://i.postimg.cc/pLzqzjVK/2.jpg",
+    "image3Url": "https://i.postimg.cc/NfVM4dfs/IMG-20250825-WA0099.jpg",
+    "description": "مج بايركس بيضاوي كبير مطبوع عليه Good Morning، عملي وجميل ☕",
+    "colors": "شفاف",
+    "isAvailable": true,
+    "categoryId": 10
+  },
   {
-    "id": 703,
-    "name": "مج بورسلين وردي متدرج",
-    "price": 125.00,
-    "mainImageUrl": "https://i.postimg.cc/Kvs8fm5N/Whats-App-Image-2025-08-17-at-04-34-27-47d48540.jpg",
-    "image2Url": "https://i.postimg.cc/Kvs8fm5N/Whats-App-Image-2025-08-17-at-04-34-27-47d48540.jpg",
-    "image3Url": "https://i.postimg.cc/Kvs8fm5N/Whats-App-Image-2025-08-17-at-04-34-27-47d48540.jpg",
-    "description": "ابدأ يومك برشفة من الأناقة مع المج البورسلين الرائع ده! تصميمه الانسيابي بلون وردي متدرج بيضيف لمسة رقي على كل ركن في بيتك أو مكتبك 💖\n\n☕ المميزات:\n • سعة 380 مل تناسب الشاي، القهوة أو حتى العصائر\n • خامة بورسلين ممتازة تحافظ على حرارة مشروبك لفترة أطول\n • تصميم أنيق بملمس ناعم وقاعدة مريحة\n • خفيف الوزن (حوالي 323 جرام) وسهل الحمل والاستخدام اليومي\n • الأبعاد: 9 سم ارتفاع × 8.8 سم عرض × 12.5 سم مع اليد\n\n💡 مثالي لهدية أنيقة أو كإضافة شيك لمطبخك!\n\nخلي لحظتك اليومية مع الكوب ده مختلفة تمامًا 🌸☕",
-    "colors": "وردي متدرج",
+  "id": 728,
+  "name": "مج بورسلين سنجوب وفطر",
+  "price": 150.00,
+  "mainImageUrl": "https://i.postimg.cc/fydcnMpq/Whats-App-Image-2025-09-23-at-21-59-55-5cb591c4.jpg",
+  "image2Url": "https://i.postimg.cc/26sWxPyQ/Whats-App-Image-2025-09-23-at-21-59-59-77c4d777.jpg",
+  "image3Url": "https://i.postimg.cc/pVjzdXcq/Whats-App-Image-2025-09-23-at-21-59-59-05948f00.jpg",
+  "description": "مج بورسلين أنيق بتصميم سنجوب 🐿️ وفطر 🍄 يضيف لمسة دافئة لمشروباتك الساخنة. مناسب للهدايا 🎀 أو للاستخدام اليومي.",
+  "colors": "أبيض",
+  "isAvailable": true,
+  "categoryId": 10
+},
+
+  {
+    "id": 716,
+    "name": "مج بورسلين  تريندي",
+    "price": 85.00,
+    "mainImageUrl": "https://i.postimg.cc/BnBCnQ6d/Whats-App-Image-2025-09-23-at-21-59-50-9c05f5ad.jpg",
+    "image2Url": "https://i.postimg.cc/YqNf9pdN/IMG-20250824-WA0013.jpg",
+    "image3Url": "https://i.postimg.cc/0210P602/IMG-20250824-WA0012.jpg",
+    "description": "مج بورسلين  تريندي 🌸يد بابلي حجم كبير 🧺 العدد محدود جدا و اختيار الشكل عشوائي",
+    "colors": "--",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 717,
+    "name": "مج الفراشه البورسلين المستورد 🌸",
+    "price": 130.00,
+    "mainImageUrl": "https://i.postimg.cc/DZtdWmV6/IMG-20250824-WA0010.jpg",
+    "image2Url": "https://i.postimg.cc/TwyJYgsh/IMG-20250824-WA0009.jpg",
+    "image3Url": "https://i.postimg.cc/FKCx4DD2/IMG-20250824-WA0011.jpg",
+    "description": "مج الفراشه البورسلين المستورد 🌸أحلي مج  ومن المجات البيست سيلر",
+    "colors": "--",
     "isAvailable": false,
     "categoryId": 10
   },
+  {
+    "id": 718,
+    "name": "مج جلد شاليموه",
+    "price": 65.00,
+    "mainImageUrl": "https://i.postimg.cc/1Rqrk06j/IMG-20250824-WA0008.jpg",
+    "image2Url": "https://i.postimg.cc/rsxG5cMk/IMG-20250824-WA0007.jpg",
+    "image3Url": "https://i.postimg.cc/rsxG5cMk/IMG-20250824-WA0007.jpg",
+    "description": "مج أشكال لوكس كيوت اوي 🩷🌸",
+    "colors": "--",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+ {
+    "id": 727,
+    "name": "مج بورسلين وردي(Stay Happy Stay Cosy)",
+    "price": 125.00,
+    "mainImageUrl": "https://i.postimg.cc/Jh75DVHt/Whats-App-Image-2025-09-23-at-21-59-51-096b0e39.jpg",
+    "image2Url": "https://i.postimg.cc/Jh75DVHt/Whats-App-Image-2025-09-23-at-21-59-51-096b0e39.jpg",
+    "image3Url": "https://i.postimg.cc/Jh75DVHt/Whats-App-Image-2025-09-23-at-21-59-51-096b0e39.jpg",
+    "description": "مج بورسلين وردي(Stay Happy Stay Cosy)",
+    "colors": "بينك",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+    {
+    "id": 713,
+    "name": "مج جلد شاليموه",
+    "price": 50.00,
+    "mainImageUrl": "https://i.postimg.cc/fTF6FYNF/IMG-20250816-WA0041.jpg",
+    "image2Url": "https://i.postimg.cc/HxpK52wJ/IMG-20250816-WA0042.jpg",
+    "image3Url": "https://i.postimg.cc/FzzBCHnN/IMG-20250816-WA0043.jpg",
+    "description": "مج بجاكت جلدي قابل للطباعة متوفر بجميع الألوان",
+    "colors": "متعدد",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 714,
+    "name": "مج شي إن",
+    "price": 185.00,
+    "mainImageUrl": "https://i.postimg.cc/28hgb7ns/Whats-App-Image-2025-08-24-at-04-01-46-d262c983.jpg",
+    "image2Url": "https://i.postimg.cc/3xhVg0Bd/Whats-App-Image-2025-08-24-at-04-01-53-4712fad9.jpg",
+    "image3Url": "https://i.postimg.cc/JzQgK76K/Whats-App-Image-2025-08-24-at-04-01-57-3770afd2.jpg",
+    "description": "مج بورسلين مستورد ترندي شي إن",
+    "colors": "سحابه ازرق-سحابه بينك-ورد بينك",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+   {
+    "id": 712,
+    "name": "مج آيس كوفي إزاز",
+    "price": 35.00,
+    "mainImageUrl": "https://i.postimg.cc/wjqsCRQX/IMG-20250816-WA0007.jpg",
+    "image2Url": "https://i.postimg.cc/zB9kKscX/ice.jpg",
+    "image3Url": "https://i.postimg.cc/RhCBSmsD/IMG-20250816-WA0035.jpg",
+    "description": "مج إزاز مخصص للقهوة الباردة",
+    "colors": "—",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+
   {
     "id": 704,
     "name": "شاليمو مجات الايس كوفي",
@@ -1470,7 +1581,7 @@
     "image3Url": "https://i.postimg.cc/qRXn1L02/Whats-App-Image-2025-08-17-at-21-42-13-d54cae71.jpg",
     "description": "مضرب آيس كوفي وبيض عملي وخفيف ✨\nبيخلي قهوتك رغوة كريمية زي الكافيه 💕 وكمان بيساعدك في خفق البيض بكل سهولة وسرعة 🥚\nقطعة صغيرة لكن أساسية في مطبخك 👌",
     "colors": "أسود / فضي",
-    "isAvailable": true,
+    "isAvailable": false,
     "categoryId": 10
   },
   {
@@ -1482,7 +1593,7 @@
     "image3Url": "https://i.postimg.cc/8c8WV57y/IMG-20250901-WA0022.jpg",
     "description": "✨ مخدة الرقبة للسفر ✈️\n\n✔️ مريحة جدًا وطريّة 😍\n✔️ مثالية أثناء النوم في السفر 🚂💺\n✔️ تساعد على تخفيف ألم الرقبة\n❤️",
     "colors": "استتش-كيتي",
-    "isAvailable": true,
+    "isAvailable": false,
     "categoryId": 10
   },
   {
@@ -1521,42 +1632,8 @@
     "isAvailable": true,
     "categoryId": 10
   },
-  {
-    "id": 712,
-    "name": "مج آيس كوفي إزاز",
-    "price": 35.00,
-    "mainImageUrl": "https://i.postimg.cc/wjqsCRQX/IMG-20250816-WA0007.jpg",
-    "image2Url": "https://i.postimg.cc/zB9kKscX/ice.jpg",
-    "image3Url": "https://i.postimg.cc/RhCBSmsD/IMG-20250816-WA0035.jpg",
-    "description": "مج إزاز مخصص للقهوة الباردة",
-    "colors": "—",
-    "isAvailable": true,
-    "categoryId": 10
-  },
-  {
-    "id": 713,
-    "name": "مج جلد شاليموه",
-    "price": 50.00,
-    "mainImageUrl": "https://i.postimg.cc/fTF6FYNF/IMG-20250816-WA0041.jpg",
-    "image2Url": "https://i.postimg.cc/HxpK52wJ/IMG-20250816-WA0042.jpg",
-    "image3Url": "https://i.postimg.cc/FzzBCHnN/IMG-20250816-WA0043.jpg",
-    "description": "مج بجاكت جلدي قابل للطباعة متوفر بجميع الألوان",
-    "colors": "متعدد",
-    "isAvailable": true,
-    "categoryId": 10
-  },
-  {
-    "id": 714,
-    "name": "مج شي إن",
-    "price": 185.00,
-    "mainImageUrl": "https://i.postimg.cc/28hgb7ns/Whats-App-Image-2025-08-24-at-04-01-46-d262c983.jpg",
-    "image2Url": "https://i.postimg.cc/3xhVg0Bd/Whats-App-Image-2025-08-24-at-04-01-53-4712fad9.jpg",
-    "image3Url": "https://i.postimg.cc/JzQgK76K/Whats-App-Image-2025-08-24-at-04-01-57-3770afd2.jpg",
-    "description": "مج بورسلين مستورد ترندي شي إن",
-    "colors": "سحابه ازرق-سحابه بينك-ورد بينك",
-    "isAvailable": true,
-    "categoryId": 10
-  },
+ 
+
   {
     "id": 715,
     "name": "قالب ثلج بالغطاء دورين",
@@ -1569,54 +1646,7 @@
     "isAvailable": true,
     "categoryId": 10
   },
-  {
-    "id": 716,
-    "name": "مج بورسلين  تريندي",
-    "price": 95.00,
-    "mainImageUrl": "https://i.postimg.cc/YqNf9pdN/IMG-20250824-WA0013.jpg",
-    "image2Url": "https://i.postimg.cc/YqNf9pdN/IMG-20250824-WA0013.jpg",
-    "image3Url": "https://i.postimg.cc/0210P602/IMG-20250824-WA0012.jpg",
-    "description": "مج بورسلين  تريندي 🌸يد بابلي حجم كبير 🧺 العدد محدود جدا و اختيار الشكل عشوائي",
-    "colors": "--",
-    "isAvailable": true,
-    "categoryId": 10
-  },
-  {
-    "id": 717,
-    "name": "مج الفراشه البورسلين المستورد 🌸",
-    "price": 130.00,
-    "mainImageUrl": "https://i.postimg.cc/DZtdWmV6/IMG-20250824-WA0010.jpg",
-    "image2Url": "https://i.postimg.cc/TwyJYgsh/IMG-20250824-WA0009.jpg",
-    "image3Url": "https://i.postimg.cc/FKCx4DD2/IMG-20250824-WA0011.jpg",
-    "description": "مج الفراشه البورسلين المستورد 🌸أحلي مج  ومن المجات البيست سيلر",
-    "colors": "--",
-    "isAvailable": false,
-    "categoryId": 10
-  },
-  {
-    "id": 718,
-    "name": "مج جلد شاليموه",
-    "price": 65.00,
-    "mainImageUrl": "https://i.postimg.cc/1Rqrk06j/IMG-20250824-WA0008.jpg",
-    "image2Url": "https://i.postimg.cc/rsxG5cMk/IMG-20250824-WA0007.jpg",
-    "image3Url": "https://i.postimg.cc/rsxG5cMk/IMG-20250824-WA0007.jpg",
-    "description": "مج أشكال لوكس كيوت اوي 🩷🌸",
-    "colors": "--",
-    "isAvailable": true,
-    "categoryId": 10
-  },
- {
-    "id": 726,
-    "name": "مج بايركس جود مورنينج",
-    "price": 60.00,
-    "mainImageUrl": "https://i.postimg.cc/dtz5h6Fq/1.jpg",
-    "image2Url": "https://i.postimg.cc/pLzqzjVK/2.jpg",
-    "image3Url": "https://i.postimg.cc/NfVM4dfs/IMG-20250825-WA0099.jpg",
-    "description": "مج بايركس بيضاوي كبير مطبوع عليه Good Morning، عملي وجميل ☕",
-    "colors": "شفاف",
-    "isAvailable": true,
-    "categoryId": 10
-  },
+
   {
   "id": 200,
   "name": "ماسك حلويات",
