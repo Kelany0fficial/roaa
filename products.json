@@ -32,7 +32,7 @@
 "image2Url": "https://i.postimg.cc/hjYnBDCk/IMG-20250827-000159-000.jpg",
 "image3Url": "https://i.postimg.cc/prnHVw4p/IMG-20250827-000159-011.jpg",
 "description": "قلم جل سوستة 💙🩷 بخط سلس ومريح للكتابة اليومية، مقاس السن 0.5 مم، عملي ومثالي للمذاكرة أو الاستخدام اليومي.",
-"colors": "بيبي بلو",
+"colors": "بينك-بيبي بلو",
 "isAvailable": true,
 "categoryId": 2
 },
@@ -134,7 +134,7 @@
 },
 {
 "id": 86,
-"name": "قلم جاف سوستة ديزني",
+"name": "قلم جاف جل تقيل سوستة ديزني",
 "price": 15.00,
 "mainImageUrl": "https://i.postimg.cc/FH6n4HBN/IMG-20250923-WA0060.jpg",
 "image2Url": "https://i.postimg.cc/90sJxt7Y/IMG-20250816-WA0049.jpg",
@@ -229,8 +229,8 @@
 "id": 73,
 "name": "نوت هارد كافر ٤ فواصل",
 "price": 120.00,
-"mainImageUrl": "https://i.postimg.cc/wjMbZmFw/IMG-20250923-WA0056.jpg",
-"image2Url": "https://i.postimg.cc/hj6L5Xy7/Whats-App-Image-2025-09-23-at-21-59-53-4d81b440.jpg",
+"mainImageUrl": "https://i.postimg.cc/rF0ktX9w/Whats-App-Image-2025-10-02-at-09-39-23-06b5ebb9.jpg",
+"image2Url": "https://i.postimg.cc/Prpj8sMY/Whats-App-Image-2025-10-02-at-09-39-23-a53577c5.jpg",
 "image3Url": "https://i.postimg.cc/jdrfhFWk/IMG-20250816-WA0004.jpg",
 "description": "نوت 120 ورقة، ورق نقي وخامة جميلة",
 "colors": "—",
@@ -628,7 +628,7 @@
 "image3Url": "https://i.postimg.cc/fR9WddH7/IMG-20250907-WA0021.jpg",
 "description": "شريط تصحيح بطول 8 متر. عملي وسهل الاستخدام لإصلاح الأخطاء بسرعة ✨📄",
 "colors": "أبيض",
-"isAvailable": true,
+"isAvailable": false,
 "categoryId": 6
 },
 {
@@ -1508,7 +1508,7 @@
     "image3Url": "https://i.postimg.cc/Jh75DVHt/Whats-App-Image-2025-09-23-at-21-59-51-096b0e39.jpg",
     "description": "مج بورسلين وردي(Stay Happy Stay Cosy)",
     "colors": "بينك",
-    "isAvailable": true,
+    "isAvailable": false,
     "categoryId": 10
   },
     {
