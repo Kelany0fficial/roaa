@@ -168,6 +168,20 @@
   "isAvailable": true,
   "categoryId": 2
 },
+{
+  "id": 97,
+  "name": "هايلايتر زمردة 2×1",
+  "price": 90.00,
+  "mainImageUrl": "https://i.postimg.cc/W3vLHGWW/Whats-App-Image-2025-10-05-at-02-05-24-3ecca71b.jpg",
+  "image2Url": "https://i.postimg.cc/fLNnrc2q/Whats-App-Image-2025-10-05-at-02-05-25-74a1726e.jpg",
+  "image3Url": "https://i.postimg.cc/76k8W3s7/Whats-App-Image-2025-10-05-at-02-05-25-8f26b4c6.jpg",
+  "description": "هايلايتر من كوكب زُمردة 🌷🩷 بتصميم لامع وسن ناعم جدًا. كل قلم يحتوي على جهتين لتحديد مزدوج 2×1، متوفر بدرجات باستل خفيفة ورقيقة تضيف لمسة جمالية لملاحظاتك. المجموعة تضم 6 أقلام متنوعة بألوان مبهجة وغلاف أكريليك أنيق ✨",
+  "colors": "درجات باستل متنوعة",
+  "isAvailable": true,
+  "categoryId": 2
+}
+,
+
 
 
 
@@ -307,7 +321,7 @@
 "image3Url": "https://i.postimg.cc/52SDtTvc/IMG-20250816-WA0063.jpg",
 "description": "نوت بوك وسط بآخر تصميمين",
 "colors": "—",
-"isAvailable": true,
+"isAvailable": false,
 "categoryId": 3
 },
 
@@ -628,7 +642,7 @@
 "image3Url": "https://i.postimg.cc/fR9WddH7/IMG-20250907-WA0021.jpg",
 "description": "شريط تصحيح بطول 8 متر. عملي وسهل الاستخدام لإصلاح الأخطاء بسرعة ✨📄",
 "colors": "أبيض",
-"isAvailable": false,
+"isAvailable": true,
 "categoryId": 6
 },
 {
@@ -966,7 +980,7 @@
 {
 "id": 49,
 "name": "لوحة ملاحظات 60×45 سم",
-"price": 250.00,
+"price": 385.00,
 "mainImageUrl": "https://i.postimg.cc/gJ30N6cM/IMG-20250827-000302-884.jpg",
 "image2Url": "https://i.postimg.cc/rsJwLXrx/IMG-20250827-000302-922.jpg",
 "image3Url": "https://i.postimg.cc/3wsRXZh4/IMG-20250827-000302-451.jpg",
