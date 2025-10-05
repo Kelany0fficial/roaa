@@ -660,13 +660,13 @@
 {
 "id": 42,
 "name": "ميني دباسة باندا ",
-"price": 60.00,
+"price": 50.00,
 "mainImageUrl": "https://i.postimg.cc/3w5HmQ0s/Whats-App-Image-2025-09-02-at-01-17-47-21cbbaee.jpg",
 "image2Url": "https://i.postimg.cc/WbkNsZcX/IMG-20250827-000153-887.jpg",
 "image3Url": "https://i.postimg.cc/vm3M0L5H/IMG-20250827-000153-976.jpg",
 "description": "ميني دباسة بشكل باندا وألوان باستel تحفة 🩷🩶💜💙 تدبس لحد 20 ورقة، عملية ومناسبة للأطفال والكبار 🐼",
 "colors": "بينك-رمادي",
-"isAvailable": false,
+"isAvailable": true,
 "categoryId": 6
 },
 
