@@ -182,7 +182,7 @@
 },
 {
   "id": 98,
-  "name": "قلم من الأحلام",
+  "name": "قلم جاف جل أزرق",
   "price": 12.00,
   "mainImageUrl": "https://i.postimg.cc/FKCDts37/IMG-20251009-WA0004.jpg",
   "image2Url": "https://i.postimg.cc/gj8D6V5t/IMG-20251009-WA0009.jpg",
@@ -757,7 +757,7 @@
 {
 "id": 67,
 "name": "مقلمة مكتب معدن شبكة مدوره ✨",
-"price": 40.00,
+"price": 35.00,
 "mainImageUrl": "https://i.postimg.cc/DZkPXbwv/Whats-App-Image-2025-08-27-at-14-19-24-4c332f76.jpg",
 "image2Url": "https://i.postimg.cc/gjghW2xJ/Whats-App-Image-2025-08-17-at-21-47-04-f01901be.jpg",
 "image3Url": "https://i.postimg.cc/FzrS8Ls8/Whats-App-Image-2025-08-17-at-21-47-04-d04f1c20.jpg",
@@ -769,7 +769,7 @@
 {
 "id": 28,
 "name": " منظم أكريليك",
-"price": 150.00,
+"price": 140.00,
 "mainImageUrl": "https://i.postimg.cc/V6ZknLQY/photo-2025-09-02-03-06-50.jpg",
 "image2Url": "https://i.postimg.cc/gjwkDFm3/photo-2025-09-02-03-07-32.jpg",
 "image3Url": "https://i.postimg.cc/d0v3KxjK/IMG-20250902-WA0008.jpg",
@@ -811,7 +811,7 @@
 "image3Url": "https://i.postimg.cc/25QPDg1Y/Whats-App-Image-2025-08-28-at-16-10-50-6664ff7f.jpg",
 "description": "منظم مكتبي دورين ✨💖، يوفر مساحة أكبر ويحافظ على ترتيب أدواتك الدراسية أو مستلزماتك الصغيرة، شكله عصري وأنيق 🤍",
 "colors": "بينك-رمادي",
-"isAvailable": false,
+"isAvailable": true,
 "categoryId": 6
 },
 {
@@ -1486,6 +1486,44 @@
 
 
 
+  {
+    "id": 706,
+    "name": "ازازة شي إن الترندي",
+    "price": 280.00,
+    "mainImageUrl": "https://i.postimg.cc/MTh9q1yx/IMG-20251019-WA0009.jpg",
+    "image2Url": "https://i.postimg.cc/mrpdpvkk/IMG-20251019-WA0004.jpg",
+    "image3Url": "https://i.postimg.cc/PqV6VgJr/IMG-20251019-WA0005.jpg",
+    "description": "ازازة استالس شي إن الترندي 🌷 بتصميم يخطف القلب! مصنوعة من خامة ستانلس مختومة 304 عالية الجودة بسعة 500 مل. بتحافظ على المشروبات سواء سخنة أو ساقعة لفترات طويلة ☕❄️ محكمة الغلق ومتينة جدًا. مثالية للشغل أو النادي أو الخروجات اليومية 💖",
+    "colors": "متعدد",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 713,
+    "name": "مج أرنوب زجاج بكفر خارجي",
+    "price": 95.00,
+    "mainImageUrl": "https://i.postimg.cc/85qZNLhN/IMG-20251019-WA0012.jpg",
+    "image2Url": "https://i.postimg.cc/QtBf2fKv/IMG-20251019-WA0010.jpg",
+    "image3Url": "https://i.postimg.cc/DZtxn1q3/IMG-20251019-WA0011.jpg",
+    "description": "مج أرنوب 🐇 زجاج من الداخل بكفر خارجي لطيف وأنيق 🩷 يمنحك إحساسًا بالدفء مع كل رشفة. تصميمه فريد وخامته عالية الجودة. آخر صورة على الطبيعة تظهر جمال التفاصيل 🌷 مناسب للمذاكرة أو المكتب أو كهداية بسيطة مليانة حب 💝",
+    "colors": "متعدد",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 719,
+    "name": "مج بورسلين Stay Wild",
+    "price": 85.00,
+    "mainImageUrl": "https://i.postimg.cc/bJKmp1Qq/Whats-App-Image-2025-10-19-at-23-48-40-4dd2a46c.jpg",
+    "image2Url": "https://i.postimg.cc/bJKmp1Qq/Whats-App-Image-2025-10-19-at-23-48-40-4dd2a46c.jpg",
+    "image3Url": "https://i.postimg.cc/bJKmp1Qq/Whats-App-Image-2025-10-19-at-23-48-40-4dd2a46c.jpg",
+    "description": "مج بورسلين أنيق بلون هادئ عليه عبارة Stay Wild 🌿 لتبدأ يومك بطاقة حلوة ومزاج حر ✨ تصميم بسيط لكنه مميز يضيف لمسة من البهجة والاختلاف على مكتبك أو غرفتك 💚 مثالي للاستخدام اليومي أو كهدية لطيفة لشخص تحبه ☕💫",
+    "colors": "أبيض / أخضر",
+    "isAvailable": true,
+    "categoryId": 10
+  }
+,
+
 
 
  {
@@ -1574,7 +1612,7 @@
     "categoryId": 10
   },
     {
-    "id": 713,
+    "id": 703,
     "name": "مج جلد شاليموه",
     "price": 50.00,
     "mainImageUrl": "https://i.postimg.cc/fTF6FYNF/IMG-20250816-WA0041.jpg",
