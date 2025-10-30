@@ -1565,14 +1565,14 @@
 
   {
     "id": 716,
-    "name": "مج بورسلين  تريندي",
+    "name": "مج بورسلين تريندي",
     "price": 85.00,
     "mainImageUrl": "https://i.postimg.cc/BnBCnQ6d/Whats-App-Image-2025-09-23-at-21-59-50-9c05f5ad.jpg",
     "image2Url": "https://i.postimg.cc/YqNf9pdN/IMG-20250824-WA0013.jpg",
     "image3Url": "https://i.postimg.cc/0210P602/IMG-20250824-WA0012.jpg",
     "description": "مج بورسلين  تريندي 🌸يد بابلي حجم كبير 🧺 العدد محدود جدا و اختيار الشكل عشوائي",
     "colors": "--",
-    "isAvailable": true,
+    "isAvailable": false,
     "categoryId": 10
   },
   {
