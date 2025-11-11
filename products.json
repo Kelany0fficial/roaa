@@ -69,7 +69,7 @@
 "image3Url": "https://i.postimg.cc/Zn0MJ69H/IMG-20250827-000318-730.jpg",
 "description": "أقلام سحرية بحبر قابل للمسح وخط سلس في الكتابة، مع أستيكة مدمجة تدوم طويلًا. تصميمات متعددة.",
 "colors": "ألوان وتصميمات مختلفة",
-"isAvailable": true,
+"isAvailable": false,
 "categoryId": 2
 },
 {
@@ -408,7 +408,7 @@
  {
     "id": 112,
     "name": "دفتر تلوين مانديلا للكبار",
-    "price": 25.00,
+    "price": 30.00,
     "mainImageUrl": "https://i.postimg.cc/qBWkm9wQ/photo-2025-11-05-03-03-54.jpg",
     "image2Url": "https://i.postimg.cc/hPxKNpZL/photo-2025-11-05-03-03-45.jpg",
     "image3Url": "https://i.postimg.cc/Hs5TFBv6/photo-2025-11-05-03-04-05.jpg",
@@ -570,7 +570,7 @@
     "image3Url": "https://i.postimg.cc/NF3P181F/photo-2025-11-05-03-01-23.jpg",
     "description": "منظم أسبوعي كارت بتصميم أنيق ومريح 🌷✨ يحتوي على فواصل واستيكي نوت لتدوين المهام بسهولة 🤎 مثالي للطلاب ولمحبي التنظيم اليومي.",
     "colors": "متعدد",
-    "isAvailable": true,
+    "isAvailable": false,
     "categoryId": 4
   },
 
@@ -848,7 +848,7 @@
 {
 "id": 67,
 "name": "مقلمة مكتب معدن شبكة مدوره ✨",
-"price": 35.00,
+"price": 40.00,
 "mainImageUrl": "https://i.postimg.cc/DZkPXbwv/Whats-App-Image-2025-08-27-at-14-19-24-4c332f76.jpg",
 "image2Url": "https://i.postimg.cc/gjghW2xJ/Whats-App-Image-2025-08-17-at-21-47-04-f01901be.jpg",
 "image3Url": "https://i.postimg.cc/FzrS8Ls8/Whats-App-Image-2025-08-17-at-21-47-04-d04f1c20.jpg",
@@ -872,7 +872,7 @@
 {
 "id": 48,
 "name": "منظم أكريلك 3 أقسام",
-"price": 60.00,
+"price": 65.00,
 "mainImageUrl": "https://i.postimg.cc/yNtJfHmN/IMG-20250827-000250-879.jpg",
 "image2Url": "https://i.postimg.cc/mrtzNDFq/IMG-20250827-000250-443.jpg",
 "image3Url": "https://i.postimg.cc/zGdHgW3K/IMG-20250827-000250-120.jpg",
@@ -929,18 +929,10 @@
 "isAvailable": true,
 "categoryId": 6
 },
-{
-  "id": 100,
-  "name": "مسند هاتف وتابلت دوار",
-  "price": 60.00,
-  "mainImageUrl": "https://i.postimg.cc/KzWXtPCy/Whats-App-Image-2025-09-16-at-05-32-57-7f1a20cb.jpg",
-  "image2Url": "https://i.postimg.cc/DmVtM22j/Whats-App-Image-2025-09-16-at-05-32-56-374dab08.jpg",
-  "image3Url": "https://i.postimg.cc/MHfC5c8f/Whats-App-Image-2025-09-16-at-05-32-57-1c057916.jpg",
-  "description": "مسند للهاتف والتابلت عملي ومميز 😌🤎. مزود بمحرك دوار وقابل للطي مع إمكانية تعديل الأطوال حسب راحتك ✨. خامة متينة وعالية الجودة تعيش معاك سنين. استثمار مثالي لطلاب المذاكرة من الهاتف أو التابلت 🫶🤎",
-  "colors": "منت",
-  "isAvailable": false,
-  "categoryId": 6
-},
+     
+
+
+
   {
     "id": 111,
     "name": "مسند أكريليك للهاتف والتابلت",
@@ -1118,7 +1110,7 @@
 {
 "id": 41,
 "name": "أباجورة مكتب معدن",
-"price": 220.00,
+"price": 225.00,
 "mainImageUrl": "https://i.postimg.cc/pXkGf5GZ/Whats-App-Image-2025-11-07-at-21-37-23-450e30af.jpg",
 "image2Url": "https://i.postimg.cc/QxS4QK4S/Whats-App-Image-2025-11-07-at-21-37-24-477bab05.jpg",
 "image3Url": "https://i.postimg.cc/gk4SVLSB/Whats-App-Image-2025-11-07-at-21-37-24-c88d0e34.jpg",
@@ -1603,7 +1595,7 @@
   {
     "id": 706,
     "name": "ازازة استاليس ٥٠٠ مل",
-    "price": 200.00,
+    "price": 210.00,
     "mainImageUrl": "https://i.postimg.cc/BQJHBhR6/Whats-App-Image-2025-11-07-at-21-28-03-9fac3b91.jpg",
     "image2Url": "https://i.postimg.cc/BQJHBhR6/Whats-App-Image-2025-11-07-at-21-28-03-9fac3b91.jpg",
     "image3Url": "https://i.postimg.cc/BQJHBhR6/Whats-App-Image-2025-11-07-at-21-28-03-9fac3b91.jpg",
@@ -1740,7 +1732,7 @@
   {
     "id": 714,
     "name": "مج شي إن",
-    "price": 185.00,
+    "price": 190.00,
     "mainImageUrl": "https://i.postimg.cc/28hgb7ns/Whats-App-Image-2025-08-24-at-04-01-46-d262c983.jpg",
     "image2Url": "https://i.postimg.cc/3xhVg0Bd/Whats-App-Image-2025-08-24-at-04-01-53-4712fad9.jpg",
     "image3Url": "https://i.postimg.cc/JzQgK76K/Whats-App-Image-2025-08-24-at-04-01-57-3770afd2.jpg",
@@ -1789,19 +1781,19 @@
  {
     "id": 707,
     "name": "☕🍳 مضرب 2×1 🍳☕",
-    "price": 180.00,
+    "price": 175.00,
     "mainImageUrl": "https://i.postimg.cc/qRXn1L02/Whats-App-Image-2025-08-17-at-21-42-13-d54cae71.jpg",
     "image2Url": "https://i.postimg.cc/qRXn1L02/Whats-App-Image-2025-08-17-at-21-42-13-d54cae71.jpg",
     "image3Url": "https://i.postimg.cc/qRXn1L02/Whats-App-Image-2025-08-17-at-21-42-13-d54cae71.jpg",
     "description": "مضرب آيس كوفي وبيض عملي وخفيف ✨\nبيخلي قهوتك رغوة كريمية زي الكافيه 💕 وكمان بيساعدك في خفق البيض بكل سهولة وسرعة 🥚\nقطعة صغيرة لكن أساسية في مطبخك 👌",
     "colors": "أسود / فضي",
-    "isAvailable": false,
+    "isAvailable": true,
     "categoryId": 10
   },
   {
     "id": 708,
     "name": "مخدة الرقبة للسفر",
-    "price": 300.00,
+    "price": 350.00,
     "mainImageUrl": "https://i.postimg.cc/bvJ1x4XR/IMG-20250901-WA0023.jpg",
     "image2Url": "https://i.postimg.cc/Hx85K5kc/IMG-20250901-WA0025.jpg",
     "image3Url": "https://i.postimg.cc/8c8WV57y/IMG-20250901-WA0022.jpg",
@@ -1873,8 +1865,72 @@
   "isAvailable": true,
   "categoryId": 10
 }
+,
+  {
+    "id": 201,
+    "name": "حصالة أطفال على شكل بيت",
+    "price": 185.00,
+    "mainImageUrl": "https://i.postimg.cc/dtpzNBXz/Whats_App_Image_2025_11_11_at_21_30_52_1ebd94ac.jpg",
+    "image2Url": "https://i.postimg.cc/65ykhSHN/IMG_20251111_WA0015.jpg",
+    "image3Url": "https://i.postimg.cc/65ykhSHN/IMG_20251111_WA0015.jpg",
+    "description": "حصالة أطفال بشكل بيت 🏠 تساعد الأطفال على حب فكرة التوفير بطريقة لطيفة وممتعة ❤️ تصميم فني جميل يضيف لمسة ديكور لغرفتهم ✨ مصنوعة من خامة عالية الجودة وماتريال متين يدوم طويلًا 🌸 مثالية كهدية تعليمية وتشجيعية للأطفال.",
+    "colors": "متعدد",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 202,
+    "name": "كوستر أكواب شكل استيتش المتحرك",
+    "price": 100.00,
+    "mainImageUrl": "https://i.postimg.cc/wT7CkPWD/IMG_20251111_WA0016.jpg",
+    "image2Url": "https://i.postimg.cc/fTJGvFHL/IMG_20251111_WA0017.jpg",
+    "image3Url": "https://i.postimg.cc/fTJGvFHL/IMG_20251111_WA0017.jpg",
+    "description": "كوستر أكواب بتصميم استيتش المتحرك 💙 هيضيف بهجة لكل مرة تشربي فيها مشروبك المفضل ☕ تصميم لطيف وجودة عالية جدًا 🌸 مثالي لإضافة لمسة مرحة لمكتبك أو غرفتك ✨ مناسب للهدايا أيضًا.",
+    "colors": "متعدد",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  
+  {
+    "id": 203,
+    "name": "منامة العين بجل مهدئ للتبريد",
+    "price": 85.00,
+    "mainImageUrl": "https://i.postimg.cc/DyHtpgDX/Whats_App_Image_2025_11_11_at_21_30_49_86caf217.jpg",
+    "image2Url": "https://i.postimg.cc/DyHtpgDX/Whats_App_Image_2025_11_11_at_21_30_49_86caf217.jpg",
+    "image3Url": "https://i.postimg.cc/Yqh5xVX0/IMG_20251111_WA0018.jpg",
+    "description": "منامة عين 👀💗 مزوّدة بكيس جل مهدئ للتبريد ❄️ تمنح راحة عميقة للعين وتخفف من الهالات السوداء والإجهاد 💆‍♀️ استخدميها بعد تبريد الجل في الفريزر للحصول على إحساس بالانتعاش والنضارة 🌸 مثالية لنوم هادئ ومريح ✨",
+    "colors": "متعدد",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 204,
+    "name": "حافظة فرشاة الأسنان ديزني",
+    "price": 20.00,
+    "mainImageUrl": "https://i.postimg.cc/wTZS4VP4/Whats_App_Image_2025_11_11_at_21_30_50_0e7fc554.jpg",
+    "image2Url": "https://i.postimg.cc/wTZS4VP4/Whats_App_Image_2025_11_11_at_21_30_50_0e7fc554.jpg",
+    "image3Url": "https://i.postimg.cc/wTZS4VP4/Whats_App_Image_2025_11_11_at_21_30_50_0e7fc554.jpg",
+    "description": "حافظة فرشاة أسنان بتصميم ديزني 🪥🐭 ألوان وأشكال بسيطة وجذابة 🤍 تحافظ على نظافة الفرشاة أثناء السفر أو الاستخدام اليومي ✨ عملية وخفيفة وسهلة الحمل.",
+    "colors": "متعدد",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 205,
+    "name": "مج الأرنب الاستانلس",
+    "price": 110.00,
+    "mainImageUrl": "https://i.postimg.cc/RVyjpR82/Whats_App_Image_2025_11_11_at_21_30_50_81a2fed3.jpg",
+    "image2Url": "https://i.postimg.cc/RVyjpR82/Whats_App_Image_2025_11_11_at_21_30_50_81a2fed3.jpg",
+    "image3Url": "https://i.postimg.cc/RVyjpR82/Whats_App_Image_2025_11_11_at_21_30_50_81a2fed3.jpg",
+    "description": "مج الأرنب الاستانلس 🐰✨ تصميم لطيف وجودة عالية جدًا، مصنوع بالكامل من الاستانلس من الداخل والخارج 🌸 حراري يحافظ على سخونة أو برودة المشروبات لفترات طويلة ☕❄️ بسعة 260 مللي، مثالي للاستخدام اليومي أو كهديّة مميزة 🩷",
+    "colors": "__",
+    "isAvailable": true,
+    "categoryId": 10
+  }
+
 
 ]
+
 
 
 
