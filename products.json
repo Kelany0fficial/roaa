@@ -1636,7 +1636,7 @@
     "id": 702,
     "name": "مج بورسلين شي ان",
     "price": 225.00,
-    "mainImageUrl": "https://i.postimg.cc/QxLggWK2/Whats-App-Image-2025-09-23-at-21-59-57-4ede230b.jpg",
+    "mainImageUrl": "https://i.postimg.cc/jq7dtK6W/Whats_App_Image_2025_11_13_at_17_51_03_40d2fe4a.jpg",
     "image2Url": "https://i.postimg.cc/Qdmpr4YD/Whats-App-Image-2025-09-23-at-21-59-58-aebec4f4.jpg",
     "image3Url": "https://i.postimg.cc/4xBbB7S0/Whats-App-Image-2025-08-17-at-04-31-33-b65e231d.jpg",
     "description": "مج بورسلين شي ان مميز جدا",
@@ -1927,6 +1927,34 @@
     "isAvailable": true,
     "categoryId": 10
   }
+
+  ,
+  {
+    "id": 206,
+    "name": "مج بورسلين قلوب",
+    "price": 145.00,
+    "mainImageUrl": "https://i.postimg.cc/L4162RkQ/Whats_App_Image_2025_11_13_at_17_51_04_dc850e8f.jpg",
+    "image2Url": "https://i.postimg.cc/bYtNp806/Whats_App_Image_2025_11_13_at_17_51_03_f12cbd8a.jpg",
+    "image3Url": "https://i.postimg.cc/bYtNp806/Whats_App_Image_2025_11_13_at_17_51_03_f12cbd8a.jpg",
+    "description": "مج بورسلين قلوب 🩷 تصميم راقي يخطف القلب بجد 🌸 مصنوع من خامة بورسلين عالية الجودة، مثالي لعشاق التفاصيل الناعمة واللمسة الراقية ☕💖 بيضيف لمسة حب وجمال على مكتبك أو صباحك اليومي ✨",
+    "colors": "أبيض / وردي",
+    "isAvailable": true,
+    "categoryId": 10
+  },
+  {
+    "id": 207,
+    "name": "ازازة حرارية فيونكه صغيرة",
+    "price": 325.00,
+    "mainImageUrl": "https://i.postimg.cc/zXYDfMp4/Whats_App_Image_2025_11_13_at_17_51_02_d32ca182.jpg",
+    "image2Url": "https://i.postimg.cc/zXYDfMp4/Whats_App_Image_2025_11_13_at_17_51_02_d32ca182.jpg",
+    "image3Url": "https://i.postimg.cc/zXYDfMp4/Whats_App_Image_2025_11_13_at_17_51_02_d32ca182.jpg",
+    "description": "ازازة حرارية فيونكه صغيرة 💗 ازازة شي إن الترندي بتصميم يخطف القلب 🌷 استانلس مختومة 304 عالية الجودة، سعتها 500 مل وتحافظ على المشروبات الساخنة والباردة لفترات طويلة ☕❄️ خامتها تحفة ومحكمة الغلق 👌 مثالية للشغل أو النادي 💕",
+    "colors": "متعدد",
+    "isAvailable": true,
+    "categoryId": 10
+  }
+
+
 
 
 ]
