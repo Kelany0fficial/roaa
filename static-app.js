@@ -436,36 +436,61 @@
         });
       }
 
-      const checkoutForm = ui.q('#checkoutForm');
-      if (checkoutForm) {
-        checkoutForm.addEventListener('submit', (e) => {
-          e.preventDefault();
-          const name = ui.q('#nameInput').value.trim();
-          const mobile = ui.q('#mobileInput').value.trim();
-          const address = ui.q('#addressInput').value.trim();
-          const notes = ui.q('#notesInput').value.trim();
-          if (!name || !mobile || !address) {
+// ... داخل دالة initCart() ...
+
+const checkoutForm = ui.q('#checkoutForm');
+if (checkoutForm) {
+    checkoutForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        // جلب البيانات (كما تم تعديلها في سؤالك السابق)
+        const fullName = ui.q('#fullNameInput').value.trim();
+        const mobilePrimary = ui.q('#mobile1Input').value.trim(); 
+        const mobileSecondary = ui.q('#mobile2Input').value.trim(); 
+
+        const governorate = ui.q('#governorateInput').value.trim(); 
+        const city = ui.q('#cityInput').value.trim(); 
+        const village = ui.q('#villageInput').value.trim(); 
+        const landmark = ui.q('#landmarkInput').value.trim(); 
+
+        const notes = ui.q('#notesInput').value.trim();
+
+        // 🚨 التعديل: التحقق من الحقول الإلزامية الجديدة 🚨
+        if (!fullName || !mobilePrimary || !governorate || !city || !landmark) {
             ui.notify('يرجى ملء جميع الحقول الإلزامية');
             return;
-          }
-          const total = cartProducts.reduce((sum, p) => sum + (p.price || 0) * (p.quantity || 1), 0);
-          let message = `*طلب جديد من روى!*\n\n*المنتجات:*\n`;
-          cartProducts.forEach((p, index) => {
+        }
+        
+        const total = cartProducts.reduce((sum, p) => sum + (p.price || 0) * (p.quantity || 1), 0);
+        let message = `*طلب جديد من روى!*\n\n*المنتجات:*\n`;
+        cartProducts.forEach((p, index) => {
             message += `${index + 1}) عدد (${p.quantity || 1}) ${p.name} - ${ui.formatPrice((p.price || 0) * (p.quantity || 1))}\n`;
-          });
-          message += `\n*الإجمالي:* ${ui.formatPrice(total)}\n\n`;
-          message += `*بيانات العميل:*\n`;
-          message += `*الاسم:* ${name}\n`;
-          message += `*الموبايل:* ${mobile}\n`;
-          message += `*العنوان:* ${address}\n`;
-          message += `*ملاحظات:* ${notes || 'لا يوجد'}`;
-          const whatsappUrl = `https://wa.me/${settings.whatsappNumber}?text=${encodeURIComponent(message)}`;
-          window.open(whatsappUrl, '_blank');
-          cart.clear();
-          initCart();
-          ui.notify('تم إرسال الطلب عبر واتساب!');
         });
-      }
+        
+        // بناء الرسالة (كما تم تعديلها في سؤالك السابق وهي صحيحة)
+        message += `\n*الإجمالي:* ${ui.formatPrice(total)}\n\n`;
+        message += `*بيانات العميل:*\n`;
+        message += `*الاسم:* ${fullName}\n`;
+        message += `*الموبايل (الرئيسي):* ${mobilePrimary}\n`;
+        if (mobileSecondary) {
+            message += `*الموبايل (احتياطي):* ${mobileSecondary}\n`;
+        }
+        message += `*العنوان بالتفصيل:*\n`;
+        message += `  - المحافظة: ${governorate}\n`;
+        message += `  - المركز/المدينة: ${city}\n`;
+        if (village) {
+            message += `  - القرية/الحي: ${village}\n`;
+        }
+        message += `  - علامة مميزة: ${landmark}\n`;
+        message += `*ملاحظات:* ${notes || 'لا يوجد'}`;
+
+        const whatsappUrl = `https://wa.me/${settings.whatsappNumber}?text=${encodeURIComponent(message)}`;
+        window.open(whatsappUrl, '_blank');
+        cart.clear();
+        initCart();
+        ui.notify('تم إرسال الطلب عبر واتساب!');
+    });
+}
     } catch (err) {
       console.error('Error initializing cart:', err);
       ui.notify('خطأ في تحميل السلة، حاول مرة أخرى');
