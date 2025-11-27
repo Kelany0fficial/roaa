@@ -63,31 +63,57 @@
         </div>
     </nav>
 
-    <main class="container my-5">
-        <h1 class="text-center mb-4">سلة التسوق</h1>
-        <div id="cartContainer" class="mb-4"></div>
-        <h3 class="cart-total">إجمالي السعر: <span id="cartTotal">0.00 EGP</span></h3>
-        <button class="btn btn-outline-danger mb-4" id="clearCartBtn"><i class="fas fa-trash"></i> مسح السلة</button>
-        <form id="checkoutForm" class="mt-4">
+<main class="container my-5">
+    <h1 class="text-center mb-4">سلة التسوق</h1>
+    <div id="cartContainer" class="mb-4"></div>
+    <h3 class="cart-total">إجمالي السعر: <span id="cartTotal">0.00 EGP</span></h3>
+    <button class="btn btn-outline-danger mb-4" id="clearCartBtn"><i class="fas fa-trash"></i> مسح السلة</button>
+    
+    <form id="checkoutForm" class="mt-4">
+        
+        <div class="mb-3">
+            <label for="fullNameInput" class="form-label">الاسم الثلاثي:</label>
+            <input type="text" class="form-control" id="fullNameInput" required>
+        </div>
+        
+        <div class="mb-3">
+            <label for="mobile1Input" class="form-label">الموبايل (الرئيسي):</label>
+            <input type="tel" class="form-control" id="mobile1Input" required pattern="[0-9]{11}" placeholder="مثال: 01xxxxxxxxx">
+        </div>
+        <div class="mb-3">
+            <label for="mobile2Input" class="form-label">الموبايل (احتياطي):</label>
+            <input type="tel" class="form-control" id="mobile2Input" pattern="[0-9]{11}" placeholder="اختياري أو رقم آخر">
+        </div>
+
+        <fieldset class="border p-3 mb-4 rounded">
+            <legend class="float-none w-auto px-2">العنوان بالتفصيل</legend>
+            
             <div class="mb-3">
-                <label for="nameInput" class="form-label">الاسم:</label>
-                <input type="text" class="form-control" id="nameInput" required>
+                <label for="governorateInput" class="form-label">المحافظة:</label>
+                <input type="text" class="form-control" id="governorateInput" required>
             </div>
             <div class="mb-3">
-                <label for="mobileInput" class="form-label">الموبايل:</label>
-                <input type="tel" class="form-control" id="mobileInput" required pattern="[0-9]{11}">
+                <label for="cityInput" class="form-label">المركز/المدينة:</label>
+                <input type="text" class="form-control" id="cityInput" required>
             </div>
             <div class="mb-3">
-                <label for="addressInput" class="form-label">العنوان:</label>
-                <input type="text" class="form-control" id="addressInput" required>
+                <label for="villageInput" class="form-label">القرية/الحي (إن وجدت):</label>
+                <input type="text" class="form-control" id="villageInput">
             </div>
             <div class="mb-3">
-                <label for="notesInput" class="form-label">ملاحظات:</label>
-                <textarea class="form-control" id="notesInput" rows="4"></textarea>
+                <label for="landmarkInput" class="form-label">علامة مميزة للمكان (قرب...):</label>
+                <textarea class="form-control" id="landmarkInput" rows="2" required placeholder="مثال: بجوار مسجد النور، العمارة رقم 5"></textarea>
             </div>
-            <button type="submit" class="btn btn-complete"><i class="fas fa-check-circle me-1"></i> إكمال الطلب</button>
-        </form>
-    </main>
+        </fieldset>
+
+        <div class="mb-3">
+            <label for="notesInput" class="form-label">ملاحظات إضافية:</label>
+            <textarea class="form-control" id="notesInput" rows="4"></textarea>
+        </div>
+        
+        <button type="submit" class="btn btn-complete"><i class="fas fa-check-circle me-1"></i> إكمال الطلب</button>
+    </form>
+</main>
 
     <footer class="footer">
         <div class="container">
